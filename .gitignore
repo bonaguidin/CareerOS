@@ -1,0 +1,17 @@
+# Environment
+.env
+.venv/
+.python-version
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Build artifacts
+dist/
+*.egg-info/
+
+# Scraper intermediate files
+/tmp/*.pkl

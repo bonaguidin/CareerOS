@@ -1,5 +1,9 @@
-import anthropic
+import os
 import json
+import anthropic
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # Change this to swap students
 STUDENT_FILE = "../mock_student_profiles/tamu-001-base.json"
@@ -73,7 +77,7 @@ feature_prompt = feature_template.replace(
 )
 
 # Run it
-client = anthropic.Anthropic(api_key="YOUR_API_KEY_HERE")
+client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
 
 message = client.messages.create(
     model="claude-sonnet-4-6",
