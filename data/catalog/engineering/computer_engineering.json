@@ -1,0 +1,618 @@
+[
+  {
+    "code": "ECEN 209",
+    "title": "Introduction to Computer Programming and Algorithms",
+    "credit_hours": 3,
+    "description": "Introduction to C language programming and common algorithms; computer systems; simple C programs; basic language constructs; file I/O; modular programming and functions; arrays and matrices; pointers and strings; simple data structures; searching, sorting, and numerical algorithms; algorithmic complexity",
+    "prerequisites": "Grade of C or better in ENGR 102 .",
+    "department": "Electrical & Computer Engineering (ECEN)"
+  },
+  {
+    "code": "ECEN 210",
+    "title": "Computer Programming and Algorithms",
+    "credit_hours": 4,
+    "description": "Introduction to C language and common algorithms; computer systems; simple C programs; basic language constructs; file I/O; modular programming and functions; arrays and matrices; pointers and strings; simple data structures; searching, sorting, and numerical algorithms; algorithmic complexity",
+    "prerequisites": "Sophomore classification in an engineering major; Qatar campus.",
+    "department": "Electrical & Computer Engineering (ECEN)"
+  },
+  {
+    "code": "ECEN 214",
+    "title": "Electrical Circuit Theory",
+    "credit_hours": 4,
+    "description": "Resistive circuits including circuit laws, network reduction, nodal analysis, mesh analysis; introduction to operational amplifiers; circuit analysis with inductors and capacitors; sinusoidal steady state circuit analysis; AC power calculations; magnetically coupled circuits; the ideal transformer; resonance; introduction to circuit simulation",
+    "prerequisites": "Grade of C or better in PHYS 207 ; grade of C or better in PHYS 217/ENGR 217 or ENGR 217/PHYS 217 ; grade of C or better in CHEM 107 , CHEM 102, or CHEM 120 ; grade of C or better in MATH 308 , or concurrent enrollment.",
+    "department": "Electrical & Computer Engineering (ECEN)"
+  },
+  {
+    "code": "ECEN 215",
+    "title": "Principles of Electrical Engineering",
+    "credit_hours": 3,
+    "description": "Fundamentals of electric circuit analysis and introduction to electronics for engineering majors other than electrical and computer engineering",
+    "prerequisites": "Grade of C or better in MATH 251 or MATH 253 ; Grade of C or better in PHYS 207 or PHYS 208.",
+    "department": "Electrical & Computer Engineering (ECEN)"
+  },
+  {
+    "code": "ECEN 248",
+    "title": "Introduction to Digital Systems Design",
+    "credit_hours": 4,
+    "description": "Combinational and sequential digital system design techniques; design of practical digital systems",
+    "prerequisites": "Grade of C or better in MATH 152 ; grade of C or better in PHYS 207 or PHYS 208, or concurrent enrollment.",
+    "department": "Electrical & Computer Engineering (ECEN)"
+  },
+  {
+    "code": "ECEN 250",
+    "title": "Machine Learning for Electrical Engineering",
+    "credit_hours": 3,
+    "description": "Engineering application-focused introduction to machine learning covering key machine learning concepts, guidance on selecting machine learning models, and application of python-based tools for data preparation, model development, and performance evaluation; practical engineering use-cases for machine learning from electronics, energy, motors, robotics, security, computer systems, and health; machine learning laboratory project including dataset management, ML model development, visualization, and deployment to an IoT platform showcasing ML expertise",
+    "prerequisites": "Grade of C or better in ENGR 102 ; grade of C or better in MATH 251 or MATH 253 .",
+    "department": "Electrical & Computer Engineering (ECEN)"
+  },
+  {
+    "code": "ECEN 285",
+    "title": "Directed Studies",
+    "credit_hours": "0-4",
+    "description": "Problems of limited scope approved on an individual basis intended to promote independent study",
+    "prerequisites": "Approval of department head.",
+    "department": "Electrical & Computer Engineering (ECEN)"
+  },
+  {
+    "code": "ECEN 289",
+    "title": "Special Topics in...",
+    "credit_hours": "1-4",
+    "description": "Selected topics in an identified area of electrical engineering. May be repeated for credit",
+    "prerequisites": "Approval of instructor.",
+    "department": "Electrical & Computer Engineering (ECEN)"
+  },
+  {
+    "code": "ECEN 291",
+    "title": "Research",
+    "credit_hours": "0-4",
+    "description": "Research conducted under the direction of faculty member in electrical engineering. May be repeated 3 times for credit",
+    "prerequisites": "Freshman or sophomore classification and approval of instructor.",
+    "department": "Electrical & Computer Engineering (ECEN)"
+  },
+  {
+    "code": "ECEN 303",
+    "title": "Random Signals and Systems",
+    "credit_hours": 3,
+    "description": "Concepts of probability and random variables necessary for study of signals and systems involving uncertainty; applications to elementary problems in detection, signal processing and communication",
+    "prerequisites": "Grade of C or better in MATH 251 or MATH 253 ; Grade of C or better in ECEN 248 .",
+    "department": "Electrical & Computer Engineering (ECEN)"
+  },
+  {
+    "code": "ECEN 314",
+    "title": "Signals and Systems",
+    "credit_hours": 3,
+    "description": "Introduction to the continuous-time and discrete-time signals and systems; time domain characterization of linear time-invariant systems; Fourier analysis; filtering; sampling; modulation techniques for communication systems",
+    "prerequisites": "Grade of C or better in ECEN 214 or ECEN 215 ; grade of C or better in MATH 308 ; junior or senior classification.",
+    "department": "Electrical & Computer Engineering (ECEN)"
+  },
+  {
+    "code": "ECEN 322",
+    "title": "Electric and Magnetic Fields",
+    "credit_hours": 3,
+    "description": "Vector analysis, Maxwell's equations, wave propagation in unbounded regions, reflection and refraction of waves, transmission line theory; introduction to waveguides and antennas",
+    "prerequisites": "Grade of C or better in ECEN 214 , PHYS 207 or PHYS 208, and MATH 311 ; junior or senior classification.",
+    "department": "Electrical & Computer Engineering (ECEN)"
+  },
+  {
+    "code": "ECEN 325",
+    "title": "Electronics",
+    "credit_hours": 4,
+    "description": "Electronic systems; linear circuits; operational amplifiers and applications; diodes, field effect transistors, bipolar transistors; amplifiers and nonlinear circuits",
+    "prerequisites": "Grade of C or better in MATH 311 ; grade of C or better in ECEN 314 , or concurrent enrollment.",
+    "department": "Electrical & Computer Engineering (ECEN)"
+  },
+  {
+    "code": "ECEN 326",
+    "title": "Electronic Circuits",
+    "credit_hours": 4,
+    "description": "Basic circuits used in electronic systems; differential and multistage amplifiers; output stages and power amplifiers; frequency response, feedback circuits, stability and oscillators, analog integrated circuits, active filters",
+    "prerequisites": "Grade of C or better in ECEN 314 and ECEN 325 ; junior or senior classification.",
+    "department": "Electrical & Computer Engineering (ECEN)"
+  },
+  {
+    "code": "ECEN 333",
+    "title": "At the Interface of Engineering and Life Sciences",
+    "credit_hours": 3,
+    "description": "Broad overview of electrical and computer engineering principles applied to various areas of life sciences; medical imaging and biomedical signal processing; micro/nano devices and systems; computational biology and genomic signal processing; recent trends in interfacing engineering and life science that address emerging grand challenge problems in health, bio-energy and bio-security; taught in a team approach",
+    "prerequisites": "Grade of C or better in ECEN 214 ; junior or senior classification.",
+    "department": "Electrical & Computer Engineering (ECEN)"
+  },
+  {
+    "code": "ECEN 338",
+    "title": "Electromechanical Energy Conversion",
+    "credit_hours": 4,
+    "description": "Introduction to magnetic circuits, transformers, electromechanical energy conversion devices such as dc, induction and synchronous motors; equivalent circuits, performance characteristics and power electronic control",
+    "prerequisites": "ECEN 214 .",
+    "department": "Electrical & Computer Engineering (ECEN)"
+  },
+  {
+    "code": "ECEN 340",
+    "title": "Electric Energy Conversion",
+    "credit_hours": 3,
+    "description": "Fundamental topics in power and energy systems; phasors; three-phase circuits; self and mutual inductance; transformers; electromechanical systems; synchronous and induction machines; advanced concepts in electric energy conversion; DC-DC converters; inverters and rectifiers; solar and wind energy systems; DC and single-phase machines",
+    "prerequisites": "Grade of C or better in ECEN 214 ; junior or senior classification.",
+    "department": "Electrical & Computer Engineering (ECEN)"
+  },
+  {
+    "code": "ECEN 360",
+    "title": "Computational Data Science",
+    "credit_hours": 3,
+    "description": "Computational practice of data science through a sequence of interactive modules that provides an integrated hands-on approach to its methods, tools, applications and supporting technologies including high performance and cloud computing platforms",
+    "prerequisites": "Grade of C or better in ENGR 102 , CSCE 110 , CSCE 111 , or CSCE 206 ; grade of C or better in MATH 251 , MATH 253 , or STAT 211 ; junior or senior classification. Cross Listing: CSCE 305 and STAT 315 .",
+    "department": "Electrical & Computer Engineering (ECEN)"
+  },
+  {
+    "code": "ECEN 370",
+    "title": "Electronic Properties of Materials",
+    "credit_hours": 3,
+    "description": "Introduction to basic physical properties of solid materials; some solid state physics employed, but major emphasis is on engineering applications based on semiconducting, magnetic, dielectric and superconducting phenomena",
+    "prerequisites": "Grade of C or better in PHYS 222 or PHYS 309 ; junior or senior classification.",
+    "department": "Electrical & Computer Engineering (ECEN)"
+  },
+  {
+    "code": "ECEN 399",
+    "title": "High Impact Professional Development",
+    "credit_hours": 0,
+    "description": "Participation in an approved high-impact learning practice; reflection on professional outcomes from engineering body of knowledge; documentation and self-assessment of learning experience at mid-curriculum point",
+    "prerequisites": "Grade of C or better in ECEN 484 , ECEN 491 , ENGR 484 , ENGR 491 , or ENGR 385 ; junior or senior classification.",
+    "department": "Electrical & Computer Engineering (ECEN)"
+  },
+  {
+    "code": "ECEN 403",
+    "title": "Electrical Design Laboratory I",
+    "credit_hours": 3,
+    "description": "Application of design process and project engineering as practiced in industry; team approach to the design process; development of a project proposal; documentation of the proposal, implementation and project; development of execution and validation plan; project execution will begin in ECEN 403 and continue through to ECEN 404",
+    "prerequisites": "Grade of C or better in COMM 205 or COMM 243 or ENGL 210 ; grade of C or better in ECEN 314 , ECEN 325 , and ECEN 350/CSCE 350 or CSCE 350/ECEN 350 ; grade of C or better in ECEN 303 , ECEN 322 , and ECEN 370 , or grade C or better in CSCE 315 or CSCE 331 , and ECEN 303 or STAT 211 , and ECEN 449 or CSCE 462 , or concurrent enrollment; senior classification.",
+    "department": "Electrical & Computer Engineering (ECEN)"
+  },
+  {
+    "code": "ECEN 404",
+    "title": "Electrical Design Laboratory II",
+    "credit_hours": 3,
+    "description": "Continuation of ECEN 403 ; application of the design process and project engineering as practiced in industry; team approach to the design process; completion of project based on proposal from ECEN 403 ; includes testing, evaluation and report writing",
+    "prerequisites": "Grade of C or better in ECEN 403 ; senior classification.",
+    "department": "Electrical & Computer Engineering (ECEN)"
+  },
+  {
+    "code": "ECEN 410",
+    "title": "Medical Imaging",
+    "credit_hours": 4,
+    "description": "Fundamentals of physics and the engineering principles of medical imaging systems; focus on magnetic resonance imaging, x-ray computer tomography, ultrasonography, optical imaging and nuclear medicine; includes systems, sources, energy tissue interaction, image formation and clinical examples; virtual labs, on- and off-campus lab tours",
+    "prerequisites": "Grade of C or better in MATH 251 or MATH 253 ; ECEN 444 or grade of C or better in ECEN 314 ; junior or senior classification.",
+    "department": "Electrical & Computer Engineering (ECEN)"
+  },
+  {
+    "code": "ECEN 411",
+    "title": "Introduction to Magnetic Resonance Imaging and Magnetic Resonance Spectroscopy",
+    "credit_hours": 3,
+    "description": "Introduction to the basic physics of magnetic resonance, the principles of MR imaging and spectroscopy, the major contrast mechanisms in MRI and MR imaging system hardware; development of pulse sequences for different imaging methods, including flow and spectroscopic imaging; will build RF coils",
+    "prerequisites": "Grade of C or better in MATH 251 or MATH 253 ; grade of C or better in PHYS 207 or PHYS 208; junior or senior classification.",
+    "department": "Electrical & Computer Engineering (ECEN)"
+  },
+  {
+    "code": "ECEN 412",
+    "title": "Ultrasound Imaging",
+    "credit_hours": 3,
+    "description": "Mathematical analysis of wave propagation, scattering of ultrasound in biological tissues, electronic transducer arrays for the beam forming, models of the received signals and signal processing methods for medical ultrasound imaging of tissues; includes discussions of research related to fundamental ultrasound imaging concepts",
+    "prerequisites": "Grade of C or better in ECEN 314 ; junior or senior classification.",
+    "department": "Electrical & Computer Engineering (ECEN)"
+  },
+  {
+    "code": "ECEN 414",
+    "title": "Biosensors",
+    "credit_hours": 3,
+    "description": "Hands-on lab experience in the development of miniaturized biosensors; includes microfluidic devices for biosensing",
+    "prerequisites": "Grade of C or better in ECEN 214 ; senior classification.",
+    "department": "Electrical & Computer Engineering (ECEN)"
+  },
+  {
+    "code": "ECEN 415",
+    "title": "Physical and Economical Operations of Sustainable Energy Systems",
+    "credit_hours": 3,
+    "description": "Operational issues for sustainable electric energy systems; basic relevant topics in engineering, optimization and economic concepts; modular view of individual electric energy processing components; physical and market operations in electricity industry in support of sustainable energy integration; computer simulations and demonstrations to create and evaluate examples of power systems",
+    "prerequisites": "Grade of C or better in ECEN 340 , and ECEN 420 or ECEN 460 ; junior or senior classification.",
+    "department": "Electrical & Computer Engineering (ECEN)"
+  },
+  {
+    "code": "ECEN 419",
+    "title": "Genomic Signal Processing",
+    "credit_hours": 3,
+    "description": "Fundamentals of molecular biology; application of engineering principles to systems biology; topics include unearthing intergene relationships, carrying out genebased classification of disease, modeling genetic regulatory networks, and altering their dynamic behavior",
+    "prerequisites": "Grade of C or better in ECEN 314 ; junior or senior classification.",
+    "department": "Electrical & Computer Engineering (ECEN)"
+  },
+  {
+    "code": "ECEN 420",
+    "title": "Linear Control Systems",
+    "credit_hours": 3,
+    "description": "Application of state variable and frequency domain techniques to modeling, analysis and synthesis of single input, single output linear control systems",
+    "prerequisites": "Grade of C or better in ECEN 314 and MATH 308 ; junior or senior classification.",
+    "department": "Electrical & Computer Engineering (ECEN)"
+  },
+  {
+    "code": "ECEN 423",
+    "title": "Computer and Wireless Networks",
+    "credit_hours": 3,
+    "description": "Fundamentals of wired and wireless computer networks, design and performance evaluations of wired and wireless networks, various unguided media characterizations and classifications/comparisons, digital-data representations/transmissions, error control, MAC protocols, routing, TCP/UDP/IP, wireless TCP, queuing-delay/loss modeling, IEEE 802.11 and its interconnections with Internet, and QoS provisioning over wired/wireless networks",
+    "prerequisites": "Grade of C or better in MATH 311 ; junior or senior classification.",
+    "department": "Electrical & Computer Engineering (ECEN)"
+  },
+  {
+    "code": "ECEN 424",
+    "title": "Fundamentals of Networking",
+    "credit_hours": 3,
+    "description": "Foundations of computer networking; layered architecture of the Internet, analysis of protocols, new-age networks such as the Web and social networks; computer network programming and offline analysis of real network data",
+    "prerequisites": "Grade of C or better in ECEN 303 or STAT 211 ; junior or senior classification.",
+    "department": "Electrical & Computer Engineering (ECEN)"
+  },
+  {
+    "code": "ECEN 425",
+    "title": "Radio Frequency and Microwave Engineering",
+    "credit_hours": 3,
+    "description": "Fundamental Radio Frequency (RF) and microwave circuit analysis including scattering and ABCD matrices, return loss, insertion loss; transmission lines, lumped elements, impedance matching; theory, analysis and design of basic RF and microwave passive circuits; use of commercial CAD programs for RF and microwave circuit design and simulation",
+    "prerequisites": "Grade of C or better in ECEN 322 ; junior or senior classification.",
+    "department": "Electrical & Computer Engineering (ECEN)"
+  },
+  {
+    "code": "ECEN 427",
+    "title": "Machine Learning",
+    "credit_hours": 3,
+    "description": "Theoretical foundations of machine learning, pattern recognition and generating predictive models and classifiers from data; includes methods for supervised and unsupervised learning (decision trees, linear discriminants, neural networks, Gaussian models, non-parametric models, clustering, dimensionality reduction, deep learning), optimization procedures and statistical inference",
+    "prerequisites": "Grade of C or better in MATH 304 , MATH 311 , or MATH 323 ; Grade of C or better in STAT 211 , and STAT 404 or CSCE 221 , or ECEN 303 , and CSCE 121 or CSCE 120 . Cross Listing: CSCE 421 and STAT 421 .",
+    "department": "Electrical & Computer Engineering (ECEN)"
+  },
+  {
+    "code": "ECEN 428",
+    "title": "Field Programmable Gate Arrays Information Processing Systems",
+    "credit_hours": 4,
+    "description": "Signal processing and neural network implementations on field programmable gate arrays (FPGA); FPGA designs of digital filters, Fourier transform, JPEG decoding, fast convolution, Kalman filter and Viterbi decoding; circuit design techniques commonly used in signal processing and neural network, such as pipelining, parallel processing, folding, unfolding and systolic array",
+    "prerequisites": "Grade of C or better in ECEN 248 and ECEN 314 ; junior or senior classification.",
+    "department": "Electrical & Computer Engineering (ECEN)"
+  },
+  {
+    "code": "ECEN 429",
+    "title": "Machine Learning for Signal Processing",
+    "credit_hours": 3,
+    "description": "Principles of pattern recognition and machine learning and electrical and computer engineering applications in signal estimation, detection and classification, detection of patterns in engineering systems and communications networks, assessment of normality and abnormality patterns in biomedical engineering applications and cyber security of power systems",
+    "prerequisites": "Grade of C or better in ECEN 314 ; grade of C or better in ECEN 303 or STAT 211 ; junior or senior classification.",
+    "department": "Electrical & Computer Engineering (ECEN)"
+  },
+  {
+    "code": "ECEN 430",
+    "title": "Automotive Electronics",
+    "credit_hours": 4,
+    "description": "Vehicular electronic systems, electric powertrain, motors and motor control, battery management power management, driver assistance systems (ADAS), LIDAR/Radar/Camera modules, sensing and actuator devices for anti-collision systems, automotive communication, vehicle-to-vehicle and vehicle to infrastructure communication systems, autonomous and driverless vehicles",
+    "prerequisites": "Grade of C or better in ECEN 325 ; junior or senior classification.",
+    "department": "Electrical & Computer Engineering (ECEN)"
+  },
+  {
+    "code": "ECEN 431",
+    "title": "RF Circuits for Wireless Communications",
+    "credit_hours": 4,
+    "description": "Radio Frequency (RF) circuits for wireless communications applications; RF systems and their applications, noise, distortion, analog and digital modulations and radio architectures; transistor-level implementation of super-heterodyne AM/FM radios, RF/IF amplifiers, mixers, oscillators, demodulators, and baseband amplifiers",
+    "prerequisites": "Grade of C or better in ECEN 325 ; senior classification.",
+    "department": "Electrical & Computer Engineering (ECEN)"
+  },
+  {
+    "code": "ECEN 432",
+    "title": "Data Conversion Systems and Circuits",
+    "credit_hours": 4,
+    "description": "Sampling theory and sampling circuit implementations, quantization architectures and interpolation techniques for data conversion interfaces such as analog-to-digital and digital-to-analog converters, noise modeling of sampled and quantized data, performance metrics, modeling of circuits errors (capacitor mismatch, gain mismatches, etc.) basic linear calibration techniques and compensation techniques",
+    "prerequisites": "Grade of C or better in ECEN 314 and ECEN 325 ; junior or senior classification.",
+    "department": "Electrical & Computer Engineering (ECEN)"
+  },
+  {
+    "code": "ECEN 433",
+    "title": "Advanced Micromachining Technologies for the Informational Era",
+    "credit_hours": 3,
+    "description": "In-depth discussion of state-of-the-art fabrication and assembly techniques for micro sensors and actuators to be used in today and future's smart electronics and intelligent systems",
+    "prerequisites": "Grade of C or better in ECEN 370 ; junior or senior classification.",
+    "department": "Electrical & Computer Engineering (ECEN)"
+  },
+  {
+    "code": "ECEN 434",
+    "title": "Optimization for Electrical and Computer Engineering Applications",
+    "credit_hours": 3,
+    "description": "Principles of optimization including linear and nonlinear optimization as well as electrical and computer engineering applications in signal estimation, routing in communication networks, flows in wireless networks, wafer fabrication plants, and economic dispatch in power systems",
+    "prerequisites": "Grade of C or better in MATH 304 or MATH 309 or MATH 311 ; grade of C or better in MATH 251 or MATH 253 ; junior or senior classification.",
+    "department": "Electrical & Computer Engineering (ECEN)"
+  },
+  {
+    "code": "ECEN 435",
+    "title": "Audio Engineering",
+    "credit_hours": 3,
+    "description": "Sound propagation, psychoacoustics, electroacoustics and architectural acoustics for the design and application of audio technology. Auditory system and audio perception concepts such as pitch, loudness, timbre, masking, apparent location. Speakers, microphones, and other electroacoustic transducers, enclosures and the mixers and the audio power amplifiers used to drive them. Architectural and environmental acoustics building acoustics, reflecting and absorbent materials, noise barriers, echoes, presence, reverberation, resonance",
+    "prerequisites": "Grade of C or better in ECEN 314 and ECEN 325 ; junior or senior classification.",
+    "department": "Electrical & Computer Engineering (ECEN)"
+  },
+  {
+    "code": "ECEN 438",
+    "title": "Power Electronics",
+    "credit_hours": 4,
+    "description": "Electric power conditioning and control; characteristics of solid state power switches; analysis and experiments with AC power controllers, controlled rectifiers, DC choppers and DC-AC converters; applications to power supplies, airborne and spaceborne power systems",
+    "prerequisites": "Grade of C or better in ECEN 340 ; junior or senior classification.",
+    "department": "Electrical & Computer Engineering (ECEN)"
+  },
+  {
+    "code": "ECEN 440",
+    "title": "Thin Film Science and Technology",
+    "credit_hours": 4,
+    "description": "Thin film fundamentals, processing and industrial applications; topics include crystal structures in thin films, deposition techniques, thin film characterizations and several advanced topics related to electrical and optical devices; lab or tour sessions provided to promote teaching and learning",
+    "prerequisites": "Grade of C or better in ECEN 370 ; junior or senior classification.",
+    "department": "Electrical & Computer Engineering (ECEN)"
+  },
+  {
+    "code": "ECEN 441",
+    "title": "Electronic Motor Drives",
+    "credit_hours": 4,
+    "description": "Application of semiconductor switching power converters to adjustable speed DC and AC motor drives; steady state theory and analysis of electric motion control in industrial, robotic and traction systems; laboratory experiments in power electronic motor drives and their control",
+    "prerequisites": "Grade of C or better in ECEN 340 ; junior or senior classification.",
+    "department": "Electrical & Computer Engineering (ECEN)"
+  },
+  {
+    "code": "ECEN 442",
+    "title": "DSP Based Electromechanical Motion Control",
+    "credit_hours": 3,
+    "description": "Overview of energy conversion and basic concepts on electromechanical motion devices; different control strategies including the solid-state drive topologies; for every electromechanical motion device, its DSP control implementation discussed and implemented in the lab",
+    "prerequisites": "Grade of C or better in ECEN 314 ; junior or senior classification.",
+    "department": "Electrical & Computer Engineering (ECEN)"
+  },
+  {
+    "code": "ECEN 444",
+    "title": "Digital Signal Processing",
+    "credit_hours": 4,
+    "description": "Digital signal processing; discrete-time signals and systems, linear shift-invariant systems, the discrete Fourier transform and fast Fourier transform algorithm, and design of finite impulse response and infinite impulse response digital filters",
+    "prerequisites": "Grade of C or better in ECEN 314 ; junior or senior classification.",
+    "department": "Electrical & Computer Engineering (ECEN)"
+  },
+  {
+    "code": "ECEN 445",
+    "title": "Applied Electromagnetic Theory",
+    "credit_hours": 3,
+    "description": "Guided wave and wireless methods; applications of Maxwell’s equations and electromagnetic wave phenomena to radiation, antennas and microwave circuit design; digital transmission line analysis and design",
+    "prerequisites": "Grade of C or better in ECEN 322 ; junior or senior classification.",
+    "department": "Electrical & Computer Engineering (ECEN)"
+  },
+  {
+    "code": "ECEN 446",
+    "title": "Information Theory, Inference and Learning Algorithms",
+    "credit_hours": 3,
+    "description": "Basic concepts and techniques on data compression, error control codes, and information theoretic measures; basic concepts and techniques in statistical inference such as clustering, maximum likelihood, exact marginalization, Monte Carlo methods, importance sampling, and Markov chain Monte Carlo; introduction to neuron and neural networks; support vector machines",
+    "prerequisites": "Grade of C or better in MATH 311 ; grade of C or better in ECEN 303 or STAT 211 ; junior or senior classification.",
+    "department": "Electrical & Computer Engineering (ECEN)"
+  },
+  {
+    "code": "ECEN 447",
+    "title": "Digital Image Processing",
+    "credit_hours": 4,
+    "description": "Improvement of pictorial information using spatial and frequency domain techniques; two-dimensional discrete Fourier transform; image filtering, enhancement, restoration, compression; image processing project",
+    "prerequisites": "Grade of C or better in ECEN 314 ; junior or senior classification.",
+    "department": "Electrical & Computer Engineering (ECEN)"
+  },
+  {
+    "code": "ECEN 449",
+    "title": "Microprocessor Systems Design",
+    "credit_hours": 3,
+    "description": "Introduction to microprocessors; 16/32 bit single board computer hardware and software designs; chip select equations for memory board design, serial and parallel I/O interfacing; ROM, static and dynamic RAM circuits for no wait-state design; assembly language programming, stack models, subroutines and I/O processing",
+    "prerequisites": "Grade of C or better in ECEN 248 ; junior or senior classification.",
+    "department": "Electrical & Computer Engineering (ECEN)"
+  },
+  {
+    "code": "ECEN 451",
+    "title": "Antenna Engineering",
+    "credit_hours": 3,
+    "description": "Antenna theory and design; including antenna performance parameters, analysis of radiation from sources using Maxwell's equations, theory and design of wire antennas, arrays and frequency independent antennas; computer methods for antenna design",
+    "prerequisites": "Grade of C or better in ECEN 322 ; junior or senior classification.",
+    "department": "Electrical & Computer Engineering (ECEN)"
+  },
+  {
+    "code": "ECEN 453",
+    "title": "Microwave Solid-State Circuits and Systems",
+    "credit_hours": 4,
+    "description": "Microwave solid-state devices and circuits; theory and design of various types of active circuits; applications of these devices and circuits in radar, communication, and surveillance systems; hands-on lab activities covering basics of microwave measurements",
+    "prerequisites": "Grade of C or better in ECEN 322 ; junior or senior classification.",
+    "department": "Electrical & Computer Engineering (ECEN)"
+  },
+  {
+    "code": "ECEN 454",
+    "title": "Digital Integrated Circuit Design",
+    "credit_hours": 3,
+    "description": "Analysis and design of digital devices and integrated circuits using MOS and bipolar technologies and computer aided simulation",
+    "prerequisites": "Grade of C or better in ECEN 214 and ECEN 248 ; junior or senior classification.",
+    "department": "Electrical & Computer Engineering (ECEN)"
+  },
+  {
+    "code": "ECEN 455",
+    "title": "Digital Communications",
+    "credit_hours": 4,
+    "description": "Digital transmission of information through stochastic channels; analog-to-dialog conversion, entropy and information, Huffman coding; signal detection, the matched-filter receiver, probability of error; baseband and passband modulation, signal space representation of signals, PAM, QAM, PSK, FSK; block coding, convolutional coding; synchronization; communication through fading channels; spread-spectrum signaling; simulation of digital communication systems",
+    "prerequisites": "Grade of C or better in ECEN 314 and ECEN 303 or STAT 211 ; junior or senior classification.",
+    "department": "Electrical & Computer Engineering (ECEN)"
+  },
+  {
+    "code": "ECEN 457",
+    "title": "Operational Amplifiers",
+    "credit_hours": 4,
+    "description": "Analysis of basic operational amplifier and operational transconductance amplifier (OTA) circuits; noise analysis in Op amp and OTA circuits; nonlinear OTA and Op amp circuits; instrumentation amplifiers; transducer circuits; function generators; oscillators and D/A converters and basics of switched-capacitor circuits",
+    "prerequisites": "Grade of C or better in ECEN 325 ; junior or senior classification.",
+    "department": "Electrical & Computer Engineering (ECEN)"
+  },
+  {
+    "code": "ECEN 459",
+    "title": "Power System Fault Analysis and Protection",
+    "credit_hours": 4,
+    "description": "General considerations in transmission and distribution of electrical energy as related to power systems; calculation of electric transmission line constants; general theory of symmetrical components and application to analysis of power systems during fault conditions",
+    "prerequisites": "Grade of C or better in ECEN 340 ; junior or senior classification.",
+    "department": "Electrical & Computer Engineering (ECEN)"
+  },
+  {
+    "code": "ECEN 460",
+    "title": "Power System Operation and Control",
+    "credit_hours": 4,
+    "description": "Load flow studies; power system transient stability studies; economic system loading and automatic load flow control",
+    "prerequisites": "Grade of C or better in ECEN 340 ; junior or senior classification.",
+    "department": "Electrical & Computer Engineering (ECEN)"
+  },
+  {
+    "code": "ECEN 461",
+    "title": "Electronic Noise",
+    "credit_hours": 3,
+    "description": "Surveying the elements of electronic noise including concept, theory, measurements, analysis and design; focusing on creative pictures, examples and problems",
+    "prerequisites": "Grade of C or better in ECEN 325 ; grade of C or better in ECEN 303 or STAT 211 ; junior or senior classification.",
+    "department": "Electrical & Computer Engineering (ECEN)"
+  },
+  {
+    "code": "ECEN 462",
+    "title": "Optical Communication Systems",
+    "credit_hours": 3,
+    "description": "Principles of optical communication systems; characteristics of optical fibers, lasers and photodetectors for use in communication systems; design of fiber-optic digital systems and other optical communication systems",
+    "prerequisites": "Grade of C or better in ECEN 322 and ECEN 370 ; junior or senior classification.",
+    "department": "Electrical & Computer Engineering (ECEN)"
+  },
+  {
+    "code": "ECEN 463",
+    "title": "Magnetic Resonance Engineering",
+    "credit_hours": 3,
+    "description": "Design, construction and application of instrumentation for MR imaging; fundamentals of the architecture of an MR spectrometer and the gradient subsystem used for image localization; emphasis on the radiofrequency sensors and systems used for signal generation and reception",
+    "prerequisites": "Grade of C or better in ECEN 322 or BMEN 420 ; junior or senior classification.",
+    "department": "Electrical & Computer Engineering (ECEN)"
+  },
+  {
+    "code": "ECEN 464",
+    "title": "Optical Engineering",
+    "credit_hours": 3,
+    "description": "Ray optics; wave optics; propagation, reflection, refraction and diffraction of light; passive optical components, polarization, optical modulators, interferometers and lasers",
+    "prerequisites": "Grade of C or better in ECEN 322 and ECEN 370 ; junior or senior classification.",
+    "department": "Electrical & Computer Engineering (ECEN)"
+  },
+  {
+    "code": "ECEN 465",
+    "title": "Experimental Optics",
+    "credit_hours": 4,
+    "description": "In-depth study of experimental optic techniques; opto-mechanical assemblies; passive optics; interferometers; opto-electronics; basic op-amp circuits; feedback and control of optics with electronics",
+    "prerequisites": "Grade of C or better in ECEN 370 ; junior or senior classification.",
+    "department": "Electrical & Computer Engineering (ECEN)"
+  },
+  {
+    "code": "ECEN 467",
+    "title": "Harnessing Solar Energy: Optics, Photovoltaics and Thermal Systems",
+    "credit_hours": 4,
+    "description": "Solar radiation characteristics and measurement; optical coatings including reflection, transmission, absorption and emissivity; concentrating optics, tracking and etendue limit; photovoltaic cells, modules and systems overview; introduction to solar thermal systems",
+    "prerequisites": "Grade of C or better in ECEN 322 and ECEN 370 ; junior or senior classification.",
+    "department": "Electrical & Computer Engineering (ECEN)"
+  },
+  {
+    "code": "ECEN 468",
+    "title": "Advanced Digital System Design",
+    "credit_hours": 4,
+    "description": "Design, modeling and verification of complex digital systems using hardware description language and electronic system level language",
+    "prerequisites": "Grade of C or better in ECEN 248 ; junior or senior classification.",
+    "department": "Electrical & Computer Engineering (ECEN)"
+  },
+  {
+    "code": "ECEN 470",
+    "title": "Laser Principles and Applications",
+    "credit_hours": 3,
+    "description": "Working understanding of the basic principles of laser science, the major components of laser system and their function; examples of laser applications to science, engineering, medicine and industry",
+    "prerequisites": "Grade of C or better in ECEN 322 and ECEN 370 ; junior or senior classification.",
+    "department": "Electrical & Computer Engineering (ECEN)"
+  },
+  {
+    "code": "ECEN 471",
+    "title": "Power Management Circuits and Systems",
+    "credit_hours": 4,
+    "description": "Overview of modern semiconductor power devices, DC-DC linear regulators, switching regulators and battery chargers; emphasis on mathematical foundations, feedback theory, stability and root locus, multi-stage amplifiers, analysis and design of power electronic circuits including DC-DC and AC-DC converters and power supplies; applications on power electronics and power management circuits",
+    "prerequisites": "Grade of C or better in ECEN 325 ; junior or senior classification.",
+    "department": "Electrical & Computer Engineering (ECEN)"
+  },
+  {
+    "code": "ECEN 472",
+    "title": "Microelectronic Circuit Fabrication",
+    "credit_hours": 4,
+    "description": "Fundamentals of MOS and bipolar microelectronic circuit fabrication; theory and practice of diffusion, oxidation, ion implantation, photolithography, etch; yield and reliability considerations; statistical process control; integrated process design, simulation and characterization",
+    "prerequisites": "Grade of C or better in ECEN 325 and ECEN 370 ; junior or senior classification.",
+    "department": "Electrical & Computer Engineering (ECEN)"
+  },
+  {
+    "code": "ECEN 473",
+    "title": "Microelectronic Device Design",
+    "credit_hours": 3,
+    "description": "General processes for the fabrication of microelectronic devices and integrated circuits; a review of the electronic properties of semiconductors and carrier transport and recombination; analysis and characterization of p-n junctions, bipolar transistors, and MOS capacitors and transistors; design considerations for achieving optimum performance and practical structures are discussed",
+    "prerequisites": "Grade of C or better in ECEN 325 and ECEN 370 ; junior or senior classification.",
+    "department": "Electrical & Computer Engineering (ECEN)"
+  },
+  {
+    "code": "ECEN 474",
+    "title": "VLSI Circuit Design",
+    "credit_hours": 4,
+    "description": "Analysis and design of monolithic analog and digital integrated circuits using NMOS, CMOS and bipolar technologies; device modeling; CAD tools and computer-aided design; design methodologies for LSI and VLSI scale circuits; yield and economics; test and evaluation of integrated circuits",
+    "prerequisites": "ECEN 326 .",
+    "department": "Electrical & Computer Engineering (ECEN)"
+  },
+  {
+    "code": "ECEN 475",
+    "title": "Introduction to VLSI Systems Design",
+    "credit_hours": 4,
+    "description": "Introduction to design and fabrication of microelectronic circuits; emphasis on very large scale integration (VLSI) digital systems; use of state-of-the art design methodologies and tools; design of small to medium scale integrated circuits for fabrication",
+    "prerequisites": "Grade of C or better in ECEN 454 ; junior or senior classification.",
+    "department": "Electrical & Computer Engineering (ECEN)"
+  },
+  {
+    "code": "ECEN 477",
+    "title": "Photonics: Fiber and Integrated Optics",
+    "credit_hours": 4,
+    "description": "Photonics lab including optical power and spectral measurements of singlemode and multimode optical fibers, hands-on arc fusion splicing, lasers, amplifiers, interferometers, photodetectors, integrated optics, fiber-optic devices, optical modulators",
+    "prerequisites": "Grade of C or better in ECEN 322 and ECEN 370 ; junior or senior classification.",
+    "department": "Electrical & Computer Engineering (ECEN)"
+  },
+  {
+    "code": "ECEN 478",
+    "title": "Wireless Communications",
+    "credit_hours": 3,
+    "description": "Overview of wireless applications, models for wireless communication channels, modulation formats for wireless communications, multiple access techniques, wireless standards",
+    "prerequisites": "Grade of C or better in ECEN 314 ; junior or senior classification.",
+    "department": "Electrical & Computer Engineering (ECEN)"
+  },
+  {
+    "code": "ECEN 480",
+    "title": "RF and Microwave Wireless Systems",
+    "credit_hours": 3,
+    "description": "Introduction to various RF and microwave system parameters, architectures and applications; theory, implementation, and design of RF and microwave systems for communications, radar, sensor, surveillance, navigation, medical and optical applications",
+    "prerequisites": "Grade of C or better in ECEN 322 ; junior or senior classification.",
+    "department": "Electrical & Computer Engineering (ECEN)"
+  },
+  {
+    "code": "ECEN 484",
+    "title": "Professional Internship",
+    "credit_hours": 0,
+    "description": "Professional internship in a private company, government agency or laboratory, university or organization to provide work and/or research experience related to the student’s major and career objectives. May be taken three times for credit",
+    "prerequisites": "Grade of C or better in ECEN 214 or ECEN 248 ; junior or senior classification; approval of instructor and internship agency.",
+    "department": "Electrical & Computer Engineering (ECEN)"
+  },
+  {
+    "code": "ECEN 485",
+    "title": "Directed Studies",
+    "credit_hours": "0-6",
+    "description": "Problems of limited scope approved on an individual basis intended to promote independent study",
+    "prerequisites": "Senior classification; approval of department head.",
+    "department": "Electrical & Computer Engineering (ECEN)"
+  },
+  {
+    "code": "ECEN 489",
+    "title": "Special Topics in...",
+    "credit_hours": "1-4",
+    "description": "Selected topics in an identified area of electrical engineering. May be repeated for credit",
+    "prerequisites": "Approval of instructor.",
+    "department": "Electrical & Computer Engineering (ECEN)"
+  },
+  {
+    "code": "ECEN 491",
+    "title": "Research",
+    "credit_hours": "0-4",
+    "description": "Research conducted under the direction of faculty member in electrical engineering. May be repeated 3 times for credit",
+    "prerequisites": "Junior or senior classification and approval of instructor.",
+    "department": "Electrical & Computer Engineering (ECEN)"
+  }
+]

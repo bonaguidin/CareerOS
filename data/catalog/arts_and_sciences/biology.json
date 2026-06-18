@@ -1,0 +1,480 @@
+[
+  {
+    "code": "BIOL 100",
+    "title": "Horizons in Biology",
+    "credit_hours": 0,
+    "description": "Introduction to the study of biology at Texas A&M University; gain knowledge of departmental and campus resources to assist and enhance the pursuit of a degree in biology, microbiology, molecular and cellular biology or zoology",
+    "prerequisites": "First-year and first-time-in-college freshman majoring in BIOL, MBIO, BMCB and ZOOL.",
+    "department": "Biology"
+  },
+  {
+    "code": "BIOL 101",
+    "title": "Botany",
+    "credit_hours": 4,
+    "description": "Structure, physiology and development of plants with an emphasis on seed plants. (Not open to students who have taken BIOL 111 and BIOL 112 or BIOL 113 .); includes laboratory that reinforces and provides supplemental information related to the lecture topics",
+    "prerequisites": null,
+    "department": "Biology",
+    "satisfies_ucc": "Life and Physical Sciences"
+  },
+  {
+    "code": "BIOL 104",
+    "title": "Contemporary Issues in Science - Cosmos, Earth and Humanity",
+    "credit_hours": 3,
+    "description": "This team-taught, interdisciplinary course builds scientific literacy by examining contemporary issues — current questions, discoveries and challenges at the intersection of science and society. Topics may include the Big Bang, evolution, genetics, human reproduction and health, vaccines, drugs, artificial intelligence, cryptography and cybersecurity. Students will learn to evaluate scientific claims and critically analyze how science is presented in the news, on television and on social media. Cross Listing: ARSC 104 and PHYS 104",
+    "prerequisites": null,
+    "department": "Biology",
+    "satisfies_ucc": "Life and Physical Sciences"
+  },
+  {
+    "code": "BIOL 107",
+    "title": "Zoology",
+    "credit_hours": 4,
+    "description": "(BIOL 1313 and 1113, 1413) Zoology. Survey of animal life with respect to cell organization, genetics, evolution, diversity of invertebrates/vertebrates, anatomy/physiology, and interaction of animals with their environment; includes laboratory that reinforces and provides supplemental information related to lecture topics. (Not open to students who have taken BIOL 111 and BIOL 112 or BIOL 113 )",
+    "prerequisites": null,
+    "department": "Biology",
+    "satisfies_ucc": "Life and Physical Sciences"
+  },
+  {
+    "code": "BIOL 111",
+    "title": "Introductory Biology I",
+    "credit_hours": 4,
+    "description": "(BIOL 1306 and 1106, 1406) Introductory Biology I. First half of an introdutory two-semester survey of contemporary biology that covers the chemical basis of life, structure and biology of the cell, molecular biology and genetics; includes laboratory that reinforces and provides supplemental information related to the lecture topics; also taught at Galveston campus",
+    "prerequisites": null,
+    "department": "Biology",
+    "satisfies_ucc": "Life and Physical Sciences"
+  },
+  {
+    "code": "BIOL 112",
+    "title": "Introductory Biology II",
+    "credit_hours": 4,
+    "description": "(BIOL 1307 and 1107, 1407) Introductory Biology II. The second half of an introductory two-semester survey of contemporary biology that covers evolution, history of life, diversity and form and function of organisms; includes laboratory that reinforces and provides supplemental information related to the lecture topics",
+    "prerequisites": "BIOL 111 ; also taught at Galveston campus.",
+    "department": "Biology",
+    "satisfies_ucc": "Life and Physical Sciences"
+  },
+  {
+    "code": "BIOL 113",
+    "title": "Essentials in Biology",
+    "credit_hours": 3,
+    "description": "(BIOL 1308, BIOL 1408) Essentials in Biology. One-semester biology for non-majors; overview of essential biological concepts and their application to real world and contemporary issues; topics include evolution, biodiversity, cellular, molecular and forensic biology, genetics and heredity to scientific literacy, human impact on the environment, genetically modified organisms and emerging diseases",
+    "prerequisites": null,
+    "department": "Biology",
+    "satisfies_ucc": "Life and Physical Sciences"
+  },
+  {
+    "code": "BIOL 206",
+    "title": "Introductory Microbiology",
+    "credit_hours": 4,
+    "description": "(BIOL 2320 and 2120, BIOL 2321 and 2121, BIOL 2420, BIOL 2421) Introductory Microbiology. Basic microbiology of prokaryotes and eukaryotes; main topics include morphology, physiology, genetics, taxonomy, ecology, medically important species and immunology; mandatory laboratory designed to give hands-on experience and to reinforce basic principles",
+    "prerequisites": "BIOL 101 , BIOL 107 , BIOL 111 , or BIOL 113 ; CHEM 119 . May not be used for credit by biology, molecular and cell biology, microbiology, zoology, predentistry or premedicine majors.",
+    "department": "Biology"
+  },
+  {
+    "code": "BIOL 213",
+    "title": "Molecular Cell Biology",
+    "credit_hours": 3,
+    "description": "This course covers how cells are built, powered and regulated. Topics include macromolecules; membranes and transport; energy production and conversion; genome organization and evolution; DNA structure and replication; gene expression and regulation; intracellular trafficking; cytoskeleton; cell communication and electrical signaling; cell division and cancer. Additional topics may be presented based on time and instructor expertise. The course emphasizes evidence-based reasoning, quantitative skills and core experimental methods",
+    "prerequisites": "BIOL 112 and CHEM 120 .",
+    "department": "Biology"
+  },
+  {
+    "code": "BIOL 214",
+    "title": "Genes, Ecology and Evolution",
+    "credit_hours": 3,
+    "description": "A genetically-based introduction to the study of ecology and evolution; emphasis on the interactions of organisms with each other and with their environment",
+    "prerequisites": "BIOL 112 .",
+    "department": "Biology"
+  },
+  {
+    "code": "BIOL 285",
+    "title": "Directed Studies",
+    "credit_hours": "1-4",
+    "description": "Problems in various phases of plant, animal and microbial science",
+    "prerequisites": "Freshman or sophomore classification; approval of ranking professor in field chosen and Undergraduate Advising Office.",
+    "department": "Biology"
+  },
+  {
+    "code": "BIOL 289",
+    "title": "Special Topics in...",
+    "credit_hours": "1-4",
+    "description": "Selected topics in an identified area of biology. May be repeated for credit",
+    "prerequisites": "Approval of instructor.",
+    "department": "Biology"
+  },
+  {
+    "code": "BIOL 291",
+    "title": "Research",
+    "credit_hours": "0-4",
+    "description": "Active research of basic nature under the supervision of a Department of Biology faculty member. May be repeated for credit",
+    "prerequisites": "Freshman or sophomore classification and approval of faculty member.",
+    "department": "Biology"
+  },
+  {
+    "code": "BIOL 302",
+    "title": "Careers in Biology",
+    "credit_hours": 1,
+    "description": "Development of job search skills; utilization of career resources; self-assessment of career interests and career objectives; strategies for professional correspondence and networking; business etiquette and interviewing techniques; insight into life science career opportunities",
+    "prerequisites": "Junior or senior classification; department of biology majors only; or approval of instructor.",
+    "department": "Biology"
+  },
+  {
+    "code": "BIOL 318",
+    "title": "Chordate Anatomy",
+    "credit_hours": 4,
+    "description": "Classification, phylogeny, comparative anatomy, and biology of chordates; diversity, protochordates, vertebrate skeletons, shark and cat anatomy studied in laboratory",
+    "prerequisites": "BIOL 214 or approval of instructor.",
+    "department": "Biology"
+  },
+  {
+    "code": "BIOL 319",
+    "title": "Integrated Human Anatomy and Physiology I",
+    "credit_hours": 4,
+    "description": "Integrated approach to cellular, neural, skeletal, muscular anatomy and physiology; includes some histology, histopathology, radiology and clinical correlations",
+    "prerequisites": "BIOL 111 and BIOL 112 , or BIOL 107 .",
+    "department": "Biology"
+  },
+  {
+    "code": "BIOL 320",
+    "title": "Integrated Human Anatomy and Physiology II",
+    "credit_hours": 4,
+    "description": "Continuation of BIOL 319 . Integrated approach to endocrine, cardiovascular, respiratory, digestive, urinary, reproductive and developmental anatomy and physiology; includes some histology, histopathology, radiology and clinical correlations",
+    "prerequisites": "BIOL 319 or approval of instructor.",
+    "department": "Biology"
+  },
+  {
+    "code": "BIOL 335",
+    "title": "Invertebrate Zoology",
+    "credit_hours": 4,
+    "description": "Morphology, taxonomy, natual history and phylogeny of invertebrate animals, with emphasis on biodiversity; class includes both lecture and lab. Labs include study of preserved material and demonstration of living animals in aquaria and terraria",
+    "prerequisites": "BIOL 214 or approval of instructor.",
+    "department": "Biology"
+  },
+  {
+    "code": "BIOL 349",
+    "title": "Bioinformatics",
+    "credit_hours": 3,
+    "description": "Comprehensive analysis of bioinformatics tools applicable to eukaryotic organisms; theoretical background of computational algorithms, with an emphasis on application of computational tools related to modern molecular biological research",
+    "prerequisites": "BIOL 213 ; GENE 301 , GENE 302 , GENE 303 , BIMS 320/GENE 320 , or GENE 320/BIMS 320 recommended; or approval of instructor.",
+    "department": "Biology"
+  },
+  {
+    "code": "BIOL 350",
+    "title": "Computational Genomics",
+    "credit_hours": 3,
+    "description": "Hands-on approach to obtaining, organizing and analyzing genome-related data; emphasis on asking and answering biologically relevant questions by designing and performing experiments using computers; understanding biology from a computational perspective",
+    "prerequisites": "Junior or senior classification in life sciences, engineering, mathematics, chemistry.",
+    "department": "Biology"
+  },
+  {
+    "code": "BIOL 351",
+    "title": "Fundamentals of Microbiology",
+    "credit_hours": 4,
+    "description": "Introduction to modern microbiology with emphasis on prokaryotes; includes microbial cell structure, function, and physiology; genetics, evolution, and taxonomy; bacteriophage and viruses; pathogenesis and immunity; and ecology and biotechnology; includes laboratory experience with microbial growth and identification",
+    "prerequisites": "BIOL 112 ; CHEM 257 , or CHEM 227 and CHEM 237 , or CHEM 231 ; or approval of instructor; also taught at Galveston campus.",
+    "department": "Biology"
+  },
+  {
+    "code": "BIOL 352",
+    "title": "Diagnostic Bacteriology",
+    "credit_hours": 4,
+    "description": "Practical experience in handling, isolation and identification of pathogenic microorganisms using biochemical tests and rapid identification techniques",
+    "prerequisites": "BIOL 351 or approval of instructor.",
+    "department": "Biology"
+  },
+  {
+    "code": "BIOL 354",
+    "title": "Ecology and Evolution of Microbes",
+    "credit_hours": 3,
+    "description": "Survey the genetics, ecology and evolution of microbes, review their role in defining the environment of the earth and their impact on all forms of life on earth",
+    "prerequisites": "BIOL 351 .",
+    "department": "Biology"
+  },
+  {
+    "code": "BIOL 357",
+    "title": "Ecology",
+    "credit_hours": 3,
+    "description": "Analysis of ecosystems at organismal, population, interspecific and community levels",
+    "prerequisites": "BIOL 214 or approval of instructor.",
+    "department": "Biology"
+  },
+  {
+    "code": "BIOL 388",
+    "title": "Principles of Animal Physiology",
+    "credit_hours": 4,
+    "description": "Introduction to how animals function, including basics of neurophysiology, endocrinology, muscular, cardiovascular, respiratory, ormoregulatory, and metabolic physiology; broadly comparative in scope and encompassing adaptation of physiological systems to diverse environments; the laboratory stresses techniques used for monitoring and investigating physiological mechanisms and responses to environmental changes",
+    "prerequisites": "BIOL 214 , CHEM 228 , or CHEM 258 , or approval of instructor.",
+    "department": "Biology"
+  },
+  {
+    "code": "BIOL 400",
+    "title": "Tropical Ecology of Costa Rica",
+    "credit_hours": 6,
+    "description": "Advanced field-intensive course conducted at multiple biological field stations located throughout Costa Rica; exposure to a wide variety of tropical ecological principles using largely observational and some sampling techniques; experience with amazing diversity of wildlife and habitats from hot, humid low land rainforests to the high elevations of the Talamanca páramo; development of a variety of natural history skills needed to understand the complex interactions of plants and animals in tropical environments; requires detailed journal of ecological principles observed while in Costa Rica to be used as basis for final written report; opportunities to experience the unique and friendly culture of one of Central America's most successful countries and discover how anthropogenic activities affect biodiversity",
+    "prerequisites": "Junior or senior classification; approval of instructor; BIOL 357 preferred.",
+    "department": "Biology"
+  },
+  {
+    "code": "BIOL 401",
+    "title": "Critical Writing in Biology",
+    "credit_hours": 1,
+    "description": "Reading scientific papers and writing short synopses of papers with a focus on learning how to think and write like a scientist; fills the current Writing Intensive \"W\" course requirement for biology",
+    "prerequisites": "BIOL 213 or CHEM 228 ; junior or senior classification.",
+    "department": "Biology"
+  },
+  {
+    "code": "BIOL 402",
+    "title": "Communicating Biological Research to the Public",
+    "credit_hours": 1,
+    "description": "Interpretation of scientific papers; analysis of how research findings are communicated to lay audiences; creation of synopses of research findings for the general public",
+    "prerequisites": "BIOL 213 or CHEM 228 ; junior or senior classification.",
+    "department": "Biology"
+  },
+  {
+    "code": "BIOL 403",
+    "title": "Medical Narratives",
+    "credit_hours": 1,
+    "description": "Focus on reading and analyzing brief nonfiction stories about medicine; exploration of different perspectives and experiences with illness and medicine",
+    "prerequisites": "BIOL 213 or CHEM 228 ; junior or senior classification or approval of instructor.",
+    "department": "Biology"
+  },
+  {
+    "code": "BIOL 405",
+    "title": "Comparative Endocrinology",
+    "credit_hours": 3,
+    "description": "Basic principles of endocrinology including structure and functions of hormones in vertebrates; hormonal control of growth, metabolism, osmoregulation, and reproduction; endocrine techniques and mechanism of hormone action",
+    "prerequisites": "BIOL 214 ; CHEM 227 or CHEM 257 .",
+    "department": "Biology"
+  },
+  {
+    "code": "BIOL 407",
+    "title": "Biological Clocks",
+    "credit_hours": 3,
+    "description": "Examination of the basic mechanisms of biological timing; in depth study of clocks in model organisms and the relationship between clocks and human health and disease",
+    "prerequisites": "BICH 431/GENE 431 , BIOL 213 or GENE 431/BICH 431 .",
+    "department": "Biology"
+  },
+  {
+    "code": "BIOL 411",
+    "title": "Synthetic Biology of Microbes",
+    "credit_hours": 3,
+    "description": "Underlying technical basis for synthetic biology; tools used to generate recombinant molecules; genetic circuitry and modules applied to bacteria; design and fabrication of genes, biological components and entire organisms; survey actual and theoretical applications",
+    "prerequisites": "BIOL 351 or BICH 431/GENE 431 .",
+    "department": "Biology"
+  },
+  {
+    "code": "BIOL 413",
+    "title": "Cell Biology",
+    "credit_hours": 3,
+    "description": "Structure, function, and biogenesis of cells and their components; interpretation of dynamic processes of cells, including protein trafficking, motility, signaling and proliferation",
+    "prerequisites": "BIOL 213 , GENE 302 , or GENE 303 ; BICH 410 or BICH 440 .",
+    "department": "Biology"
+  },
+  {
+    "code": "BIOL 414",
+    "title": "Developmental Biology",
+    "credit_hours": 3,
+    "description": "Concepts of development in systems ranging from bacteriophage to the mammalian embryo; use of recombinant DNA technology and embryo engineering to unravel the relationships between growth and differentiation, morphogenesis and commitment, aging and cancer",
+    "prerequisites": "BIOL 213 or GENE 302 ; BICH 410 or BICH 440 .",
+    "department": "Biology"
+  },
+  {
+    "code": "BIOL 423",
+    "title": "Cell Biology Laboratory",
+    "credit_hours": 2,
+    "description": "Modern methods of study of cell structure and cell function",
+    "prerequisites": "BICH 410 and BIOL 413 , or concurrent enrollment or approval of instructor.",
+    "department": "Biology"
+  },
+  {
+    "code": "BIOL 425",
+    "title": "Plant Molecular Biology",
+    "credit_hours": 3,
+    "description": "This course will explore the molecular aspects of plant growth, development, reproduction and evolution, with an emphasis on gene manipulation and the practical applications of plant molecular biology",
+    "prerequisites": "GENE 302 or equivalent, or approval of instructor.",
+    "department": "Biology"
+  },
+  {
+    "code": "BIOL 428",
+    "title": "Cellular Neuroscience",
+    "credit_hours": 3,
+    "description": "Cell biology, molecular biology and biophysics of neurons as it pertains to their fundamental role in the physiological basis of behavior; study of how neurons create, maintain and exploit electrical signals for information coding and transmission; principles of electrical and chemical signaling between neurons, and the role of intracellular signaling for signal modulation and synaptic plasticity; exploration of a broad range of state-of-the-art molecular tools currently used to study the nervous system, and the cellular basis for many of the most common neurological disorders affecting humans as well as the strategies and therapies for their treatment",
+    "prerequisites": "BIOL 213 and PSYC 235, or approval of instructor. Cross Listing: NRSC 428/BIOL 428 .",
+    "department": "Biology"
+  },
+  {
+    "code": "BIOL 430",
+    "title": "Biological Imaging",
+    "credit_hours": 4,
+    "description": "Still and video photography and photomicrography, computerbased digital image analysis and processing of biological images; theory and principles of light and electron microscopy including transmission and scanning electron microscopy; optical contrast methods for light microscopy including phase contrast, DIC, polarizing light and confocal laser scanning microscopy",
+    "prerequisites": "Junior classification or approval of instructor.",
+    "department": "Biology"
+  },
+  {
+    "code": "BIOL 435",
+    "title": "Laboratory for Regulatory and Behavioral Neuroscience",
+    "credit_hours": 1,
+    "description": "Study of modern methods and tools used to investigate nervous system structure and function",
+    "prerequisites": "BIOL 213 ; BIOL 319 , BIOL 320 , BIOL 388 , BIOL 413 , BIOL 428 , BIOL 434/NRSC 434 , NRSC 235, NRSC 335, NRSC 428/BIOL 428 , NRSC 434/BIOL 434 , or PBSI 235 , or approval of instructor.",
+    "department": "Biology"
+  },
+  {
+    "code": "BIOL 438",
+    "title": "Bacterial Physiology",
+    "credit_hours": 3,
+    "description": "Structure and function of prokaryotic cells, with emphasis on evolutionary adaptations to different environmental, developmental, and pathogenic selections pressures; formation of teamsa and preparation of presentations on specific topics in microbiology",
+    "prerequisites": "BIOL 351 ; BIOL 406/GENE 406 or concurrent enrollment; BICH 410 , BICH 431/GENE 431 and GENE 302 strongly recommended.",
+    "department": "Biology"
+  },
+  {
+    "code": "BIOL 440",
+    "title": "Marine Biology",
+    "credit_hours": 4,
+    "description": "Introduction to biology of common organisms inhabiting bays, beaches and near-shore oceanic waters with special reference to Gulf of Mexico biota; emphasis on classification, distribution, history, ecology, physiology, mutualism, predation, major community types and economic aspects of marine organisms",
+    "prerequisites": "BIOL 214 or approval of instructor.",
+    "department": "Biology"
+  },
+  {
+    "code": "BIOL 443",
+    "title": "Early Stages of Animal Evolution",
+    "credit_hours": 3,
+    "description": "Analysis of the earliest stages of animal evolution by integrating various scientific fields such as genomics, paleontology, metabolism, morphology, environment, development and behavior; includes hands-on exploration of fossils and modern animals to understand how evolution shaped our world",
+    "prerequisites": "BIOL 214 ; junior or senior classification.",
+    "department": "Biology"
+  },
+  {
+    "code": "BIOL 445",
+    "title": "Biology of Viruses",
+    "credit_hours": 3,
+    "description": "Structure, composition and life cycles of viruses; methods used to study viruses; their interaction with host cells; mechanisms of pathogenicity and cellular transformation; responses of the host to viral infection, and vaccine applications; in-depth study of the life cycles of the major classes of viruses and discussion of emerging viruses",
+    "prerequisites": "BIOL 213 or BIOL 351 or approval of instructor.",
+    "department": "Biology"
+  },
+  {
+    "code": "BIOL 454",
+    "title": "Immunology",
+    "credit_hours": 3,
+    "description": "Introduction to basic immunological concepts and principles of serology",
+    "prerequisites": "BIOL 351 or equivalent or approval of instructor.",
+    "department": "Biology"
+  },
+  {
+    "code": "BIOL 455",
+    "title": "Laboratory in Immunology",
+    "credit_hours": 2,
+    "description": "Practical application of serological principles which include precipitation, agglutination and blood banking principles; techniques in tissue culture and hybridoma technology also included",
+    "prerequisites": "BIOL 454 or registration therein.",
+    "department": "Biology"
+  },
+  {
+    "code": "BIOL 456",
+    "title": "Medical Microbiology",
+    "credit_hours": 3,
+    "description": "Microbiology, epidemiology and pathology of human pathogens with an emphasis on bacterial agents",
+    "prerequisites": "BIOL 351 or approval of instructor.",
+    "department": "Biology"
+  },
+  {
+    "code": "BIOL 461",
+    "title": "Antimicrobial Agents",
+    "credit_hours": 1,
+    "description": "Understanding of antimicrobial agents, limitations of use, biosynthesis and regulation, and challenges in development as new therapeutics",
+    "prerequisites": "BICH 410 or BICH 440 and BIOL 351 or VTPB 405 .",
+    "department": "Biology"
+  },
+  {
+    "code": "BIOL 466",
+    "title": "Principles of Evolution",
+    "credit_hours": 3,
+    "description": "Evolutionary patterns, mechanisms and processes at the organismal, chromosomal and molecular levels; modes of adaptation and the behavior of genes in populations",
+    "prerequisites": "GENE 302 or approval of instructor.",
+    "department": "Biology"
+  },
+  {
+    "code": "BIOL 467",
+    "title": "Integrative Animal Behavior",
+    "credit_hours": 3,
+    "description": "Examines how behavior contributes to survival and reproduction, and how evolutionary history and ecological circumstance interact to shape the expression of behavior; focus on integrative nature of behavior; how the interaction of evolutionary processes, mechanistic constraints, and ecological demands determine behavioral strategies",
+    "prerequisites": "BIOL 214 , BIOL 357 , BIOL 388 , BIOL 405 , BIOL 434/NRSC 434 , or BIOL 466 , or approval of instructor.",
+    "department": "Biology"
+  },
+  {
+    "code": "BIOL 468",
+    "title": "Biology Through Film",
+    "credit_hours": 3,
+    "description": "This course offers an innovative exploration of fundamental concepts in biology through their portrayal in film, highlighting the intersection of scientific discovery, medicine and society. Students will engage with primary scientific literature to develop a firsthand understanding of the discovery process underlying topics such as neurodegenerative disease, genetic engineering, addiction and disease transmission. Class discussions will connect these foundational insights to critical analyses of how such themes are represented in film, encouraging students to evaluate both the processes of scientific discovery and their societal implications. Through this dual approach, the course fosters scientific literacy, ethical reasoning and a deeper appreciation for the relationship between science and society",
+    "prerequisites": "BIOL 111 , BIOL 112 and BIOL 213 ; junior or senior classification; or approval of instructor.",
+    "department": "Biology"
+  },
+  {
+    "code": "BIOL 480",
+    "title": "Departmental Colloquium",
+    "credit_hours": 1,
+    "description": "Attend presentations given by renowned scientists from various fields of biology; learn about new developments in science; stay abreast of current and trending research topics",
+    "prerequisites": "Senior classification; majors in BIOL, MICRO, BMCB and ZOOL.",
+    "department": "Biology"
+  },
+  {
+    "code": "BIOL 481",
+    "title": "Seminar in Biology",
+    "credit_hours": 1,
+    "description": "Recent advances",
+    "prerequisites": "Senior undergraduate majors in biology, microbiology, botany or zoology.",
+    "department": "Biology"
+  },
+  {
+    "code": "BIOL 484",
+    "title": "Internship",
+    "credit_hours": "0-4",
+    "description": "Directed internship in a private firm or public agency to provide research experience appropriate to the student's degree program and career objectives. May be taken two times",
+    "prerequisites": "Approval of internship agency and advising office.",
+    "department": "Biology"
+  },
+  {
+    "code": "BIOL 485",
+    "title": "Directed Studies",
+    "credit_hours": "1-12",
+    "description": "Problems in various phases of plant, animal and bacteriological science",
+    "prerequisites": "Junior classification; approval of ranking professor in field chosen and Undergraduate Advising Office.",
+    "department": "Biology"
+  },
+  {
+    "code": "BIOL 489",
+    "title": "Special Topics in...",
+    "credit_hours": "1-4",
+    "description": "Selected topics in an identified area of biology. May be repeated once for credit",
+    "prerequisites": null,
+    "department": "Biology"
+  },
+  {
+    "code": "BIOL 491",
+    "title": "Research",
+    "credit_hours": "0-4",
+    "description": "Active research of basic nature under the supervision of a Department of Biology faculty member. May be taken two times. Registration in multiple sections of this course is possible within a given semester provided that the per semester credit hour limit is not exceeded",
+    "prerequisites": "Approval of departmental faculty member.",
+    "department": "Biology"
+  },
+  {
+    "code": "BIOL 492",
+    "title": "Biomedical Therapeutics Development",
+    "credit_hours": 1,
+    "description": "Basic aspects of the biotechnology business; includes key aspects of biotechnology patents, the main steps in preclinical drug development and company structure and funding",
+    "prerequisites": "BIOL 213 or equivalent; CHEM 227 and CHEM 228 .",
+    "department": "Biology"
+  },
+  {
+    "code": "BIOL 495",
+    "title": "Biology Capstone: Research Communication in the Life Sciences",
+    "credit_hours": 2,
+    "description": "Culmination of capstone research experience; formalization of research results in written and oral forms; introduction to primary genres or scientific writing; apply principles of rhetoric and composition to diverse methods of professional communication",
+    "prerequisites": "BIOL 452, BICH 464/GENE 464 , BIOL 400 , BIOL 493 or BIOL 491 or approval of instructor.",
+    "department": "Biology"
+  },
+  {
+    "code": "BIOL 496",
+    "title": "Ethics in Biological Research",
+    "credit_hours": 1,
+    "description": "Fraud in science, how to recognize it, and how to avoid committing fraud; includes the basis of ethics and plagiarism, negotiation techniques and conflict management, the regulations and ethics covering animal and human experiments, record-keeping, data management and peer review",
+    "prerequisites": "BIOL 491 , NRSC 491 , BICH 491 , GENE 491 , BIMS 491 , CHEM 491 , BIOL 351 , or BICH 410 , or approval of instructor.",
+    "department": "Biology"
+  }
+]

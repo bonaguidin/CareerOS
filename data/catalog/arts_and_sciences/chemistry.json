@@ -1,0 +1,424 @@
+[
+  {
+    "code": "CHEM 100",
+    "title": "Horizons in Chemistry",
+    "credit_hours": 1,
+    "description": "An introduction to the study of chemistry at Texas A&M University and departmental and campus resources helpful to success in the degree; information about research and internship opportunities; information about careers with and without a graduate-level degree",
+    "prerequisites": "Major in chemistry or approval of instructor.",
+    "department": "Chemistry"
+  },
+  {
+    "code": "CHEM 106",
+    "title": "Molecular Science for Citizens",
+    "credit_hours": 3,
+    "description": "(CHEM 1305, 1405*) Molecular Science for Citizens. Molecules that control daily life explored via a conceptual approach to molecular science; properties, synthesis, transformations and utility of important molecules and fuels, fibers, metals, pharmaceuticals, foods, biomolecules and structural materials; pollution, consumerism, energy production, disease, biotechnology and risk-benefit analysis considered; also taught at Galveston campus",
+    "prerequisites": null,
+    "department": "Chemistry",
+    "satisfies_ucc": "Life and Physical Sciences"
+  },
+  {
+    "code": "CHEM 107",
+    "title": "General Chemistry for Engineering Students",
+    "credit_hours": 3,
+    "description": "(CHEM 1309, 1409*) General Chemistry for Engineering Students. Introduction to important concepts and principles of chemistry; emphasis on areas considered most relevant in an engineering context; practical applications of chemical principles in engineering and technology. Students completing CHEM 107 and changing majors to curricula requiring CHEM 101 and CHEM 102 may substitute CHEM 107 for CHEM 101. Only one of the following will satisfy the requirements for a degree: CHEM 107 or CHEM 101",
+    "prerequisites": "Concurrent enrollment in CHEM 117 ; grade of C or better in MATH 150 , or equivalent, or acceptable score on Texas A&M University math placement exam; also taught at Galveston and Qatar campuses.",
+    "department": "Chemistry",
+    "satisfies_ucc": "Life and Physical Sciences"
+  },
+  {
+    "code": "CHEM 116",
+    "title": "Molecular Science for Citizens Laboratory",
+    "credit_hours": 1,
+    "description": "(CHEM 1105, 1405*) Molecular Science for Citizens Laboratory. The importance of molecular science to daily life illustrated by using experiments, demonstration and videos; designed to accompany CHEM 106",
+    "prerequisites": "CHEM 106 or registration therein; also taught at Galveston campus.",
+    "department": "Chemistry",
+    "satisfies_ucc": "Life and Physical Sciences"
+  },
+  {
+    "code": "CHEM 117",
+    "title": "General Chemistry for Engineering Students Laboratory",
+    "credit_hours": 1,
+    "description": "(CHEM 1109, 1409*) General Chemistry for Engineering Students Laboratory. Introduction to important concepts and principles of chemistry in the laboratory; emphasis on areas considered most relevant in an engineering context; practical applications of chemical principles in engineering and technology. Students completing CHEM 117 and changing majors to curricula requiring CHEM 111 and CHEM 112 may substitute CHEM 117 for CHEM 111. Only one of the following will satisfy the requirements for a degree: CHEM 117 or CHEM 111",
+    "prerequisites": "CHEM 107 or registration therein; also taught at Galveston and Qatar campuses.",
+    "department": "Chemistry",
+    "satisfies_ucc": "Life and Physical Sciences"
+  },
+  {
+    "code": "CHEM 119",
+    "title": "Fundamentals of Chemistry I",
+    "credit_hours": 4,
+    "description": "(CHEM 1311 and 1111, 1411) Fundamentals of Chemistry I. Introduction to modern theories of atomic structure and chemical bonding; chemical reactions; stoichiometry; states of matter; solutions; equilibrium; acids and bases; coordination chemistry; methods and techniques of chemical experimentation; qualitative and semiquantitative procedures applied to investigative situations; also taught at Galveston campus",
+    "prerequisites": "Completion of at least 90% of the ALEKS chemistry preparatory module; or grade of C or better in MATH 140 , MATH 150 , or equivalent; or acceptable score on Texas A&M University math placement exam.",
+    "department": "Chemistry",
+    "satisfies_ucc": "Life and Physical Sciences"
+  },
+  {
+    "code": "CHEM 120",
+    "title": "Fundamentals of Chemistry II",
+    "credit_hours": 4,
+    "description": "(CHEM 1312 and 1112, 1412) Fundamentals of Chemistry II. Theory and applications of oxidation-reductions systems; thermodynamics and kinetics; complex equilibria and solubility product; nuclear chemistry; descriptive inorganic and organic chemistry; introduction to analytical and synthetic methods and to quantitative techniques to both inorganic and organic compounds with emphasis on an investigative approach",
+    "prerequisites": "CHEM 119 , or CHEM 107 and CHEM 117 ; also taught at Galveston and Qatar campuses.",
+    "department": "Chemistry",
+    "satisfies_ucc": "Life and Physical Sciences"
+  },
+  {
+    "code": "CHEM 181",
+    "title": "Peer-Assisted Learning Pedagogy for Chemistry",
+    "credit_hours": 0,
+    "description": "Introduction and integration of current learning theory, evidence-based learning, and educational psychology into the daily operations and practice of the Chemistry Learning Laboratory; must be a peer-tutor for the Chemistry Learning Laboratory",
+    "prerequisites": "Grade of B or better in CHEM 107 , or CHEM 119 and CHEM 120 ; or grade of B or better in CHEM 257 and CHEM 258 ; approval of instructor.",
+    "department": "Chemistry"
+  },
+  {
+    "code": "CHEM 220",
+    "title": "Physics and Chemistry of Inorganic Materials",
+    "credit_hours": 3,
+    "description": "Structure, properties and function of materials developed from an atomistic and molecular perspective emphasizing quantum chemical descriptions; elements of solid-state chemistry and physics including bonding, crystal structure and symmetry, origin of electronic band structure, synthesis and characterization tools in materials chemistry and role of finite size effects",
+    "prerequisites": "CHEM 120 ; concurrent enrollment in PHYS 207 .",
+    "department": "Chemistry"
+  },
+  {
+    "code": "CHEM 222",
+    "title": "Elements of Organic and Biological Chemistry",
+    "credit_hours": 3,
+    "description": "Organic chemistry and its applications to biological and agricultural chemistry, including chemistry of functional groups, acid-base and redox chemistry, stereochemistry and chemistry of important biological compounds. Not to be used as the basis for further study in organic chemistry or biochemistry",
+    "prerequisites": "CHEM 101, CHEM 119 , or CHEM 107 .",
+    "department": "Chemistry"
+  },
+  {
+    "code": "CHEM 227",
+    "title": "Organic Chemistry I",
+    "credit_hours": 3,
+    "description": "(CHEM 2323, 2423*) Organic Chemistry I. Introduction to chemistry of compounds of carbon; general principles and their application to various industrial and biological processes",
+    "prerequisites": "CHEM 102 or CHEM 120 ; concurrent enrollment in CHEM 237 is suggested; also taught at Galveston and Qatar campuses.",
+    "department": "Chemistry"
+  },
+  {
+    "code": "CHEM 228",
+    "title": "Organic Chemistry II",
+    "credit_hours": 3,
+    "description": "(CHEM 2325, 2425*) Organic Chemistry II. Continuation of CHEM 227",
+    "prerequisites": "CHEM 227 ; concurrent registration in CHEM 238 is suggested; also taught at Galveston and Qatar campuses.",
+    "department": "Chemistry"
+  },
+  {
+    "code": "CHEM 231",
+    "title": "Techniques of Organic Chemistry",
+    "credit_hours": 2,
+    "description": "Techniques of organic chemistry; preparation, properties of typical organic compounds; separation, purification, analysis, and characterization of organic compounds",
+    "prerequisites": "CHEM 112 or CHEM 120 ; concurrent enrollment in CHEM 227 .",
+    "department": "Chemistry"
+  },
+  {
+    "code": "CHEM 234",
+    "title": "Organic Synthesis and Analysis",
+    "credit_hours": 3,
+    "description": "The synthesis of significant types of organic compounds and study of their properties; laboratory separations of mixtures of organic substances, identification of compounds by functional group tests and preparation of derivatives; instrumental methods of separation, identification and analysis",
+    "prerequisites": "CHEM 228 or concurrent enrollment; CHEM 231 , CHEM 237 or CHEM 257 .",
+    "department": "Chemistry"
+  },
+  {
+    "code": "CHEM 237",
+    "title": "Organic Chemistry Laboratory",
+    "credit_hours": 1,
+    "description": "(CHEM 2123, 2423*) Organic Chemistry Laboratory. Operations and techniques of elementary organic chemistry laboratory; preparation, reactions and properties of representative organic compounds",
+    "prerequisites": "CHEM 102 and CHEM 112, or CHEM 120 ; CHEM 227 or concurrent enrollment; also taught at Galveston and Qatar campuses.",
+    "department": "Chemistry"
+  },
+  {
+    "code": "CHEM 238",
+    "title": "Organic Chemistry Laboratory",
+    "credit_hours": 1,
+    "description": "(CHEM 2125, 2425*) Organic Chemistry Laboratory. Continuation of CHEM 237",
+    "prerequisites": "CHEM 228 or concurrent enrollment; CHEM 231 , CHEM 237 , or CHEM 257 ; also taught at Galveston and Qatar campuses.",
+    "department": "Chemistry"
+  },
+  {
+    "code": "CHEM 242",
+    "title": "Elementary Organic Chemistry Laboratory",
+    "credit_hours": 1,
+    "description": "Operations and techniques of elementary organic chemistry laboratory with emphasis on experiments for students of agriculture",
+    "prerequisites": "CHEM 222 or registration therein.",
+    "department": "Chemistry"
+  },
+  {
+    "code": "CHEM 257",
+    "title": "Organic Chemistry I - Structure and Function",
+    "credit_hours": 4,
+    "description": "Introduction to the chemistry of carbon-containing compounds, including general principles and application to various academic, industrial, and biological processes; includes elementary operations and techniques of organic chemistry laboratories",
+    "prerequisites": "CHEM 102 or CHEM 120 ; also taught at Galveston campus.",
+    "department": "Chemistry"
+  },
+  {
+    "code": "CHEM 258",
+    "title": "Organic Chemistry II - Reactivity and Applications",
+    "credit_hours": 4,
+    "description": "Continuation of CHEM 257 ; introduction to the chemistry of carbon-containing compounds, including general principles and application to various academic, industrial, and biological processes; includes elementary operations and techniques of organic chemistry laboratories",
+    "prerequisites": "CHEM 257 ; or CHEM 227 and CHEM 237 ; also taught at Galveston campus.",
+    "department": "Chemistry"
+  },
+  {
+    "code": "CHEM 285",
+    "title": "Directed Studies",
+    "credit_hours": "1-4",
+    "description": "Introduction to research, library and laboratory work designed for the freshman or sophomore students",
+    "prerequisites": "Approval of department head.",
+    "department": "Chemistry"
+  },
+  {
+    "code": "CHEM 289",
+    "title": "Special Topics in...",
+    "credit_hours": "0-4",
+    "description": "Selected topics in an identified area of chemistry. May be repeated for credit",
+    "prerequisites": "Approval of instructor.",
+    "department": "Chemistry"
+  },
+  {
+    "code": "CHEM 291",
+    "title": "Research",
+    "credit_hours": "0-4",
+    "description": "Research conducted under the direction of faculty member in chemistry. May be repeated 2 times for credit",
+    "prerequisites": "Freshman or sophomore classification and approval of instructor.",
+    "department": "Chemistry"
+  },
+  {
+    "code": "CHEM 310",
+    "title": "Elements of Physical Chemistry",
+    "credit_hours": 3,
+    "description": "Thermodynamics, Quantum theory, spectroscopy, reaction kinetics, electrochemistry and macromolecules; may not be used by chemistry majors",
+    "prerequisites": "CHEM 102 or CHEM 120 ; MATH 151 and MATH 152 , MATH 140 and MATH 142 , MATH 168 and MATH 142 , or MATH 147 and MATH 148 , or equivalent; PHYS 201 or PHYS 218, or PHYS 206 and PHYS 226 ; Galveston campus.",
+    "department": "Chemistry"
+  },
+  {
+    "code": "CHEM 311",
+    "title": "Physical Chemistry Laboratory",
+    "credit_hours": 1,
+    "description": "Quantitative experiments designed to illustrate some principles of thermodynamics, quantum theory, kinetics and spectroscopy; may not be used by chemistry majors",
+    "prerequisites": "CHEM 310 , CHEM 322 , or CHEM 327 , or concurrent enrollment; Galveston campus.",
+    "department": "Chemistry"
+  },
+  {
+    "code": "CHEM 315",
+    "title": "Fundamentals of Quantitative Analysis",
+    "credit_hours": 3,
+    "description": "Quantitative and statistical methods of analysis; solution chemistry; chemical equilibrium of analytically useful reactions; advanced analytical methods including electrochemistry, separations and kinetic methods",
+    "prerequisites": "CHEM 102 or CHEM 120 .",
+    "department": "Chemistry"
+  },
+  {
+    "code": "CHEM 316",
+    "title": "Quantitative Analysis",
+    "credit_hours": 2,
+    "description": "Introductory quantitative chemical analysis; error propagation and statistics; chemical equilibrium for titrations of weak acids, polyprotic acids, and EDTA; basic chemical instrumentation including spectrophotometry, electrochemistry, and chromatography",
+    "prerequisites": "CHEM 102 or CHEM 120 ; also taught at Galveston and Qatar campuses.",
+    "department": "Chemistry"
+  },
+  {
+    "code": "CHEM 318",
+    "title": "Quantitative Analysis Laboratory",
+    "credit_hours": 1,
+    "description": "Laboratory work consists of selected experiments in quantitative analysis designed to typify operations of general analytical lab, including chemical analyses by volumetric and gravimetric methods; introduction to chemical measurements by spectroscopic and separations techniques and associated instrumentation",
+    "prerequisites": "CHEM 112 or CHEM 120 ; CHEM 315 or CHEM 316 , or concurrent enrollment; also taught at Galveston and Qatar campuses.",
+    "department": "Chemistry"
+  },
+  {
+    "code": "CHEM 321",
+    "title": "Physical Chemistry for Life Sciences",
+    "credit_hours": 3,
+    "description": "Physical chemistry for the description of biological processes and the structure and behavior of biological molecules and macromolecules; theory of thermodynamics, kinetics, quantum and statistical mechanics. Only one of the following will satisfy the requirements for a degree: CHEM 321 or CHEM 327",
+    "prerequisites": "CHEM 107 or CHEM 120 ; PHYS 206 or PHYS 201 ; MATH 152 , MATH 172 , or MATH 148 , or equivalent.",
+    "department": "Chemistry"
+  },
+  {
+    "code": "CHEM 322",
+    "title": "Physical Chemistry for Engineers",
+    "credit_hours": 3,
+    "description": "Quantum theory, spectroscopy, statistical mechanics, kinetic theory, reaction kinetics, electrochemistry and macromolecules",
+    "prerequisites": "CHEM 102 or CHEM 120 ; CHEN 205 and CHEN 354 ; MATH 152 or equivalent; also taught at Galveston and Qatar campuses.",
+    "department": "Chemistry"
+  },
+  {
+    "code": "CHEM 325",
+    "title": "Physical Chemistry Laboratory I",
+    "credit_hours": 1,
+    "description": "Quantitative experiments involving physical chemistry principles in areas such as thermodynamics, electrochemistry, molecular structure and equilibria using modern instrumentation",
+    "prerequisites": "CHEM 321 , or CHEM 327 or concurrent enrollment.",
+    "department": "Chemistry"
+  },
+  {
+    "code": "CHEM 326",
+    "title": "Physical Chemistry Laboratory II",
+    "credit_hours": 1,
+    "description": "Quantitative experiments involving physical chemistry principles in such areas as kinetics, properties of gases, phase equilibria and macromolecules using modern instrumentation",
+    "prerequisites": "CHEM 321 , or CHEM 328 or concurrent enrollment.",
+    "department": "Chemistry"
+  },
+  {
+    "code": "CHEM 327",
+    "title": "Physical Chemistry I",
+    "credit_hours": 3,
+    "description": "Introduction to quantum mechanics, exactly solvable model problems, many-electron systems, chemical bonding and the electronic structure of molecules, computational chemistry, interaction of radiation with matter, spectroscopy and related topics of physical chemistry. Applications to contemporary problems in science and technology. Only one of the following will satisfy the requirements for a degree: CHEM 321 or CHEM 327",
+    "prerequisites": "MATH 152 or MATH 172 ; MATH 221 , MATH 251 or MATH 253 encouraged; PHYS 207 or equivalent.",
+    "department": "Chemistry"
+  },
+  {
+    "code": "CHEM 328",
+    "title": "Physical Chemistry II",
+    "credit_hours": 3,
+    "description": "A rigorous treatment of first, second, and third laws of thermodynamics; applications to gases (both ideal and real), liquids, solutions and phase equilibria; statistical thermodynamics; kinetic theory of gases; introduction to chemical kinetics",
+    "prerequisites": "CHEM 327 . Replaces CHEM 323 in previous catalogs.",
+    "department": "Chemistry"
+  },
+  {
+    "code": "CHEM 362",
+    "title": "Descriptive Inorganic Chemistry",
+    "credit_hours": 3,
+    "description": "Introduction to inorganic chemistry with a focus in descriptive inorganic chemistry, bonding theories in inorganic molecules and in the solid state, redox chemistry, descriptive main group and transition metal chemistry; ligand field theory, molecular magnetism and electronic spectra in transition metal complexes",
+    "prerequisites": "CHEM 102 or CHEM 120 .",
+    "department": "Chemistry"
+  },
+  {
+    "code": "CHEM 383",
+    "title": "Chemistry of Environmental Pollution",
+    "credit_hours": 3,
+    "description": "Chemical pollutants in the air, in water and on land; their generation, chemical reactivity, action on environment and disappearance through chemical mechanisms; chemistry of existing pollution abatement",
+    "prerequisites": "CHEM 120 ; junior or senior classification; also taught at Galveston campus.",
+    "department": "Chemistry"
+  },
+  {
+    "code": "CHEM 415",
+    "title": "Analytical Chemistry",
+    "credit_hours": 3,
+    "description": "Theory and practical aspects of modern instrumental methods of quantitative analysis; instrumental approaches to selectivity and sensitivity; examples of major, minor and trace component analysis",
+    "prerequisites": "CHEM 315 .",
+    "department": "Chemistry"
+  },
+  {
+    "code": "CHEM 433",
+    "title": "Advanced Inorganic Chemistry Laboratory",
+    "credit_hours": 2,
+    "description": "Preparation, characterization and properties of bioinorganic, organometallic and macromolecular inorganic compounds; special techniques (glove box manipulations and double-manifold Schlenk lines) for handling air-sensitive materials",
+    "prerequisites": "CHEM 362 or registration therein.",
+    "department": "Chemistry"
+  },
+  {
+    "code": "CHEM 434",
+    "title": "Analytical Instrumentation Laboratory",
+    "credit_hours": 2,
+    "description": "Practical application of modern instrumental methods of quantitative analysis; atomic and molecular techniques to conduct chemical characterizations and analyses",
+    "prerequisites": "CHEM 318 ; CHEM 415 or concurrent enrollment.",
+    "department": "Chemistry"
+  },
+  {
+    "code": "CHEM 446",
+    "title": "Organic Chemistry III",
+    "credit_hours": 3,
+    "description": "Principles and applications of organic chemistry for students majoring in chemistry, chemical engineering, materials science, biological, and physical science: emphasis on chemical reactivity, mechanistic chemistry, and synthesis",
+    "prerequisites": "CHEM 228 or CHEM 258 ; or approval of instructor.",
+    "department": "Chemistry"
+  },
+  {
+    "code": "CHEM 456",
+    "title": "Chemical Biology",
+    "credit_hours": 3,
+    "description": "Application of chemical principles to biological phenomena; capstone course for advanced students, integrating organic or inorganic chemistry with biology",
+    "prerequisites": "CHEM 228 or CHEM 258 or equivalent; junior or senior classification.",
+    "department": "Chemistry"
+  },
+  {
+    "code": "CHEM 458",
+    "title": "The Chemistry of Drug Discovery",
+    "credit_hours": 3,
+    "description": "Application of organic chemistry concepts to drug design; emphasis on small molecule interaction with living systems; exploration of importance of molecular interactions in chemical biology of living systems",
+    "prerequisites": "CHEM 228 or CHEM 258 ; BICH 409 , or concurrent enrollment in BICH 411 or BICH 441 .",
+    "department": "Chemistry"
+  },
+  {
+    "code": "CHEM 462",
+    "title": "Inorganic Chemistry",
+    "credit_hours": 3,
+    "description": "Periodic relationship of elements, their compounds, principles of their bonding and applications",
+    "prerequisites": "CHEM 328 and CHEM 362 .",
+    "department": "Chemistry"
+  },
+  {
+    "code": "CHEM 464",
+    "title": "Nuclear Chemistry",
+    "credit_hours": 3,
+    "description": "Properties of the nucleus; radioactivity; decay kinetics; nuclear masses; theory of radioactive decay; nuclear reactions; radiochemistry; nuclear energy; hands-on demonstrations; applications to non-nuclear problems",
+    "prerequisites": "CHEM 322 or CHEM 327 ; CHEM 315 or CHEM 316 recommended; also taught at Galveston campus.",
+    "department": "Chemistry"
+  },
+  {
+    "code": "CHEM 466",
+    "title": "Polymer Chemistry",
+    "credit_hours": 3,
+    "description": "Mechanisms of polymerization reactions of monomers and molecular weight distributions of products; principles, limitations and advantages of most important methods of molecular weight determination; relationship of physical properties to structure and composition; correlations of applications with chemical constitution",
+    "prerequisites": "CHEM 228 or CHEM 258 ; also taught at Galveston and Qatar campuses.",
+    "department": "Chemistry"
+  },
+  {
+    "code": "CHEM 468",
+    "title": "Materials Chemistry of Inorganic Materials",
+    "credit_hours": 3,
+    "description": "Structure, bonding and reactivity of inorganic solids developed from a perspective emphasizing models of chemical bonding, symmetry and electronic structure; methods for characterizing extended periodic solids; descriptions of band structure and contrasts to molecular orbital theory; synthetic routes, quantum confinement and finite size effects of relevance to nanoscale materials",
+    "prerequisites": "Grade of C or better in CHEM 102 or CHEM 120 ; PHYS 207 or equivalent; junior or senior classification.",
+    "department": "Chemistry"
+  },
+  {
+    "code": "CHEM 470",
+    "title": "Industrial Chemistry",
+    "credit_hours": 3,
+    "description": "Applications of organic and inorganic chemical reactions in the manufacture of commercial products; chemistry of petroleum refining and petrochemical processing; industrial polymerization processes; commodity and fine chemical production; influence of kinetics and thermodynamics on economics of industrial chemical production; pollution abatement technology",
+    "prerequisites": "CHEM 228 or CHEM 258 ; junior or senior classification.",
+    "department": "Chemistry"
+  },
+  {
+    "code": "CHEM 481",
+    "title": "Seminar",
+    "credit_hours": 2,
+    "description": "Preparation of oral and written reports on selected topics from recent technical publications",
+    "prerequisites": null,
+    "department": "Chemistry"
+  },
+  {
+    "code": "CHEM 483",
+    "title": "Green Chemistry",
+    "credit_hours": 3,
+    "description": "Environmentally benign chemistry; the design of chemical products and processes that reduce or eliminate the use and generation of hazardous substances; twelve principles of Green Chemistry; atom economy; use of renewable resources; catalysis for Green Chemistry; alternative solvents and reaction media; energy and the environment",
+    "prerequisites": "CHEM 228 or CHEM 258 ; junior or senior classification; also taught at Galveston campus.",
+    "department": "Chemistry"
+  },
+  {
+    "code": "CHEM 484",
+    "title": "Internship",
+    "credit_hours": "0-3",
+    "description": "Directed internship in a private firm or public agency to provide experience appropriate to the student's degree program and career objectives. May be repeated one time for credit. Must be taken on a satisfactory/unsatisfactory basis. Must be taken on a satisfactory/unsatisfactory basis",
+    "prerequisites": "Chemistry majors; approval of internship agency and advising office.",
+    "department": "Chemistry"
+  },
+  {
+    "code": "CHEM 485",
+    "title": "Directed Studies",
+    "credit_hours": "1-16",
+    "description": "Introduction to research, library and laboratory work",
+    "prerequisites": "Senior classification and approval of chemistry advisor; also taught at Galveston campus.",
+    "department": "Chemistry"
+  },
+  {
+    "code": "CHEM 489",
+    "title": "Special Topics in...",
+    "credit_hours": "1-4",
+    "description": "Selected topics in an identified area of chemistry; also taught at Galveston campus. May be repeated for credit",
+    "prerequisites": null,
+    "department": "Chemistry"
+  },
+  {
+    "code": "CHEM 491",
+    "title": "Research",
+    "credit_hours": "0-10",
+    "description": "Active research of basic nature under the supervision of Department of Chemistry faculty member. Registration in multiple sections of this course is possible within a given semester provided that the per semester credit hour limit is not exceeded",
+    "prerequisites": "Chemistry major; junior classification or approval of chemistry advisor.",
+    "department": "Chemistry"
+  }
+]
