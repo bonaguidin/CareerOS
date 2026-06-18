@@ -1,0 +1,103 @@
+{
+  "_notes": [
+    "Mock Canvas LMS data — Sofia Ramirez. Sophomore, Biology. Texas A&M University.",
+    "Courses pulled directly from the Biology Dept.'s published sophomore-fall sequence (BS Biology Recommended Degree Plan): BIOL 213, CHEM 227, PHYS 201, plus an American History UCC elective.",
+    "These are 'Common Body of Knowledge' (CBK) courses Biology majors must finish before their 5th semester.",
+    "courses[3]: HIST 105 satisfies UCC: American History.",
+    "Recurring pattern: not connecting lab data back to the underlying mechanism/hypothesis — shows up across both Biology and Chemistry labs.",
+    "examTopicTags: Campus IQ's own topic layer — NOT part of real Canvas data."
+  ],
+  "student": {
+    "id": 605,
+    "name": "Sofia Ramirez",
+    "major": "Biology",
+    "classification": "Sophomore",
+    "institution": "Texas A&M University"
+  },
+  "courses": [
+    { "id": 3019, "name": "Molecular Cell Biology", "course_code": "BIOL 213", "workflow_state": "available" },
+    { "id": 3020, "name": "Organic Chemistry I", "course_code": "CHEM 227", "workflow_state": "available" },
+    { "id": 3021, "name": "College Physics I", "course_code": "PHYS 201", "workflow_state": "available" },
+    { "id": 3022, "name": "History of the United States", "course_code": "HIST 105", "workflow_state": "available" }
+  ],
+  "enrollments": [
+    { "id": 9118, "course_id": 3019, "course_section_id": 1, "user_id": 605, "type": "StudentEnrollment", "role": "StudentEnrollment", "role_id": 3, "enrollment_state": "active", "created_at": "2026-01-12T08:00:00Z", "updated_at": "2026-06-01T08:00:00Z", "grades": { "html_url": "https://canvas.tamu.edu/courses/3019/grades/605", "current_grade": "B", "current_score": 84.5, "final_grade": null, "final_score": null } },
+    { "id": 9119, "course_id": 3020, "course_section_id": 1, "user_id": 605, "type": "StudentEnrollment", "role": "StudentEnrollment", "role_id": 3, "enrollment_state": "active", "created_at": "2026-01-12T08:00:00Z", "updated_at": "2026-06-01T08:00:00Z", "grades": { "html_url": "https://canvas.tamu.edu/courses/3020/grades/605", "current_grade": "C+", "current_score": 79.0, "final_grade": null, "final_score": null } },
+    { "id": 9120, "course_id": 3021, "course_section_id": 1, "user_id": 605, "type": "StudentEnrollment", "role": "StudentEnrollment", "role_id": 3, "enrollment_state": "active", "created_at": "2026-01-12T08:00:00Z", "updated_at": "2026-06-01T08:00:00Z", "grades": { "html_url": "https://canvas.tamu.edu/courses/3021/grades/605", "current_grade": "B-", "current_score": 81.5, "final_grade": null, "final_score": null } },
+    { "id": 9121, "course_id": 3022, "course_section_id": 1, "user_id": 605, "type": "StudentEnrollment", "role": "StudentEnrollment", "role_id": 3, "enrollment_state": "active", "created_at": "2026-01-12T08:00:00Z", "updated_at": "2026-06-01T08:00:00Z", "grades": { "html_url": "https://canvas.tamu.edu/courses/3022/grades/605", "current_grade": "B+", "current_score": 88.0, "final_grade": null, "final_score": null } }
+  ],
+  "assignments": [
+    { "id": 5031, "name": "Cell Signaling Pathway Diagram", "course_id": 3019, "due_at": "2026-02-11T23:59:00Z", "points_possible": 50, "submission_types": ["online_upload"], "grading_type": "points", "published": true, "workflow_state": "published" },
+    { "id": 5032, "name": "Exam 1: Molecular Mechanisms", "course_id": 3019, "due_at": "2026-03-09T23:59:00Z", "points_possible": 100, "submission_types": ["online_quiz"], "grading_type": "points", "published": true, "workflow_state": "published" },
+    { "id": 5033, "name": "Reaction Mechanisms Problem Set", "course_id": 3020, "due_at": "2026-02-17T23:59:00Z", "points_possible": 50, "submission_types": ["online_upload"], "grading_type": "points", "published": true, "workflow_state": "published" },
+    { "id": 5034, "name": "Synthesis Lab Report", "course_id": 3020, "due_at": "2026-04-01T23:59:00Z", "points_possible": 60, "submission_types": ["online_upload"], "grading_type": "points", "published": true, "workflow_state": "published" },
+    { "id": 5035, "name": "Lab: Wave Interference", "course_id": 3021, "due_at": "2026-02-28T23:59:00Z", "points_possible": 50, "submission_types": ["online_upload"], "grading_type": "points", "published": true, "workflow_state": "published" },
+    { "id": 5036, "name": "Primary Source Analysis", "course_id": 3022, "due_at": "2026-03-04T23:59:00Z", "points_possible": 50, "submission_types": ["online_text_entry"], "grading_type": "points", "published": true, "workflow_state": "published" }
+  ],
+  "submissions": [
+    {
+      "assignment_id": 5031, "user_id": 605, "score": 39, "grade": "B-",
+      "grade_matches_current_submission": true,
+      "submitted_at": "2026-02-10T20:14:00Z", "graded_at": "2026-02-13T10:00:00Z",
+      "grader_id": 1, "workflow_state": "graded", "late": false, "missing": false,
+      "submission_type": "online_text_entry",
+      "submission_comments": [
+        { "id": 57310, "author_id": 1, "author_name": "Dr. Jensen", "comment": "Diagram is accurate, but explain WHY this pathway matters for the cell's response.", "created_at": "2026-02-13T10:00:00Z" }
+      ]
+    },
+    {
+      "assignment_id": 5032, "user_id": 605, "score": 81, "grade": "B-",
+      "grade_matches_current_submission": true,
+      "submitted_at": "2026-02-10T20:14:00Z", "graded_at": "2026-02-13T10:00:00Z",
+      "grader_id": 1, "workflow_state": "graded", "late": false, "missing": false,
+      "submission_type": "online_text_entry",
+      "submission_comments": []
+    },
+    {
+      "assignment_id": 5033, "user_id": 605, "score": 41, "grade": "B",
+      "grade_matches_current_submission": true,
+      "submitted_at": "2026-02-10T20:14:00Z", "graded_at": "2026-02-13T10:00:00Z",
+      "grader_id": 1, "workflow_state": "graded", "late": false, "missing": false,
+      "submission_type": "online_text_entry",
+      "submission_comments": [
+        { "id": 57330, "author_id": 1, "author_name": "Dr. Okwuosa", "comment": "Mechanism arrows correct; missing the curved-arrow electron flow on two steps.", "created_at": "2026-02-13T10:00:00Z" }
+      ]
+    },
+    {
+      "assignment_id": 5034, "user_id": 605, "score": 47, "grade": "B-",
+      "grade_matches_current_submission": true,
+      "submitted_at": "2026-02-10T20:14:00Z", "graded_at": "2026-02-13T10:00:00Z",
+      "grader_id": 1, "workflow_state": "graded", "late": false, "missing": false,
+      "submission_type": "online_text_entry",
+      "submission_comments": [
+        { "id": 57340, "author_id": 1, "author_name": "Dr. Okwuosa", "comment": "Good yield, but your discussion doesn't tie the result back to the proposed mechanism.", "created_at": "2026-02-13T10:00:00Z" }
+      ]
+    },
+    {
+      "assignment_id": 5035, "user_id": 605, "score": 38, "grade": "B-",
+      "grade_matches_current_submission": true,
+      "submitted_at": "2026-02-10T20:14:00Z", "graded_at": "2026-02-13T10:00:00Z",
+      "grader_id": 1, "workflow_state": "graded", "late": false, "missing": false,
+      "submission_type": "online_text_entry",
+      "submission_comments": [
+        { "id": 57350, "author_id": 1, "author_name": "Dr. Singh", "comment": "Solid data collection — same gap as your Bio lab: connect results back to the hypothesis.", "created_at": "2026-02-13T10:00:00Z" }
+      ]
+    },
+    {
+      "assignment_id": 5036, "user_id": 605, "score": 44, "grade": "B+",
+      "grade_matches_current_submission": true,
+      "submitted_at": "2026-02-10T20:14:00Z", "graded_at": "2026-02-13T10:00:00Z",
+      "grader_id": 1, "workflow_state": "graded", "late": false, "missing": false,
+      "submission_type": "online_text_entry",
+      "submission_comments": []
+    }
+  ],
+  "examTopicTags": {
+    "5032": [
+      { "question_id": "q1", "topic": "Membrane Transport" },
+      { "question_id": "q2", "topic": "Cell Signaling" },
+      { "question_id": "q3", "topic": "Gene Expression Regulation" },
+      { "question_id": "q4", "topic": "Cell Division" }
+    ]
+  }
+}
