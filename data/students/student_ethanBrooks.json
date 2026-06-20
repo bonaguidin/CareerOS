@@ -2,7 +2,10 @@
   "_notes": [
     "Mock Canvas LMS data — Ethan Brooks. Freshman, intends Computer Engineering. Texas A&M University.",
     "As a freshman, Ethan hasn't declared yet. TAMU engineering students share a common first-year curriculum (general engineering: ENGR/MATH/CHEM) and apply to a specific discipline like Computer Engineering after completing 'Entry to a Major' (ETAM) requirements, typically after year one. So his current courses are General Engineering, not ECEN-prefixed.",
-    "courses[4]: KINE 198 is a required Kinesiology component for all engineering freshmen.",
+    "courses[4]: KINE 199 (Health and Physical Fitness) is a required Kinesiology component for all engineering freshmen. Code verified against TAMU catalog.",
+    "ENGR 111 removed — not part of the Computer Engineering degree plan. CpE freshmen take ENGR 102 in fall; ENGR 216/PHYS 216 follows in spring of freshman year.",
+    "CHEM 107 + CHEM 117 are the correct chemistry sequence for Computer Engineering freshmen. CHEM 119 is for chemical/biomedical/materials engineering only. Verified against TAMU catalog.",
+    "ENGL 104 (Composition and Rhetoric) added — required freshman fall course for all engineering students. Verified against TAMU catalog.",
     "Recurring pattern: skipping intermediate steps / under-documenting process — shows up in both his math and engineering-design feedback.",
     "examTopicTags: Campus IQ's own topic layer — NOT part of real Canvas data."
   ],
@@ -11,116 +14,883 @@
     "name": "Ethan Brooks",
     "major": "General Engineering (intends Computer Engineering)",
     "classification": "Freshman",
-    "institution": "Texas A&M University"
+    "institution": "Texas A&M University",
+    "gpa_current": 2.57
   },
   "courses": [
-    { "id": 3010, "name": "Engineering Lab I: Computation", "course_code": "ENGR 102", "workflow_state": "available" },
-    { "id": 3011, "name": "Foundations of Engineering I", "course_code": "ENGR 111", "workflow_state": "available" },
-    { "id": 3012, "name": "Engineering Mathematics I", "course_code": "MATH 151", "workflow_state": "available" },
-    { "id": 3013, "name": "General Chemistry for Engineers", "course_code": "CHEM 119", "workflow_state": "available" },
-    { "id": 3014, "name": "Health and Fitness", "course_code": "KINE 198", "workflow_state": "available" }
+    {
+      "id": 3010,
+      "name": "Engineering Lab I: Computation",
+      "course_code": "ENGR 102",
+      "workflow_state": "available"
+    },
+    {
+      "id": 3012,
+      "name": "Engineering Mathematics I",
+      "course_code": "MATH 151",
+      "workflow_state": "available"
+    },
+    {
+      "id": 3014,
+      "name": "Health and Fitness",
+      "course_code": "KINE 199",
+      "workflow_state": "available"
+    },
+    {
+      "id": 3023,
+      "name": "General Chemistry for Engineering Students",
+      "course_code": "CHEM 107",
+      "workflow_state": "available"
+    },
+    {
+      "id": 3024,
+      "name": "General Chemistry for Engineering Students Laboratory",
+      "course_code": "CHEM 117",
+      "workflow_state": "available"
+    },
+    {
+      "id": 3025,
+      "name": "Composition and Rhetoric",
+      "course_code": "ENGL 104",
+      "workflow_state": "available"
+    }
   ],
   "enrollments": [
-    { "id": 9109, "course_id": 3010, "course_section_id": 1, "user_id": 603, "type": "StudentEnrollment", "role": "StudentEnrollment", "role_id": 3, "enrollment_state": "active", "created_at": "2026-01-12T08:00:00Z", "updated_at": "2026-06-01T08:00:00Z", "grades": { "html_url": "https://canvas.tamu.edu/courses/3010/grades/603", "current_grade": "B+", "current_score": 88.0, "final_grade": null, "final_score": null } },
-    { "id": 9110, "course_id": 3011, "course_section_id": 1, "user_id": 603, "type": "StudentEnrollment", "role": "StudentEnrollment", "role_id": 3, "enrollment_state": "active", "created_at": "2026-01-12T08:00:00Z", "updated_at": "2026-06-01T08:00:00Z", "grades": { "html_url": "https://canvas.tamu.edu/courses/3011/grades/603", "current_grade": "B", "current_score": 84.0, "final_grade": null, "final_score": null } },
-    { "id": 9111, "course_id": 3012, "course_section_id": 1, "user_id": 603, "type": "StudentEnrollment", "role": "StudentEnrollment", "role_id": 3, "enrollment_state": "active", "created_at": "2026-01-12T08:00:00Z", "updated_at": "2026-06-01T08:00:00Z", "grades": { "html_url": "https://canvas.tamu.edu/courses/3012/grades/603", "current_grade": "C+", "current_score": 76.0, "final_grade": null, "final_score": null } },
-    { "id": 9112, "course_id": 3013, "course_section_id": 1, "user_id": 603, "type": "StudentEnrollment", "role": "StudentEnrollment", "role_id": 3, "enrollment_state": "active", "created_at": "2026-01-12T08:00:00Z", "updated_at": "2026-06-01T08:00:00Z", "grades": { "html_url": "https://canvas.tamu.edu/courses/3013/grades/603", "current_grade": "B-", "current_score": 81.0, "final_grade": null, "final_score": null } },
-    { "id": 9113, "course_id": 3014, "course_section_id": 1, "user_id": 603, "type": "StudentEnrollment", "role": "StudentEnrollment", "role_id": 3, "enrollment_state": "active", "created_at": "2026-01-12T08:00:00Z", "updated_at": "2026-06-01T08:00:00Z", "grades": { "html_url": "https://canvas.tamu.edu/courses/3014/grades/603", "current_grade": "A", "current_score": 96.0, "final_grade": null, "final_score": null } }
+    {
+      "id": 9109,
+      "course_id": 3010,
+      "course_section_id": 1,
+      "user_id": 603,
+      "type": "StudentEnrollment",
+      "role": "StudentEnrollment",
+      "role_id": 3,
+      "enrollment_state": "active",
+      "created_at": "2026-01-12T08:00:00Z",
+      "updated_at": "2026-06-01T08:00:00Z",
+      "grades": {
+        "html_url": "https://canvas.tamu.edu/courses/3010/grades/603",
+        "current_grade": "B+",
+        "current_score": 88.0,
+        "final_grade": null,
+        "final_score": null
+      }
+    },
+    {
+      "id": 9111,
+      "course_id": 3012,
+      "course_section_id": 1,
+      "user_id": 603,
+      "type": "StudentEnrollment",
+      "role": "StudentEnrollment",
+      "role_id": 3,
+      "enrollment_state": "active",
+      "created_at": "2026-01-12T08:00:00Z",
+      "updated_at": "2026-06-01T08:00:00Z",
+      "grades": {
+        "html_url": "https://canvas.tamu.edu/courses/3012/grades/603",
+        "current_grade": "C+",
+        "current_score": 76.0,
+        "final_grade": null,
+        "final_score": null
+      }
+    },
+    {
+      "id": 9113,
+      "course_id": 3014,
+      "course_section_id": 1,
+      "user_id": 603,
+      "type": "StudentEnrollment",
+      "role": "StudentEnrollment",
+      "role_id": 3,
+      "enrollment_state": "active",
+      "created_at": "2026-01-12T08:00:00Z",
+      "updated_at": "2026-06-01T08:00:00Z",
+      "grades": {
+        "html_url": "https://canvas.tamu.edu/courses/3014/grades/603",
+        "current_grade": "A",
+        "current_score": 96.0,
+        "final_grade": null,
+        "final_score": null
+      }
+    },
+    {
+      "id": 9122,
+      "course_id": 3023,
+      "course_section_id": 1,
+      "user_id": 603,
+      "type": "StudentEnrollment",
+      "role": "StudentEnrollment",
+      "role_id": 3,
+      "enrollment_state": "active",
+      "created_at": "2026-01-12T08:00:00Z",
+      "updated_at": "2026-06-01T08:00:00Z",
+      "grades": {
+        "html_url": "https://canvas.tamu.edu/courses/3023/grades/603",
+        "current_grade": "C+",
+        "current_score": 78.0,
+        "final_grade": null,
+        "final_score": null
+      }
+    },
+    {
+      "id": 9123,
+      "course_id": 3024,
+      "course_section_id": 1,
+      "user_id": 603,
+      "type": "StudentEnrollment",
+      "role": "StudentEnrollment",
+      "role_id": 3,
+      "enrollment_state": "active",
+      "created_at": "2026-01-12T08:00:00Z",
+      "updated_at": "2026-06-01T08:00:00Z",
+      "grades": {
+        "html_url": "https://canvas.tamu.edu/courses/3024/grades/603",
+        "current_grade": "B-",
+        "current_score": 80.5,
+        "final_grade": null,
+        "final_score": null
+      }
+    },
+    {
+      "id": 9124,
+      "course_id": 3025,
+      "course_section_id": 1,
+      "user_id": 603,
+      "type": "StudentEnrollment",
+      "role": "StudentEnrollment",
+      "role_id": 3,
+      "enrollment_state": "active",
+      "created_at": "2026-01-12T08:00:00Z",
+      "updated_at": "2026-06-01T08:00:00Z",
+      "grades": {
+        "html_url": "https://canvas.tamu.edu/courses/3025/grades/603",
+        "current_grade": "B",
+        "current_score": 85.0,
+        "final_grade": null,
+        "final_score": null
+      }
+    }
   ],
   "assignments": [
-    { "id": 5016, "name": "Python Programming Lab", "course_id": 3010, "due_at": "2026-02-09T23:59:00Z", "points_possible": 50, "submission_types": ["online_upload"], "grading_type": "points", "published": true, "workflow_state": "published" },
-    { "id": 5017, "name": "Final Computational Project", "course_id": 3010, "due_at": "2026-04-22T23:59:00Z", "points_possible": 100, "submission_types": ["online_upload"], "grading_type": "points", "published": true, "workflow_state": "published" },
-    { "id": 5018, "name": "Engineering Design Notebook", "course_id": 3011, "due_at": "2026-02-16T23:59:00Z", "points_possible": 60, "submission_types": ["online_upload"], "grading_type": "points", "published": true, "workflow_state": "published" },
-    { "id": 5019, "name": "Exam 1: Design Process", "course_id": 3011, "due_at": "2026-03-09T23:59:00Z", "points_possible": 100, "submission_types": ["online_quiz"], "grading_type": "points", "published": true, "workflow_state": "published" },
-    { "id": 5020, "name": "Limits & Derivatives Problem Set", "course_id": 3012, "due_at": "2026-02-13T23:59:00Z", "points_possible": 50, "submission_types": ["online_upload"], "grading_type": "points", "published": true, "workflow_state": "published" },
-    { "id": 5021, "name": "Midterm Exam", "course_id": 3012, "due_at": "2026-03-13T23:59:00Z", "points_possible": 100, "submission_types": ["online_quiz"], "grading_type": "points", "published": true, "workflow_state": "published" },
-    { "id": 5022, "name": "Stoichiometry Lab Report", "course_id": 3013, "due_at": "2026-02-23T23:59:00Z", "points_possible": 60, "submission_types": ["online_upload"], "grading_type": "points", "published": true, "workflow_state": "published" },
-    { "id": 5023, "name": "Fitness Assessment Reflection", "course_id": 3014, "due_at": "2026-02-06T23:59:00Z", "points_possible": 20, "submission_types": ["online_text_entry"], "grading_type": "points", "published": true, "workflow_state": "published" }
+    {
+      "id": 5016,
+      "name": "Python Programming Lab",
+      "course_id": 3010,
+      "due_at": "2026-02-09T23:59:00Z",
+      "points_possible": 50,
+      "submission_types": [
+        "online_upload"
+      ],
+      "grading_type": "points",
+      "published": true,
+      "workflow_state": "published"
+    },
+    {
+      "id": 5017,
+      "name": "Final Computational Project",
+      "course_id": 3010,
+      "due_at": "2026-04-22T23:59:00Z",
+      "points_possible": 100,
+      "submission_types": [
+        "online_upload"
+      ],
+      "grading_type": "points",
+      "published": true,
+      "workflow_state": "published"
+    },
+    {
+      "id": 5020,
+      "name": "Limits & Derivatives Problem Set",
+      "course_id": 3012,
+      "due_at": "2026-02-13T23:59:00Z",
+      "points_possible": 50,
+      "submission_types": [
+        "online_upload"
+      ],
+      "grading_type": "points",
+      "published": true,
+      "workflow_state": "published"
+    },
+    {
+      "id": 5021,
+      "name": "Midterm Exam",
+      "course_id": 3012,
+      "due_at": "2026-03-13T23:59:00Z",
+      "points_possible": 100,
+      "submission_types": [
+        "online_quiz"
+      ],
+      "grading_type": "points",
+      "published": true,
+      "workflow_state": "published"
+    },
+    {
+      "id": 5023,
+      "name": "Fitness Assessment Reflection",
+      "course_id": 3014,
+      "due_at": "2026-02-06T23:59:00Z",
+      "points_possible": 20,
+      "submission_types": [
+        "online_text_entry"
+      ],
+      "grading_type": "points",
+      "published": true,
+      "workflow_state": "published"
+    },
+    {
+      "id": 5037,
+      "name": "Homework Set 1",
+      "course_id": 3023,
+      "due_at": "2026-01-23T23:59:00Z",
+      "points_possible": 20,
+      "submission_types": [
+        "online_upload"
+      ],
+      "grading_type": "points",
+      "published": true,
+      "workflow_state": "published"
+    },
+    {
+      "id": 5038,
+      "name": "Homework Set 2",
+      "course_id": 3023,
+      "due_at": "2026-02-06T23:59:00Z",
+      "points_possible": 20,
+      "submission_types": [
+        "online_upload"
+      ],
+      "grading_type": "points",
+      "published": true,
+      "workflow_state": "published"
+    },
+    {
+      "id": 5039,
+      "name": "Weekly Quiz 1",
+      "course_id": 3023,
+      "due_at": "2026-01-30T23:59:00Z",
+      "points_possible": 10,
+      "submission_types": [
+        "online_quiz"
+      ],
+      "grading_type": "points",
+      "published": true,
+      "workflow_state": "published"
+    },
+    {
+      "id": 5040,
+      "name": "Weekly Quiz 2",
+      "course_id": 3023,
+      "due_at": "2026-02-13T23:59:00Z",
+      "points_possible": 10,
+      "submission_types": [
+        "online_quiz"
+      ],
+      "grading_type": "points",
+      "published": true,
+      "workflow_state": "published"
+    },
+    {
+      "id": 5041,
+      "name": "Weekly Quiz 3",
+      "course_id": 3023,
+      "due_at": "2026-02-27T23:59:00Z",
+      "points_possible": 10,
+      "submission_types": [
+        "online_quiz"
+      ],
+      "grading_type": "points",
+      "published": true,
+      "workflow_state": "published"
+    },
+    {
+      "id": 5042,
+      "name": "Midterm Exam 1",
+      "course_id": 3023,
+      "due_at": "2026-03-06T23:59:00Z",
+      "points_possible": 100,
+      "submission_types": [
+        "online_quiz"
+      ],
+      "grading_type": "points",
+      "published": true,
+      "workflow_state": "published"
+    },
+    {
+      "id": 5043,
+      "name": "Homework Set 3",
+      "course_id": 3023,
+      "due_at": "2026-03-20T23:59:00Z",
+      "points_possible": 20,
+      "submission_types": [
+        "online_upload"
+      ],
+      "grading_type": "points",
+      "published": true,
+      "workflow_state": "published"
+    },
+    {
+      "id": 5044,
+      "name": "Weekly Quiz 4",
+      "course_id": 3023,
+      "due_at": "2026-03-27T23:59:00Z",
+      "points_possible": 10,
+      "submission_types": [
+        "online_quiz"
+      ],
+      "grading_type": "points",
+      "published": true,
+      "workflow_state": "published"
+    },
+    {
+      "id": 5045,
+      "name": "Scientific Measurements Post-Lab Assignment",
+      "course_id": 3024,
+      "due_at": "2026-01-26T23:59:00Z",
+      "points_possible": 50,
+      "submission_types": [
+        "online_upload"
+      ],
+      "grading_type": "points",
+      "published": true,
+      "workflow_state": "published"
+    },
+    {
+      "id": 5046,
+      "name": "Data and Graphics Assignment",
+      "course_id": 3024,
+      "due_at": "2026-02-09T23:59:00Z",
+      "points_possible": 50,
+      "submission_types": [
+        "online_upload"
+      ],
+      "grading_type": "points",
+      "published": true,
+      "workflow_state": "published"
+    },
+    {
+      "id": 5047,
+      "name": "Post-Lab Assignment: Quantitative Reactions & Analysis",
+      "course_id": 3024,
+      "due_at": "2026-02-23T23:59:00Z",
+      "points_possible": 50,
+      "submission_types": [
+        "online_upload"
+      ],
+      "grading_type": "points",
+      "published": true,
+      "workflow_state": "published"
+    },
+    {
+      "id": 5048,
+      "name": "Post-Lab Assignment: Calorimetry",
+      "course_id": 3024,
+      "due_at": "2026-03-09T23:59:00Z",
+      "points_possible": 50,
+      "submission_types": [
+        "online_upload"
+      ],
+      "grading_type": "points",
+      "published": true,
+      "workflow_state": "published"
+    },
+    {
+      "id": 5049,
+      "name": "Post-Lab Assignment: Gas Laws",
+      "course_id": 3024,
+      "due_at": "2026-03-23T23:59:00Z",
+      "points_possible": 50,
+      "submission_types": [
+        "online_upload"
+      ],
+      "grading_type": "points",
+      "published": true,
+      "workflow_state": "published"
+    },
+    {
+      "id": 5050,
+      "name": "Post-Lab Assignment: Nanoparticles",
+      "course_id": 3024,
+      "due_at": "2026-04-06T23:59:00Z",
+      "points_possible": 50,
+      "submission_types": [
+        "online_upload"
+      ],
+      "grading_type": "points",
+      "published": true,
+      "workflow_state": "published"
+    },
+    {
+      "id": 5051,
+      "name": "Nanoparticles Literature Project (Slides)",
+      "course_id": 3024,
+      "due_at": "2026-04-13T23:59:00Z",
+      "points_possible": 100,
+      "submission_types": [
+        "online_upload"
+      ],
+      "grading_type": "points",
+      "published": true,
+      "workflow_state": "published"
+    },
+    {
+      "id": 5052,
+      "name": "Group Worksheet",
+      "course_id": 3024,
+      "due_at": "2026-04-20T23:59:00Z",
+      "points_possible": 30,
+      "submission_types": [
+        "online_upload"
+      ],
+      "grading_type": "points",
+      "published": true,
+      "workflow_state": "published"
+    },
+    {
+      "id": 5053,
+      "name": "Rhetorical Analysis Essay",
+      "course_id": 3025,
+      "due_at": "2026-02-16T23:59:00Z",
+      "points_possible": 60,
+      "submission_types": [
+        "online_upload"
+      ],
+      "grading_type": "points",
+      "published": true,
+      "workflow_state": "published"
+    },
+    {
+      "id": 5054,
+      "name": "Annotated Bibliography",
+      "course_id": 3025,
+      "due_at": "2026-03-02T23:59:00Z",
+      "points_possible": 30,
+      "submission_types": [
+        "online_upload"
+      ],
+      "grading_type": "points",
+      "published": true,
+      "workflow_state": "published"
+    },
+    {
+      "id": 5055,
+      "name": "Argumentative Research Essay",
+      "course_id": 3025,
+      "due_at": "2026-04-06T23:59:00Z",
+      "points_possible": 100,
+      "submission_types": [
+        "online_upload"
+      ],
+      "grading_type": "points",
+      "published": true,
+      "workflow_state": "published"
+    }
   ],
   "submissions": [
     {
-      "assignment_id": 5016, "user_id": 603, "score": 44, "grade": "B+",
+      "assignment_id": 5016,
+      "user_id": 603,
+      "score": 44,
+      "grade": "B+",
       "grade_matches_current_submission": true,
-      "submitted_at": "2026-02-10T20:14:00Z", "graded_at": "2026-02-13T10:00:00Z",
-      "grader_id": 1, "workflow_state": "graded", "late": false, "missing": false,
+      "submitted_at": "2026-02-08T20:14:00Z",
+      "graded_at": "2026-02-12T10:00:00Z",
+      "grader_id": 1,
+      "workflow_state": "graded",
+      "late": false,
+      "missing": false,
       "submission_type": "online_text_entry",
       "submission_comments": [
-        { "id": 57160, "author_id": 1, "author_name": "Dr. Patel", "comment": "Code works — add comments explaining your logic.", "created_at": "2026-02-13T10:00:00Z" }
+        {
+          "id": 57160,
+          "author_id": 1,
+          "author_name": "Dr. Patel",
+          "comment": "Code works — add comments explaining your logic.",
+          "created_at": "2026-02-13T10:00:00Z"
+        }
       ]
     },
     {
-      "assignment_id": 5017, "user_id": 603, "score": 86, "grade": "B+",
+      "assignment_id": 5017,
+      "user_id": 603,
+      "score": 86,
+      "grade": "B+",
       "grade_matches_current_submission": true,
-      "submitted_at": "2026-02-10T20:14:00Z", "graded_at": "2026-02-13T10:00:00Z",
-      "grader_id": 1, "workflow_state": "graded", "late": false, "missing": false,
+      "submitted_at": "2026-04-21T20:14:00Z",
+      "graded_at": "2026-04-25T10:00:00Z",
+      "grader_id": 1,
+      "workflow_state": "graded",
+      "late": false,
+      "missing": false,
       "submission_type": "online_text_entry",
       "submission_comments": [
-        { "id": 57170, "author_id": 1, "author_name": "Dr. Patel", "comment": "Solid project; document your testing process next time.", "created_at": "2026-02-13T10:00:00Z" }
+        {
+          "id": 57170,
+          "author_id": 1,
+          "author_name": "Dr. Patel",
+          "comment": "Solid project; document your testing process next time.",
+          "created_at": "2026-02-13T10:00:00Z"
+        }
       ]
     },
     {
-      "assignment_id": 5018, "user_id": 603, "score": 47, "grade": "B",
+      "assignment_id": 5020,
+      "user_id": 603,
+      "score": 38,
+      "grade": "C+",
       "grade_matches_current_submission": true,
-      "submitted_at": "2026-02-10T20:14:00Z", "graded_at": "2026-02-13T10:00:00Z",
-      "grader_id": 1, "workflow_state": "graded", "late": false, "missing": false,
+      "submitted_at": "2026-02-10T20:14:00Z",
+      "graded_at": "2026-02-13T10:00:00Z",
+      "grader_id": 1,
+      "workflow_state": "graded",
+      "late": false,
+      "missing": false,
       "submission_type": "online_text_entry",
       "submission_comments": [
-        { "id": 57180, "author_id": 1, "author_name": "Dr. Lindgren", "comment": "Notebook is light on the iteration/redesign step — show what you changed and why.", "created_at": "2026-02-13T10:00:00Z" }
+        {
+          "id": 57200,
+          "author_id": 1,
+          "author_name": "Dr. Castillo",
+          "comment": "Several derivative rules applied correctly but final simplification steps skipped — show your work.",
+          "created_at": "2026-02-13T10:00:00Z"
+        }
       ]
     },
     {
-      "assignment_id": 5019, "user_id": 603, "score": 78, "grade": "C+",
+      "assignment_id": 5021,
+      "user_id": 603,
+      "score": 74,
+      "grade": "C+",
       "grade_matches_current_submission": true,
-      "submitted_at": "2026-02-10T20:14:00Z", "graded_at": "2026-02-13T10:00:00Z",
-      "grader_id": 1, "workflow_state": "graded", "late": false, "missing": false,
+      "submitted_at": "2026-03-12T20:14:00Z",
+      "graded_at": "2026-03-16T10:00:00Z",
+      "grader_id": 1,
+      "workflow_state": "graded",
+      "late": false,
+      "missing": false,
+      "submission_type": "online_text_entry",
+      "submission_comments": [
+        {
+          "id": 57210,
+          "author_id": 1,
+          "author_name": "Dr. Castillo",
+          "comment": "Same pattern as the problem set — you're losing partial credit by skipping steps.",
+          "created_at": "2026-02-13T10:00:00Z"
+        }
+      ]
+    },
+    {
+      "assignment_id": 5023,
+      "user_id": 603,
+      "score": 19,
+      "grade": "A",
+      "grade_matches_current_submission": true,
+      "submitted_at": "2026-02-05T20:14:00Z",
+      "graded_at": "2026-02-09T10:00:00Z",
+      "grader_id": 1,
+      "workflow_state": "graded",
+      "late": false,
+      "missing": false,
       "submission_type": "online_text_entry",
       "submission_comments": []
     },
     {
-      "assignment_id": 5020, "user_id": 603, "score": 38, "grade": "C+",
+      "assignment_id": 5037,
+      "user_id": 603,
+      "score": 19,
+      "grade": "A",
       "grade_matches_current_submission": true,
-      "submitted_at": "2026-02-10T20:14:00Z", "graded_at": "2026-02-13T10:00:00Z",
-      "grader_id": 1, "workflow_state": "graded", "late": false, "missing": false,
+      "submitted_at": "2026-01-23T23:59:00Z",
+      "graded_at": "2026-01-27T10:00:00Z",
+      "grader_id": 1,
+      "workflow_state": "graded",
+      "late": false,
+      "missing": false,
+      "submission_type": "online_text_entry",
+      "submission_comments": []
+    },
+    {
+      "assignment_id": 5038,
+      "user_id": 603,
+      "score": 20,
+      "grade": "A",
+      "grade_matches_current_submission": true,
+      "submitted_at": "2026-02-06T23:59:00Z",
+      "graded_at": "2026-02-10T10:00:00Z",
+      "grader_id": 1,
+      "workflow_state": "graded",
+      "late": false,
+      "missing": false,
+      "submission_type": "online_text_entry",
+      "submission_comments": []
+    },
+    {
+      "assignment_id": 5039,
+      "user_id": 603,
+      "score": 8,
+      "grade": "B-",
+      "grade_matches_current_submission": true,
+      "submitted_at": "2026-01-30T23:59:00Z",
+      "graded_at": "2026-02-03T10:00:00Z",
+      "grader_id": 1,
+      "workflow_state": "graded",
+      "late": false,
+      "missing": false,
+      "submission_type": "online_text_entry",
+      "submission_comments": []
+    },
+    {
+      "assignment_id": 5040,
+      "user_id": 603,
+      "score": 7,
+      "grade": "C",
+      "grade_matches_current_submission": true,
+      "submitted_at": "2026-02-13T23:59:00Z",
+      "graded_at": "2026-02-17T10:00:00Z",
+      "grader_id": 1,
+      "workflow_state": "graded",
+      "late": false,
+      "missing": false,
+      "submission_type": "online_text_entry",
+      "submission_comments": []
+    },
+    {
+      "assignment_id": 5041,
+      "user_id": 603,
+      "score": 8,
+      "grade": "B-",
+      "grade_matches_current_submission": true,
+      "submitted_at": "2026-02-27T23:59:00Z",
+      "graded_at": "2026-03-03T10:00:00Z",
+      "grader_id": 1,
+      "workflow_state": "graded",
+      "late": false,
+      "missing": false,
+      "submission_type": "online_text_entry",
+      "submission_comments": []
+    },
+    {
+      "assignment_id": 5042,
+      "user_id": 603,
+      "score": 74,
+      "grade": "C",
+      "grade_matches_current_submission": true,
+      "submitted_at": "2026-03-06T23:59:00Z",
+      "graded_at": "2026-03-10T10:00:00Z",
+      "grader_id": 1,
+      "workflow_state": "graded",
+      "late": false,
+      "missing": false,
       "submission_type": "online_text_entry",
       "submission_comments": [
-        { "id": 57200, "author_id": 1, "author_name": "Dr. Castillo", "comment": "Several derivative rules applied correctly but final simplification steps skipped — show your work.", "created_at": "2026-02-13T10:00:00Z" }
+        {
+          "id": 57370,
+          "author_id": 1,
+          "author_name": "Dr. Williams",
+          "comment": "Strong on stoichiometry — review thermodynamic calculations before the next unit.",
+          "created_at": "2026-03-10T10:00:00Z"
+        }
       ]
     },
     {
-      "assignment_id": 5021, "user_id": 603, "score": 74, "grade": "C+",
+      "assignment_id": 5045,
+      "user_id": 603,
+      "score": 42,
+      "grade": "B",
       "grade_matches_current_submission": true,
-      "submitted_at": "2026-02-10T20:14:00Z", "graded_at": "2026-02-13T10:00:00Z",
-      "grader_id": 1, "workflow_state": "graded", "late": false, "missing": false,
+      "submitted_at": "2026-01-26T23:59:00Z",
+      "graded_at": "2026-01-30T10:00:00Z",
+      "grader_id": 1,
+      "workflow_state": "graded",
+      "late": false,
+      "missing": false,
+      "submission_type": "online_text_entry",
+      "submission_comments": []
+    },
+    {
+      "assignment_id": 5046,
+      "user_id": 603,
+      "score": 36,
+      "grade": "C+",
+      "grade_matches_current_submission": true,
+      "submitted_at": "2026-02-09T23:59:00Z",
+      "graded_at": "2026-02-13T10:00:00Z",
+      "grader_id": 1,
+      "workflow_state": "graded",
+      "late": false,
+      "missing": false,
       "submission_type": "online_text_entry",
       "submission_comments": [
-        { "id": 57210, "author_id": 1, "author_name": "Dr. Castillo", "comment": "Same pattern as the problem set — you're losing partial credit by skipping steps.", "created_at": "2026-02-13T10:00:00Z" }
+        {
+          "id": 57380,
+          "author_id": 1,
+          "author_name": "Dr. Lee",
+          "comment": "Data organized well — two graphs are missing axis labels.",
+          "created_at": "2026-02-13T10:00:00Z"
+        }
       ]
     },
     {
-      "assignment_id": 5022, "user_id": 603, "score": 49, "grade": "B-",
+      "assignment_id": 5047,
+      "user_id": 603,
+      "score": 43,
+      "grade": "B+",
       "grade_matches_current_submission": true,
-      "submitted_at": "2026-02-10T20:14:00Z", "graded_at": "2026-02-13T10:00:00Z",
-      "grader_id": 1, "workflow_state": "graded", "late": false, "missing": false,
+      "submitted_at": "2026-02-23T23:59:00Z",
+      "graded_at": "2026-02-27T10:00:00Z",
+      "grader_id": 1,
+      "workflow_state": "graded",
+      "late": false,
+      "missing": false,
+      "submission_type": "online_text_entry",
+      "submission_comments": []
+    },
+    {
+      "assignment_id": 5048,
+      "user_id": 603,
+      "score": 40,
+      "grade": "B",
+      "grade_matches_current_submission": true,
+      "submitted_at": "2026-03-09T23:59:00Z",
+      "graded_at": "2026-03-13T10:00:00Z",
+      "grader_id": 1,
+      "workflow_state": "graded",
+      "late": false,
+      "missing": false,
       "submission_type": "online_text_entry",
       "submission_comments": [
-        { "id": 57220, "author_id": 1, "author_name": "Dr. Núñez", "comment": "Stoichiometry setup correct; double-check significant figures in final answers.", "created_at": "2026-02-13T10:00:00Z" }
+        {
+          "id": 57390,
+          "author_id": 1,
+          "author_name": "Dr. Lee",
+          "comment": "Calculations are solid — show more decimal precision in your final heat values.",
+          "created_at": "2026-03-13T10:00:00Z"
+        }
       ]
     },
     {
-      "assignment_id": 5023, "user_id": 603, "score": 19, "grade": "A",
+      "assignment_id": 5053,
+      "user_id": 603,
+      "score": 48,
+      "grade": "B",
       "grade_matches_current_submission": true,
-      "submitted_at": "2026-02-10T20:14:00Z", "graded_at": "2026-02-13T10:00:00Z",
-      "grader_id": 1, "workflow_state": "graded", "late": false, "missing": false,
+      "submitted_at": "2026-02-16T23:59:00Z",
+      "graded_at": "2026-02-20T10:00:00Z",
+      "grader_id": 1,
+      "workflow_state": "graded",
+      "late": false,
+      "missing": false,
+      "submission_type": "online_text_entry",
+      "submission_comments": [
+        {
+          "id": 57400,
+          "author_id": 1,
+          "author_name": "Dr. Martinez",
+          "comment": "Strong rhetorical awareness — sharpen your thesis statement in the opening paragraph.",
+          "created_at": "2026-02-20T10:00:00Z"
+        }
+      ]
+    },
+    {
+      "assignment_id": 5054,
+      "user_id": 603,
+      "score": 27,
+      "grade": "A-",
+      "grade_matches_current_submission": true,
+      "submitted_at": "2026-03-02T23:59:00Z",
+      "graded_at": "2026-03-06T10:00:00Z",
+      "grader_id": 1,
+      "workflow_state": "graded",
+      "late": false,
+      "missing": false,
       "submission_type": "online_text_entry",
       "submission_comments": []
     }
   ],
+  "career": {
+    "target_roles": null,
+    "interests": null,
+    "skills_self_reported": null,
+    "certifications": null,
+    "work_experience": null,
+    "ai_anxiety_level": null,
+    "geographic_preference": null,
+    "career_goals": null
+  },
+  "profile_completeness": {
+    "academic": 1.0,
+    "career": 0.0,
+    "overall": 0.5
+  },
   "examTopicTags": {
     "5021": [
-      { "question_id": "q1", "topic": "Limits" },
-      { "question_id": "q2", "topic": "Derivative Rules" },
-      { "question_id": "q3", "topic": "Chain Rule" },
-      { "question_id": "q4", "topic": "Implicit Differentiation" }
+      {
+        "question_id": "q1",
+        "topic": "Limits",
+        "score": 20,
+        "max_score": 25
+      },
+      {
+        "question_id": "q2",
+        "topic": "Derivative Rules",
+        "score": 19,
+        "max_score": 25
+      },
+      {
+        "question_id": "q3",
+        "topic": "Chain Rule",
+        "score": 18,
+        "max_score": 25
+      },
+      {
+        "question_id": "q4",
+        "topic": "Implicit Differentiation",
+        "score": 17,
+        "max_score": 25
+      }
+    ],
+    "5042": [
+      {
+        "question_id": "q1",
+        "topic": "Atomic Structure & Periodic Trends",
+        "score": 18,
+        "max_score": 25
+      },
+      {
+        "question_id": "q2",
+        "topic": "Stoichiometry & Limiting Reagents",
+        "score": 22,
+        "max_score": 25
+      },
+      {
+        "question_id": "q3",
+        "topic": "Thermochemistry",
+        "score": 16,
+        "max_score": 25
+      },
+      {
+        "question_id": "q4",
+        "topic": "Chemical Bonding",
+        "score": 18,
+        "max_score": 25
+      }
+    ]
+  },
+  "_schema_notes": {
+    "canvas_derived": [
+      "student",
+      "courses",
+      "enrollments",
+      "assignments",
+      "submissions"
+    ],
+    "campus_iq_layer": [
+      "examTopicTags"
+    ],
+    "student_entered": [
+      "career"
+    ],
+    "ai_written": [
+      "profile_completeness"
     ]
   }
 }

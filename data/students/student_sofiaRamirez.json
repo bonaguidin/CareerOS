@@ -5,99 +5,758 @@
     "These are 'Common Body of Knowledge' (CBK) courses Biology majors must finish before their 5th semester.",
     "courses[3]: HIST 105 satisfies UCC: American History.",
     "Recurring pattern: not connecting lab data back to the underlying mechanism/hypothesis — shows up across both Biology and Chemistry labs.",
-    "examTopicTags: Campus IQ's own topic layer — NOT part of real Canvas data."
+    "examTopicTags: Campus IQ's own topic layer — NOT part of real Canvas data.",
+    "CHEM 237 (Organic Chemistry I Laboratory) added — lab component of CHEM 227, taken concurrently per Biology BS recommended degree plan. Assignments to follow."
   ],
   "student": {
     "id": 605,
     "name": "Sofia Ramirez",
     "major": "Biology",
     "classification": "Sophomore",
-    "institution": "Texas A&M University"
+    "institution": "Texas A&M University",
+    "gpa_current": 2.69
   },
   "courses": [
-    { "id": 3019, "name": "Molecular Cell Biology", "course_code": "BIOL 213", "workflow_state": "available" },
-    { "id": 3020, "name": "Organic Chemistry I", "course_code": "CHEM 227", "workflow_state": "available" },
-    { "id": 3021, "name": "College Physics I", "course_code": "PHYS 201", "workflow_state": "available" },
-    { "id": 3022, "name": "History of the United States", "course_code": "HIST 105", "workflow_state": "available" }
+    {
+      "id": 3019,
+      "name": "Molecular Cell Biology",
+      "course_code": "BIOL 213",
+      "workflow_state": "available"
+    },
+    {
+      "id": 3020,
+      "name": "Organic Chemistry I",
+      "course_code": "CHEM 227",
+      "workflow_state": "available"
+    },
+    {
+      "id": 3021,
+      "name": "College Physics I",
+      "course_code": "PHYS 201",
+      "workflow_state": "available"
+    },
+    {
+      "id": 3022,
+      "name": "History of the United States",
+      "course_code": "HIST 105",
+      "workflow_state": "available"
+    },
+    {
+      "id": 3028,
+      "name": "Organic Chemistry I Laboratory",
+      "course_code": "CHEM 237",
+      "workflow_state": "available"
+    }
   ],
   "enrollments": [
-    { "id": 9118, "course_id": 3019, "course_section_id": 1, "user_id": 605, "type": "StudentEnrollment", "role": "StudentEnrollment", "role_id": 3, "enrollment_state": "active", "created_at": "2026-01-12T08:00:00Z", "updated_at": "2026-06-01T08:00:00Z", "grades": { "html_url": "https://canvas.tamu.edu/courses/3019/grades/605", "current_grade": "B", "current_score": 84.5, "final_grade": null, "final_score": null } },
-    { "id": 9119, "course_id": 3020, "course_section_id": 1, "user_id": 605, "type": "StudentEnrollment", "role": "StudentEnrollment", "role_id": 3, "enrollment_state": "active", "created_at": "2026-01-12T08:00:00Z", "updated_at": "2026-06-01T08:00:00Z", "grades": { "html_url": "https://canvas.tamu.edu/courses/3020/grades/605", "current_grade": "C+", "current_score": 79.0, "final_grade": null, "final_score": null } },
-    { "id": 9120, "course_id": 3021, "course_section_id": 1, "user_id": 605, "type": "StudentEnrollment", "role": "StudentEnrollment", "role_id": 3, "enrollment_state": "active", "created_at": "2026-01-12T08:00:00Z", "updated_at": "2026-06-01T08:00:00Z", "grades": { "html_url": "https://canvas.tamu.edu/courses/3021/grades/605", "current_grade": "B-", "current_score": 81.5, "final_grade": null, "final_score": null } },
-    { "id": 9121, "course_id": 3022, "course_section_id": 1, "user_id": 605, "type": "StudentEnrollment", "role": "StudentEnrollment", "role_id": 3, "enrollment_state": "active", "created_at": "2026-01-12T08:00:00Z", "updated_at": "2026-06-01T08:00:00Z", "grades": { "html_url": "https://canvas.tamu.edu/courses/3022/grades/605", "current_grade": "B+", "current_score": 88.0, "final_grade": null, "final_score": null } }
+    {
+      "id": 9118,
+      "course_id": 3019,
+      "course_section_id": 1,
+      "user_id": 605,
+      "type": "StudentEnrollment",
+      "role": "StudentEnrollment",
+      "role_id": 3,
+      "enrollment_state": "active",
+      "created_at": "2026-01-12T08:00:00Z",
+      "updated_at": "2026-06-01T08:00:00Z",
+      "grades": {
+        "html_url": "https://canvas.tamu.edu/courses/3019/grades/605",
+        "current_grade": "B",
+        "current_score": 84.5,
+        "final_grade": null,
+        "final_score": null
+      }
+    },
+    {
+      "id": 9119,
+      "course_id": 3020,
+      "course_section_id": 1,
+      "user_id": 605,
+      "type": "StudentEnrollment",
+      "role": "StudentEnrollment",
+      "role_id": 3,
+      "enrollment_state": "active",
+      "created_at": "2026-01-12T08:00:00Z",
+      "updated_at": "2026-06-01T08:00:00Z",
+      "grades": {
+        "html_url": "https://canvas.tamu.edu/courses/3020/grades/605",
+        "current_grade": "C+",
+        "current_score": 79.0,
+        "final_grade": null,
+        "final_score": null
+      }
+    },
+    {
+      "id": 9120,
+      "course_id": 3021,
+      "course_section_id": 1,
+      "user_id": 605,
+      "type": "StudentEnrollment",
+      "role": "StudentEnrollment",
+      "role_id": 3,
+      "enrollment_state": "active",
+      "created_at": "2026-01-12T08:00:00Z",
+      "updated_at": "2026-06-01T08:00:00Z",
+      "grades": {
+        "html_url": "https://canvas.tamu.edu/courses/3021/grades/605",
+        "current_grade": "B-",
+        "current_score": 81.5,
+        "final_grade": null,
+        "final_score": null
+      }
+    },
+    {
+      "id": 9121,
+      "course_id": 3022,
+      "course_section_id": 1,
+      "user_id": 605,
+      "type": "StudentEnrollment",
+      "role": "StudentEnrollment",
+      "role_id": 3,
+      "enrollment_state": "active",
+      "created_at": "2026-01-12T08:00:00Z",
+      "updated_at": "2026-06-01T08:00:00Z",
+      "grades": {
+        "html_url": "https://canvas.tamu.edu/courses/3022/grades/605",
+        "current_grade": "B+",
+        "current_score": 88.0,
+        "final_grade": null,
+        "final_score": null
+      }
+    },
+    {
+      "id": 9127,
+      "course_id": 3028,
+      "course_section_id": 1,
+      "user_id": 605,
+      "type": "StudentEnrollment",
+      "role": "StudentEnrollment",
+      "role_id": 3,
+      "enrollment_state": "active",
+      "created_at": "2026-01-12T08:00:00Z",
+      "updated_at": "2026-06-01T08:00:00Z",
+      "grades": {
+        "html_url": "https://canvas.tamu.edu/courses/3028/grades/605",
+        "current_grade": "C+",
+        "current_score": 75.7,
+        "final_grade": null,
+        "final_score": null
+      }
+    }
   ],
   "assignments": [
-    { "id": 5031, "name": "Cell Signaling Pathway Diagram", "course_id": 3019, "due_at": "2026-02-11T23:59:00Z", "points_possible": 50, "submission_types": ["online_upload"], "grading_type": "points", "published": true, "workflow_state": "published" },
-    { "id": 5032, "name": "Exam 1: Molecular Mechanisms", "course_id": 3019, "due_at": "2026-03-09T23:59:00Z", "points_possible": 100, "submission_types": ["online_quiz"], "grading_type": "points", "published": true, "workflow_state": "published" },
-    { "id": 5033, "name": "Reaction Mechanisms Problem Set", "course_id": 3020, "due_at": "2026-02-17T23:59:00Z", "points_possible": 50, "submission_types": ["online_upload"], "grading_type": "points", "published": true, "workflow_state": "published" },
-    { "id": 5034, "name": "Synthesis Lab Report", "course_id": 3020, "due_at": "2026-04-01T23:59:00Z", "points_possible": 60, "submission_types": ["online_upload"], "grading_type": "points", "published": true, "workflow_state": "published" },
-    { "id": 5035, "name": "Lab: Wave Interference", "course_id": 3021, "due_at": "2026-02-28T23:59:00Z", "points_possible": 50, "submission_types": ["online_upload"], "grading_type": "points", "published": true, "workflow_state": "published" },
-    { "id": 5036, "name": "Primary Source Analysis", "course_id": 3022, "due_at": "2026-03-04T23:59:00Z", "points_possible": 50, "submission_types": ["online_text_entry"], "grading_type": "points", "published": true, "workflow_state": "published" }
+    {
+      "id": 5031,
+      "name": "Cell Signaling Pathway Diagram",
+      "course_id": 3019,
+      "due_at": "2026-02-11T23:59:00Z",
+      "points_possible": 50,
+      "submission_types": [
+        "online_upload"
+      ],
+      "grading_type": "points",
+      "published": true,
+      "workflow_state": "published"
+    },
+    {
+      "id": 5032,
+      "name": "Exam 1: Molecular Mechanisms",
+      "course_id": 3019,
+      "due_at": "2026-03-09T23:59:00Z",
+      "points_possible": 100,
+      "submission_types": [
+        "online_quiz"
+      ],
+      "grading_type": "points",
+      "published": true,
+      "workflow_state": "published"
+    },
+    {
+      "id": 5033,
+      "name": "Reaction Mechanisms Problem Set",
+      "course_id": 3020,
+      "due_at": "2026-02-17T23:59:00Z",
+      "points_possible": 50,
+      "submission_types": [
+        "online_upload"
+      ],
+      "grading_type": "points",
+      "published": true,
+      "workflow_state": "published"
+    },
+    {
+      "id": 5034,
+      "name": "Synthesis Lab Report",
+      "course_id": 3020,
+      "due_at": "2026-04-01T23:59:00Z",
+      "points_possible": 60,
+      "submission_types": [
+        "online_upload"
+      ],
+      "grading_type": "points",
+      "published": true,
+      "workflow_state": "published"
+    },
+    {
+      "id": 5035,
+      "name": "Lab: Wave Interference",
+      "course_id": 3021,
+      "due_at": "2026-02-28T23:59:00Z",
+      "points_possible": 50,
+      "submission_types": [
+        "online_upload"
+      ],
+      "grading_type": "points",
+      "published": true,
+      "workflow_state": "published"
+    },
+    {
+      "id": 5036,
+      "name": "Primary Source Analysis",
+      "course_id": 3022,
+      "due_at": "2026-03-04T23:59:00Z",
+      "points_possible": 50,
+      "submission_types": [
+        "online_text_entry"
+      ],
+      "grading_type": "points",
+      "published": true,
+      "workflow_state": "published"
+    },
+    {
+      "id": 5066,
+      "name": "Lab Report: Melting Point & Recrystallization",
+      "course_id": 3028,
+      "due_at": "2026-01-26T23:59:00Z",
+      "points_possible": 50,
+      "submission_types": [
+        "online_upload"
+      ],
+      "grading_type": "points",
+      "published": true,
+      "workflow_state": "published"
+    },
+    {
+      "id": 5067,
+      "name": "Lab Report: Thin Layer Chromatography",
+      "course_id": 3028,
+      "due_at": "2026-02-09T23:59:00Z",
+      "points_possible": 50,
+      "submission_types": [
+        "online_upload"
+      ],
+      "grading_type": "points",
+      "published": true,
+      "workflow_state": "published"
+    },
+    {
+      "id": 5068,
+      "name": "Lab Report: Simple Distillation",
+      "course_id": 3028,
+      "due_at": "2026-02-23T23:59:00Z",
+      "points_possible": 50,
+      "submission_types": [
+        "online_upload"
+      ],
+      "grading_type": "points",
+      "published": true,
+      "workflow_state": "published"
+    },
+    {
+      "id": 5069,
+      "name": "Lab Report: Extraction & Separation",
+      "course_id": 3028,
+      "due_at": "2026-03-23T23:59:00Z",
+      "points_possible": 50,
+      "submission_types": [
+        "online_upload"
+      ],
+      "grading_type": "points",
+      "published": true,
+      "workflow_state": "published"
+    },
+    {
+      "id": 5070,
+      "name": "Lab Report: Grignard Reaction",
+      "course_id": 3028,
+      "due_at": "2026-04-06T23:59:00Z",
+      "points_possible": 50,
+      "submission_types": [
+        "online_upload"
+      ],
+      "grading_type": "points",
+      "published": true,
+      "workflow_state": "published"
+    },
+    {
+      "id": 5079,
+      "name": "Exam 1: Kinematics & Forces",
+      "course_id": 3021,
+      "due_at": "2026-03-05T23:59:00Z",
+      "points_possible": 100,
+      "submission_types": [
+        "online_quiz"
+      ],
+      "grading_type": "points",
+      "published": true,
+      "workflow_state": "published"
+    },
+    {
+      "id": 5080,
+      "name": "Lab Report: Pendulum Motion",
+      "course_id": 3021,
+      "due_at": "2026-04-01T23:59:00Z",
+      "points_possible": 50,
+      "submission_types": [
+        "online_upload"
+      ],
+      "grading_type": "points",
+      "published": true,
+      "workflow_state": "published"
+    },
+    {
+      "id": 5081,
+      "name": "Comparative History Essay",
+      "course_id": 3022,
+      "due_at": "2026-03-18T23:59:00Z",
+      "points_possible": 75,
+      "submission_types": [
+        "online_text_entry"
+      ],
+      "grading_type": "points",
+      "published": true,
+      "workflow_state": "published"
+    },
+    {
+      "id": 5082,
+      "name": "Research Paper: Civil Rights Era",
+      "course_id": 3022,
+      "due_at": "2026-04-22T23:59:00Z",
+      "points_possible": 100,
+      "submission_types": [
+        "online_upload"
+      ],
+      "grading_type": "points",
+      "published": true,
+      "workflow_state": "published"
+    },
+    {
+      "id": 5083,
+      "name": "Exam 1: Reaction Mechanisms",
+      "course_id": 3020,
+      "due_at": "2026-03-11T23:59:00Z",
+      "points_possible": 100,
+      "submission_types": [
+        "online_quiz"
+      ],
+      "grading_type": "points",
+      "published": true,
+      "workflow_state": "published"
+    },
+    {
+      "id": 5084,
+      "name": "Spectroscopy Problem Set",
+      "course_id": 3020,
+      "due_at": "2026-04-08T23:59:00Z",
+      "points_possible": 50,
+      "submission_types": [
+        "online_upload"
+      ],
+      "grading_type": "points",
+      "published": true,
+      "workflow_state": "published"
+    }
   ],
   "submissions": [
     {
-      "assignment_id": 5031, "user_id": 605, "score": 39, "grade": "B-",
+      "assignment_id": 5031,
+      "user_id": 605,
+      "score": 39,
+      "grade": "B-",
       "grade_matches_current_submission": true,
-      "submitted_at": "2026-02-10T20:14:00Z", "graded_at": "2026-02-13T10:00:00Z",
-      "grader_id": 1, "workflow_state": "graded", "late": false, "missing": false,
+      "submitted_at": "2026-02-10T20:14:00Z",
+      "graded_at": "2026-02-13T10:00:00Z",
+      "grader_id": 1,
+      "workflow_state": "graded",
+      "late": false,
+      "missing": false,
       "submission_type": "online_text_entry",
       "submission_comments": [
-        { "id": 57310, "author_id": 1, "author_name": "Dr. Jensen", "comment": "Diagram is accurate, but explain WHY this pathway matters for the cell's response.", "created_at": "2026-02-13T10:00:00Z" }
+        {
+          "id": 57310,
+          "author_id": 1,
+          "author_name": "Dr. Jensen",
+          "comment": "Diagram is accurate, but explain WHY this pathway matters for the cell's response.",
+          "created_at": "2026-02-13T10:00:00Z"
+        }
       ]
     },
     {
-      "assignment_id": 5032, "user_id": 605, "score": 81, "grade": "B-",
+      "assignment_id": 5032,
+      "user_id": 605,
+      "score": 81,
+      "grade": "B-",
       "grade_matches_current_submission": true,
-      "submitted_at": "2026-02-10T20:14:00Z", "graded_at": "2026-02-13T10:00:00Z",
-      "grader_id": 1, "workflow_state": "graded", "late": false, "missing": false,
-      "submission_type": "online_text_entry",
-      "submission_comments": []
-    },
-    {
-      "assignment_id": 5033, "user_id": 605, "score": 41, "grade": "B",
-      "grade_matches_current_submission": true,
-      "submitted_at": "2026-02-10T20:14:00Z", "graded_at": "2026-02-13T10:00:00Z",
-      "grader_id": 1, "workflow_state": "graded", "late": false, "missing": false,
+      "submitted_at": "2026-03-08T20:14:00Z",
+      "graded_at": "2026-03-12T10:00:00Z",
+      "grader_id": 1,
+      "workflow_state": "graded",
+      "late": false,
+      "missing": false,
       "submission_type": "online_text_entry",
       "submission_comments": [
-        { "id": 57330, "author_id": 1, "author_name": "Dr. Okwuosa", "comment": "Mechanism arrows correct; missing the curved-arrow electron flow on two steps.", "created_at": "2026-02-13T10:00:00Z" }
+        {
+          "id": 57320,
+          "author_id": 1,
+          "author_name": "Dr. Jensen",
+          "comment": "Solid recall of mechanisms — you lose points when you stop short of explaining functional significance.",
+          "created_at": "2026-02-13T10:00:00Z"
+        }
       ]
     },
     {
-      "assignment_id": 5034, "user_id": 605, "score": 47, "grade": "B-",
+      "assignment_id": 5033,
+      "user_id": 605,
+      "score": 41,
+      "grade": "B",
       "grade_matches_current_submission": true,
-      "submitted_at": "2026-02-10T20:14:00Z", "graded_at": "2026-02-13T10:00:00Z",
-      "grader_id": 1, "workflow_state": "graded", "late": false, "missing": false,
+      "submitted_at": "2026-02-10T20:14:00Z",
+      "graded_at": "2026-02-13T10:00:00Z",
+      "grader_id": 1,
+      "workflow_state": "graded",
+      "late": false,
+      "missing": false,
       "submission_type": "online_text_entry",
       "submission_comments": [
-        { "id": 57340, "author_id": 1, "author_name": "Dr. Okwuosa", "comment": "Good yield, but your discussion doesn't tie the result back to the proposed mechanism.", "created_at": "2026-02-13T10:00:00Z" }
+        {
+          "id": 57330,
+          "author_id": 1,
+          "author_name": "Dr. Okwuosa",
+          "comment": "Mechanism arrows correct; missing the curved-arrow electron flow on two steps.",
+          "created_at": "2026-02-13T10:00:00Z"
+        }
       ]
     },
     {
-      "assignment_id": 5035, "user_id": 605, "score": 38, "grade": "B-",
+      "assignment_id": 5034,
+      "user_id": 605,
+      "score": 47,
+      "grade": "B-",
       "grade_matches_current_submission": true,
-      "submitted_at": "2026-02-10T20:14:00Z", "graded_at": "2026-02-13T10:00:00Z",
-      "grader_id": 1, "workflow_state": "graded", "late": false, "missing": false,
+      "submitted_at": "2026-03-31T20:14:00Z",
+      "graded_at": "2026-04-04T10:00:00Z",
+      "grader_id": 1,
+      "workflow_state": "graded",
+      "late": false,
+      "missing": false,
       "submission_type": "online_text_entry",
       "submission_comments": [
-        { "id": 57350, "author_id": 1, "author_name": "Dr. Singh", "comment": "Solid data collection — same gap as your Bio lab: connect results back to the hypothesis.", "created_at": "2026-02-13T10:00:00Z" }
+        {
+          "id": 57340,
+          "author_id": 1,
+          "author_name": "Dr. Okwuosa",
+          "comment": "Good yield, but your discussion doesn't tie the result back to the proposed mechanism.",
+          "created_at": "2026-02-13T10:00:00Z"
+        }
       ]
     },
     {
-      "assignment_id": 5036, "user_id": 605, "score": 44, "grade": "B+",
+      "assignment_id": 5035,
+      "user_id": 605,
+      "score": 38,
+      "grade": "B-",
       "grade_matches_current_submission": true,
-      "submitted_at": "2026-02-10T20:14:00Z", "graded_at": "2026-02-13T10:00:00Z",
-      "grader_id": 1, "workflow_state": "graded", "late": false, "missing": false,
+      "submitted_at": "2026-02-27T20:14:00Z",
+      "graded_at": "2026-03-03T10:00:00Z",
+      "grader_id": 1,
+      "workflow_state": "graded",
+      "late": false,
+      "missing": false,
       "submission_type": "online_text_entry",
-      "submission_comments": []
+      "submission_comments": [
+        {
+          "id": 57350,
+          "author_id": 1,
+          "author_name": "Dr. Singh",
+          "comment": "Solid data collection — same gap as your Bio lab: connect results back to the hypothesis.",
+          "created_at": "2026-02-13T10:00:00Z"
+        }
+      ]
+    },
+    {
+      "assignment_id": 5036,
+      "user_id": 605,
+      "score": 44,
+      "grade": "B+",
+      "grade_matches_current_submission": true,
+      "submitted_at": "2026-03-03T20:14:00Z",
+      "graded_at": "2026-03-07T10:00:00Z",
+      "grader_id": 1,
+      "workflow_state": "graded",
+      "late": false,
+      "missing": false,
+      "submission_type": "online_text_entry",
+      "submission_comments": [
+        {
+          "id": 57360,
+          "author_id": 1,
+          "author_name": "Dr. Bennett",
+          "comment": "Clear summary; push further with historical context and connect it to a broader argument.",
+          "created_at": "2026-02-13T10:00:00Z"
+        }
+      ]
+    },
+    {
+      "assignment_id": 5066,
+      "user_id": 605,
+      "score": 37,
+      "grade": "C+",
+      "grade_matches_current_submission": true,
+      "submitted_at": "2026-01-26T23:59:00Z",
+      "graded_at": "2026-01-30T10:00:00Z",
+      "grader_id": 1,
+      "workflow_state": "graded",
+      "late": false,
+      "missing": false,
+      "submission_type": "online_text_entry",
+      "submission_comments": [
+        {
+          "id": 57420,
+          "author_id": 1,
+          "author_name": "Dr. Okwuosa",
+          "comment": "Recrystallization yield is off — recheck your mass measurements before calculating percent recovery.",
+          "created_at": "2026-01-30T10:00:00Z"
+        }
+      ]
+    },
+    {
+      "assignment_id": 5067,
+      "user_id": 605,
+      "score": 40,
+      "grade": "B",
+      "grade_matches_current_submission": true,
+      "submitted_at": "2026-02-09T23:59:00Z",
+      "graded_at": "2026-02-13T10:00:00Z",
+      "grader_id": 1,
+      "workflow_state": "graded",
+      "late": false,
+      "missing": false,
+      "submission_type": "online_text_entry",
+      "submission_comments": [
+        {
+          "id": 57430,
+          "author_id": 1,
+          "author_name": "Dr. Okwuosa",
+          "comment": "Good Rf values — label each spot on your TLC plate more clearly next time.",
+          "created_at": "2026-02-13T10:00:00Z"
+        }
+      ]
+    },
+    {
+      "assignment_id": 5068,
+      "user_id": 605,
+      "score": 36,
+      "grade": "C+",
+      "grade_matches_current_submission": true,
+      "submitted_at": "2026-02-23T23:59:00Z",
+      "graded_at": "2026-02-27T10:00:00Z",
+      "grader_id": 1,
+      "workflow_state": "graded",
+      "late": false,
+      "missing": false,
+      "submission_type": "online_text_entry",
+      "submission_comments": [
+        {
+          "id": 57440,
+          "author_id": 1,
+          "author_name": "Dr. Okwuosa",
+          "comment": "Distillation curve looks right — connect your results back to boiling point theory in your discussion.",
+          "created_at": "2026-02-27T10:00:00Z"
+        }
+      ]
+    },
+    {
+      "assignment_id": 5079,
+      "user_id": 605,
+      "score": 68,
+      "grade": "C",
+      "grade_matches_current_submission": true,
+      "submitted_at": "2026-03-04T20:14:00Z",
+      "graded_at": "2026-03-08T10:00:00Z",
+      "grader_id": 1,
+      "workflow_state": "graded",
+      "late": false,
+      "missing": false,
+      "submission_type": "online_text_entry",
+      "submission_comments": [
+        {
+          "id": 57490,
+          "author_id": 1,
+          "author_name": "Dr. Singh",
+          "comment": "Kinematics section strong — energy conservation problems need more work before the next exam.",
+          "created_at": "2026-03-08T10:00:00Z"
+        }
+      ]
+    },
+    {
+      "assignment_id": 5081,
+      "user_id": 605,
+      "score": 58,
+      "grade": "C+",
+      "grade_matches_current_submission": true,
+      "submitted_at": "2026-03-17T20:14:00Z",
+      "graded_at": "2026-03-21T10:00:00Z",
+      "grader_id": 1,
+      "workflow_state": "graded",
+      "late": false,
+      "missing": false,
+      "submission_type": "online_text_entry",
+      "submission_comments": [
+        {
+          "id": 57500,
+          "author_id": 1,
+          "author_name": "Dr. Bennett",
+          "comment": "Clear argument — strengthen with more primary source citations and historical context.",
+          "created_at": "2026-03-21T10:00:00Z"
+        }
+      ]
+    },
+    {
+      "assignment_id": 5083,
+      "user_id": 605,
+      "score": 70,
+      "grade": "C",
+      "grade_matches_current_submission": true,
+      "submitted_at": "2026-03-10T20:14:00Z",
+      "graded_at": "2026-03-14T10:00:00Z",
+      "grader_id": 1,
+      "workflow_state": "graded",
+      "late": false,
+      "missing": false,
+      "submission_type": "online_text_entry",
+      "submission_comments": [
+        {
+          "id": 57510,
+          "author_id": 1,
+          "author_name": "Dr. Okwuosa",
+          "comment": "Mechanism diagrams are accurate — missing stereochemistry on two problems cost you significant points.",
+          "created_at": "2026-03-14T10:00:00Z"
+        }
+      ]
     }
   ],
+  "career": {
+    "target_roles": null,
+    "interests": null,
+    "skills_self_reported": null,
+    "certifications": null,
+    "work_experience": null,
+    "ai_anxiety_level": null,
+    "geographic_preference": null,
+    "career_goals": null
+  },
+  "profile_completeness": {
+    "academic": 1.0,
+    "career": 0.0,
+    "overall": 0.5
+  },
   "examTopicTags": {
     "5032": [
-      { "question_id": "q1", "topic": "Membrane Transport" },
-      { "question_id": "q2", "topic": "Cell Signaling" },
-      { "question_id": "q3", "topic": "Gene Expression Regulation" },
-      { "question_id": "q4", "topic": "Cell Division" }
+      {
+        "question_id": "q1",
+        "topic": "Membrane Transport",
+        "score": 22,
+        "max_score": 25
+      },
+      {
+        "question_id": "q2",
+        "topic": "Cell Signaling",
+        "score": 19,
+        "max_score": 25
+      },
+      {
+        "question_id": "q3",
+        "topic": "Gene Expression Regulation",
+        "score": 21,
+        "max_score": 25
+      },
+      {
+        "question_id": "q4",
+        "topic": "Cell Division",
+        "score": 19,
+        "max_score": 25
+      }
+    ],
+    "5079": [
+      {
+        "question_id": "q1",
+        "topic": "Kinematics",
+        "score": 20,
+        "max_score": 25
+      },
+      {
+        "question_id": "q2",
+        "topic": "Newton's Laws",
+        "score": 19,
+        "max_score": 25
+      },
+      {
+        "question_id": "q3",
+        "topic": "Energy Conservation",
+        "score": 15,
+        "max_score": 25
+      },
+      {
+        "question_id": "q4",
+        "topic": "Friction & Inclined Planes",
+        "score": 14,
+        "max_score": 25
+      }
+    ],
+    "5083": [
+      {
+        "question_id": "q1",
+        "topic": "Reaction Mechanisms",
+        "score": 20,
+        "max_score": 25
+      },
+      {
+        "question_id": "q2",
+        "topic": "Stereochemistry",
+        "score": 15,
+        "max_score": 25
+      },
+      {
+        "question_id": "q3",
+        "topic": "Substitution Reactions",
+        "score": 18,
+        "max_score": 25
+      },
+      {
+        "question_id": "q4",
+        "topic": "Elimination Reactions",
+        "score": 17,
+        "max_score": 25
+      }
+    ]
+  },
+  "_schema_notes": {
+    "canvas_derived": [
+      "student",
+      "courses",
+      "enrollments",
+      "assignments",
+      "submissions"
+    ],
+    "campus_iq_layer": [
+      "examTopicTags"
+    ],
+    "student_entered": [
+      "career"
+    ],
+    "ai_written": [
+      "profile_completeness"
     ]
   }
 }

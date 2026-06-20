@@ -13,11 +13,11 @@ STUDENTS_DIR = os.path.dirname(os.path.abspath(__file__))
 REQUIRED_KEYS = {"student", "courses", "enrollments", "assignments", "submissions", "examTopicTags"}
 
 EXPECTED = {
-    "student_jordanReyes.json":  {"courses": 5, "enrollments": 5, "assignments": 8, "submissions": 8},
-    "student_priyaNair.json":    {"courses": 4, "enrollments": 4, "assignments": 7, "submissions": 7},
-    "student_ethanBrooks.json":  {"courses": 5, "enrollments": 5, "assignments": 8, "submissions": 8},
-    "student_marcusWebb.json":   {"courses": 4, "enrollments": 4, "assignments": 7, "submissions": 7},
-    "student_sofiaRamirez.json": {"courses": 4, "enrollments": 4, "assignments": 6, "submissions": 6},
+    "student_jordanReyes.json":  {"courses": 5, "enrollments": 5, "assignments": 12, "submissions": 10},
+    "student_priyaNair.json":    {"courses": 6, "enrollments": 6, "assignments": 19, "submissions": 14},
+    "student_ethanBrooks.json":  {"courses": 6, "enrollments": 6, "assignments": 24, "submissions": 17},
+    "student_marcusWebb.json":   {"courses": 4, "enrollments": 4, "assignments": 9,  "submissions": 8},
+    "student_sofiaRamirez.json": {"courses": 5, "enrollments": 5, "assignments": 17, "submissions": 12},
 }
 
 errors = []

@@ -5,126 +5,628 @@
     "courses[3]: ENGL 104 satisfies UCC: Communication.",
     "courses[4]: POLS 206 satisfies UCC: Government/Political Science.",
     "Recurring pattern: debit/credit direction + 'show your work' mix-ups across Accounting and Math — exactly what the comment analyzer should flag.",
-    "examTopicTags: Campus IQ's own topic layer — NOT part of real Canvas data."
+    "examTopicTags: Campus IQ's own topic layer — NOT part of real Canvas data.",
+    "MATH 140 is the correct freshman fall math course for Mays Business School. MATH 142 (Business Calculus) is the spring follow-on. Assignments for course_id 3003 will be updated in the next pass to reflect MATH 140 content.",
+    "ACCT 229 (Foundations of Accounting I) is typically a sophomore-level CBK course at Mays, not freshman fall. Kept here for demo narrative continuity — flag for correction before real student data flows in."
   ],
   "student": {
     "id": 601,
     "name": "Jordan Reyes",
     "major": "Business Administration (pre-major)",
     "classification": "Freshman",
-    "institution": "Texas A&M University"
+    "institution": "Texas A&M University",
+    "gpa_current": 3.0
   },
   "courses": [
-    { "id": 3001, "name": "Freshman Business Initiative", "course_code": "BUSN 101", "workflow_state": "available" },
-    { "id": 3002, "name": "Foundations of Accounting I", "course_code": "ACCT 229", "workflow_state": "available" },
-    { "id": 3003, "name": "Business Mathematics", "course_code": "MATH 142", "workflow_state": "available" },
-    { "id": 3004, "name": "Composition and Rhetoric", "course_code": "ENGL 104", "workflow_state": "available" },
-    { "id": 3005, "name": "American National Government", "course_code": "POLS 206", "workflow_state": "available" }
+    {
+      "id": 3001,
+      "name": "Freshman Business Initiative",
+      "course_code": "BUSN 101",
+      "workflow_state": "available"
+    },
+    {
+      "id": 3002,
+      "name": "Foundations of Accounting I",
+      "course_code": "ACCT 229",
+      "workflow_state": "available"
+    },
+    {
+      "id": 3003,
+      "name": "Mathematics for Business and Social Sciences",
+      "course_code": "MATH 140",
+      "workflow_state": "available"
+    },
+    {
+      "id": 3004,
+      "name": "Composition and Rhetoric",
+      "course_code": "ENGL 104",
+      "workflow_state": "available"
+    },
+    {
+      "id": 3005,
+      "name": "American National Government",
+      "course_code": "POLS 206",
+      "workflow_state": "available"
+    }
   ],
   "enrollments": [
-    { "id": 9100, "course_id": 3001, "course_section_id": 1, "user_id": 601, "type": "StudentEnrollment", "role": "StudentEnrollment", "role_id": 3, "enrollment_state": "active", "created_at": "2026-01-12T08:00:00Z", "updated_at": "2026-06-01T08:00:00Z", "grades": { "html_url": "https://canvas.tamu.edu/courses/3001/grades/601", "current_grade": "A-", "current_score": 91.0, "final_grade": null, "final_score": null } },
-    { "id": 9101, "course_id": 3002, "course_section_id": 1, "user_id": 601, "type": "StudentEnrollment", "role": "StudentEnrollment", "role_id": 3, "enrollment_state": "active", "created_at": "2026-01-12T08:00:00Z", "updated_at": "2026-06-01T08:00:00Z", "grades": { "html_url": "https://canvas.tamu.edu/courses/3002/grades/601", "current_grade": "B", "current_score": 85.5, "final_grade": null, "final_score": null } },
-    { "id": 9102, "course_id": 3003, "course_section_id": 1, "user_id": 601, "type": "StudentEnrollment", "role": "StudentEnrollment", "role_id": 3, "enrollment_state": "active", "created_at": "2026-01-12T08:00:00Z", "updated_at": "2026-06-01T08:00:00Z", "grades": { "html_url": "https://canvas.tamu.edu/courses/3003/grades/601", "current_grade": "C+", "current_score": 78.2, "final_grade": null, "final_score": null } },
-    { "id": 9103, "course_id": 3004, "course_section_id": 1, "user_id": 601, "type": "StudentEnrollment", "role": "StudentEnrollment", "role_id": 3, "enrollment_state": "active", "created_at": "2026-01-12T08:00:00Z", "updated_at": "2026-06-01T08:00:00Z", "grades": { "html_url": "https://canvas.tamu.edu/courses/3004/grades/601", "current_grade": "B+", "current_score": 88.0, "final_grade": null, "final_score": null } },
-    { "id": 9104, "course_id": 3005, "course_section_id": 1, "user_id": 601, "type": "StudentEnrollment", "role": "StudentEnrollment", "role_id": 3, "enrollment_state": "active", "created_at": "2026-01-12T08:00:00Z", "updated_at": "2026-06-01T08:00:00Z", "grades": { "html_url": "https://canvas.tamu.edu/courses/3005/grades/601", "current_grade": "B", "current_score": 84.0, "final_grade": null, "final_score": null } }
+    {
+      "id": 9100,
+      "course_id": 3001,
+      "course_section_id": 1,
+      "user_id": 601,
+      "type": "StudentEnrollment",
+      "role": "StudentEnrollment",
+      "role_id": 3,
+      "enrollment_state": "active",
+      "created_at": "2026-01-12T08:00:00Z",
+      "updated_at": "2026-06-01T08:00:00Z",
+      "grades": {
+        "html_url": "https://canvas.tamu.edu/courses/3001/grades/601",
+        "current_grade": "A-",
+        "current_score": 91.0,
+        "final_grade": null,
+        "final_score": null
+      }
+    },
+    {
+      "id": 9101,
+      "course_id": 3002,
+      "course_section_id": 1,
+      "user_id": 601,
+      "type": "StudentEnrollment",
+      "role": "StudentEnrollment",
+      "role_id": 3,
+      "enrollment_state": "active",
+      "created_at": "2026-01-12T08:00:00Z",
+      "updated_at": "2026-06-01T08:00:00Z",
+      "grades": {
+        "html_url": "https://canvas.tamu.edu/courses/3002/grades/601",
+        "current_grade": "B",
+        "current_score": 85.5,
+        "final_grade": null,
+        "final_score": null
+      }
+    },
+    {
+      "id": 9102,
+      "course_id": 3003,
+      "course_section_id": 1,
+      "user_id": 601,
+      "type": "StudentEnrollment",
+      "role": "StudentEnrollment",
+      "role_id": 3,
+      "enrollment_state": "active",
+      "created_at": "2026-01-12T08:00:00Z",
+      "updated_at": "2026-06-01T08:00:00Z",
+      "grades": {
+        "html_url": "https://canvas.tamu.edu/courses/3003/grades/601",
+        "current_grade": "C+",
+        "current_score": 78.2,
+        "final_grade": null,
+        "final_score": null
+      }
+    },
+    {
+      "id": 9103,
+      "course_id": 3004,
+      "course_section_id": 1,
+      "user_id": 601,
+      "type": "StudentEnrollment",
+      "role": "StudentEnrollment",
+      "role_id": 3,
+      "enrollment_state": "active",
+      "created_at": "2026-01-12T08:00:00Z",
+      "updated_at": "2026-06-01T08:00:00Z",
+      "grades": {
+        "html_url": "https://canvas.tamu.edu/courses/3004/grades/601",
+        "current_grade": "B+",
+        "current_score": 88.0,
+        "final_grade": null,
+        "final_score": null
+      }
+    },
+    {
+      "id": 9104,
+      "course_id": 3005,
+      "course_section_id": 1,
+      "user_id": 601,
+      "type": "StudentEnrollment",
+      "role": "StudentEnrollment",
+      "role_id": 3,
+      "enrollment_state": "active",
+      "created_at": "2026-01-12T08:00:00Z",
+      "updated_at": "2026-06-01T08:00:00Z",
+      "grades": {
+        "html_url": "https://canvas.tamu.edu/courses/3005/grades/601",
+        "current_grade": "B",
+        "current_score": 84.0,
+        "final_grade": null,
+        "final_score": null
+      }
+    }
   ],
   "assignments": [
-    { "id": 5001, "name": "Professional Competency Reflection", "course_id": 3001, "due_at": "2026-02-06T23:59:00Z", "points_possible": 50, "submission_types": ["online_text_entry"], "grading_type": "points", "published": true, "workflow_state": "published" },
-    { "id": 5002, "name": "Career Pathways Presentation", "course_id": 3001, "due_at": "2026-04-10T23:59:00Z", "points_possible": 100, "submission_types": ["online_upload"], "grading_type": "points", "published": true, "workflow_state": "published" },
-    { "id": 5003, "name": "Journal Entries Problem Set", "course_id": 3002, "due_at": "2026-02-20T23:59:00Z", "points_possible": 75, "submission_types": ["online_upload"], "grading_type": "points", "published": true, "workflow_state": "published" },
-    { "id": 5004, "name": "Exam 1: Financial Statements", "course_id": 3002, "due_at": "2026-03-12T23:59:00Z", "points_possible": 100, "submission_types": ["online_quiz"], "grading_type": "points", "published": true, "workflow_state": "published" },
-    { "id": 5005, "name": "Optimization Problem Set", "course_id": 3003, "due_at": "2026-02-18T23:59:00Z", "points_possible": 50, "submission_types": ["online_upload"], "grading_type": "points", "published": true, "workflow_state": "published" },
-    { "id": 5006, "name": "Midterm Exam", "course_id": 3003, "due_at": "2026-03-10T23:59:00Z", "points_possible": 100, "submission_types": ["online_quiz"], "grading_type": "points", "published": true, "workflow_state": "published" },
-    { "id": 5007, "name": "Rhetorical Analysis Essay", "course_id": 3004, "due_at": "2026-02-24T23:59:00Z", "points_possible": 60, "submission_types": ["online_text_entry"], "grading_type": "points", "published": true, "workflow_state": "published" },
-    { "id": 5008, "name": "Federalism Case Study", "course_id": 3005, "due_at": "2026-03-01T23:59:00Z", "points_possible": 50, "submission_types": ["online_text_entry"], "grading_type": "points", "published": true, "workflow_state": "published" }
+    {
+      "id": 5001,
+      "name": "Professional Competency Reflection",
+      "course_id": 3001,
+      "due_at": "2026-02-06T23:59:00Z",
+      "points_possible": 50,
+      "submission_types": [
+        "online_text_entry"
+      ],
+      "grading_type": "points",
+      "published": true,
+      "workflow_state": "published"
+    },
+    {
+      "id": 5002,
+      "name": "Career Pathways Presentation",
+      "course_id": 3001,
+      "due_at": "2026-04-10T23:59:00Z",
+      "points_possible": 100,
+      "submission_types": [
+        "online_upload"
+      ],
+      "grading_type": "points",
+      "published": true,
+      "workflow_state": "published"
+    },
+    {
+      "id": 5003,
+      "name": "Journal Entries Problem Set",
+      "course_id": 3002,
+      "due_at": "2026-02-20T23:59:00Z",
+      "points_possible": 75,
+      "submission_types": [
+        "online_upload"
+      ],
+      "grading_type": "points",
+      "published": true,
+      "workflow_state": "published"
+    },
+    {
+      "id": 5004,
+      "name": "Exam 1: Financial Statements",
+      "course_id": 3002,
+      "due_at": "2026-03-12T23:59:00Z",
+      "points_possible": 100,
+      "submission_types": [
+        "online_quiz"
+      ],
+      "grading_type": "points",
+      "published": true,
+      "workflow_state": "published"
+    },
+    {
+      "id": 5005,
+      "name": "Mathematics of Finance Problem Set",
+      "course_id": 3003,
+      "due_at": "2026-02-18T23:59:00Z",
+      "points_possible": 50,
+      "submission_types": [
+        "online_upload"
+      ],
+      "grading_type": "points",
+      "published": true,
+      "workflow_state": "published"
+    },
+    {
+      "id": 5006,
+      "name": "Midterm Exam",
+      "course_id": 3003,
+      "due_at": "2026-03-10T23:59:00Z",
+      "points_possible": 100,
+      "submission_types": [
+        "online_quiz"
+      ],
+      "grading_type": "points",
+      "published": true,
+      "workflow_state": "published"
+    },
+    {
+      "id": 5007,
+      "name": "Rhetorical Analysis Essay",
+      "course_id": 3004,
+      "due_at": "2026-02-24T23:59:00Z",
+      "points_possible": 60,
+      "submission_types": [
+        "online_text_entry"
+      ],
+      "grading_type": "points",
+      "published": true,
+      "workflow_state": "published"
+    },
+    {
+      "id": 5008,
+      "name": "Federalism Case Study",
+      "course_id": 3005,
+      "due_at": "2026-03-01T23:59:00Z",
+      "points_possible": 50,
+      "submission_types": [
+        "online_text_entry"
+      ],
+      "grading_type": "points",
+      "published": true,
+      "workflow_state": "published"
+    },
+    {
+      "id": 5071,
+      "name": "Peer Review Workshop",
+      "course_id": 3004,
+      "due_at": "2026-03-16T23:59:00Z",
+      "points_possible": 30,
+      "submission_types": [
+        "online_text_entry"
+      ],
+      "grading_type": "points",
+      "published": true,
+      "workflow_state": "published"
+    },
+    {
+      "id": 5072,
+      "name": "Final Research Paper",
+      "course_id": 3004,
+      "due_at": "2026-04-20T23:59:00Z",
+      "points_possible": 100,
+      "submission_types": [
+        "online_upload"
+      ],
+      "grading_type": "points",
+      "published": true,
+      "workflow_state": "published"
+    },
+    {
+      "id": 5073,
+      "name": "Policy Analysis Essay",
+      "course_id": 3005,
+      "due_at": "2026-03-25T23:59:00Z",
+      "points_possible": 60,
+      "submission_types": [
+        "online_text_entry"
+      ],
+      "grading_type": "points",
+      "published": true,
+      "workflow_state": "published"
+    },
+    {
+      "id": 5074,
+      "name": "Legislative Process Exam",
+      "course_id": 3005,
+      "due_at": "2026-04-14T23:59:00Z",
+      "points_possible": 100,
+      "submission_types": [
+        "online_quiz"
+      ],
+      "grading_type": "points",
+      "published": true,
+      "workflow_state": "published"
+    }
   ],
   "submissions": [
     {
-      "assignment_id": 5001, "user_id": 601, "score": 46, "grade": "A-",
+      "assignment_id": 5001,
+      "user_id": 601,
+      "score": 46,
+      "grade": "A-",
       "grade_matches_current_submission": true,
-      "submitted_at": "2026-02-10T20:14:00Z", "graded_at": "2026-02-13T10:00:00Z",
-      "grader_id": 1, "workflow_state": "graded", "late": false, "missing": false,
+      "submitted_at": "2026-02-05T20:14:00Z",
+      "graded_at": "2026-02-09T10:00:00Z",
+      "grader_id": 1,
+      "workflow_state": "graded",
+      "late": false,
+      "missing": false,
       "submission_type": "online_text_entry",
       "submission_comments": [
-        { "id": 57010, "author_id": 1, "author_name": "Dr. Whitfield", "comment": "Good self-awareness, but be more specific about how you'll apply this.", "created_at": "2026-02-13T10:00:00Z" }
+        {
+          "id": 57010,
+          "author_id": 1,
+          "author_name": "Dr. Whitfield",
+          "comment": "Good self-awareness, but be more specific about how you'll apply this.",
+          "created_at": "2026-02-13T10:00:00Z"
+        }
       ]
     },
     {
-      "assignment_id": 5002, "user_id": 601, "score": 84, "grade": "B",
+      "assignment_id": 5002,
+      "user_id": 601,
+      "score": 84,
+      "grade": "B",
       "grade_matches_current_submission": true,
-      "submitted_at": "2026-02-10T20:14:00Z", "graded_at": "2026-02-13T10:00:00Z",
-      "grader_id": 1, "workflow_state": "graded", "late": false, "missing": false,
+      "submitted_at": "2026-04-09T20:14:00Z",
+      "graded_at": "2026-04-13T10:00:00Z",
+      "grader_id": 1,
+      "workflow_state": "graded",
+      "late": false,
+      "missing": false,
       "submission_type": "online_text_entry",
       "submission_comments": [
-        { "id": 57020, "author_id": 1, "author_name": "Dr. Whitfield", "comment": "Strong delivery; slides had too much text — practice summarizing key points.", "created_at": "2026-02-13T10:00:00Z" }
+        {
+          "id": 57020,
+          "author_id": 1,
+          "author_name": "Dr. Whitfield",
+          "comment": "Strong delivery; slides had too much text — practice summarizing key points.",
+          "created_at": "2026-02-13T10:00:00Z"
+        }
       ]
     },
     {
-      "assignment_id": 5003, "user_id": 601, "score": 64, "grade": "B-",
+      "assignment_id": 5003,
+      "user_id": 601,
+      "score": 64,
+      "grade": "B-",
       "grade_matches_current_submission": true,
-      "submitted_at": "2026-02-10T20:14:00Z", "graded_at": "2026-02-13T10:00:00Z",
-      "grader_id": 1, "workflow_state": "graded", "late": false, "missing": false,
+      "submitted_at": "2026-02-19T20:14:00Z",
+      "graded_at": "2026-02-23T10:00:00Z",
+      "grader_id": 1,
+      "workflow_state": "graded",
+      "late": false,
+      "missing": false,
       "submission_type": "online_text_entry",
       "submission_comments": [
-        { "id": 57030, "author_id": 1, "author_name": "Prof. Liu", "comment": "Several entries missing the contra account — review T-accounts before the exam.", "created_at": "2026-02-13T10:00:00Z" }
+        {
+          "id": 57030,
+          "author_id": 1,
+          "author_name": "Prof. Liu",
+          "comment": "Several entries missing the contra account — review T-accounts before the exam.",
+          "created_at": "2026-02-13T10:00:00Z"
+        }
       ]
     },
     {
-      "assignment_id": 5004, "user_id": 601, "score": 79, "grade": "C+",
+      "assignment_id": 5004,
+      "user_id": 601,
+      "score": 79,
+      "grade": "C+",
       "grade_matches_current_submission": true,
-      "submitted_at": "2026-02-10T20:14:00Z", "graded_at": "2026-02-13T10:00:00Z",
-      "grader_id": 1, "workflow_state": "graded", "late": false, "missing": false,
+      "submitted_at": "2026-03-11T20:14:00Z",
+      "graded_at": "2026-03-15T10:00:00Z",
+      "grader_id": 1,
+      "workflow_state": "graded",
+      "late": false,
+      "missing": false,
       "submission_type": "online_text_entry",
       "submission_comments": [
-        { "id": 57040, "author_id": 1, "author_name": "Prof. Liu", "comment": "Same issue as the problem set: double check which account is debited vs credited.", "created_at": "2026-02-13T10:00:00Z" }
+        {
+          "id": 57040,
+          "author_id": 1,
+          "author_name": "Prof. Liu",
+          "comment": "Same issue as the problem set: double check which account is debited vs credited.",
+          "created_at": "2026-02-13T10:00:00Z"
+        }
       ]
     },
     {
-      "assignment_id": 5005, "user_id": 601, "score": 41, "grade": "B-",
+      "assignment_id": 5005,
+      "user_id": 601,
+      "score": 41,
+      "grade": "B-",
       "grade_matches_current_submission": true,
-      "submitted_at": "2026-02-10T20:14:00Z", "graded_at": "2026-02-13T10:00:00Z",
-      "grader_id": 1, "workflow_state": "graded", "late": false, "missing": false,
+      "submitted_at": "2026-02-17T20:14:00Z",
+      "graded_at": "2026-02-21T10:00:00Z",
+      "grader_id": 1,
+      "workflow_state": "graded",
+      "late": false,
+      "missing": false,
       "submission_type": "online_text_entry",
       "submission_comments": [
-        { "id": 57050, "author_id": 1, "author_name": "Dr. Castillo", "comment": "Good setup, arithmetic errors in the last two problems.", "created_at": "2026-02-13T10:00:00Z" }
+        {
+          "id": 57050,
+          "author_id": 1,
+          "author_name": "Dr. Castillo",
+          "comment": "Good setup, arithmetic errors in the last two problems.",
+          "created_at": "2026-02-13T10:00:00Z"
+        }
       ]
     },
     {
-      "assignment_id": 5006, "user_id": 601, "score": 76, "grade": "C+",
+      "assignment_id": 5006,
+      "user_id": 601,
+      "score": 76,
+      "grade": "C+",
       "grade_matches_current_submission": true,
-      "submitted_at": "2026-02-10T20:14:00Z", "graded_at": "2026-02-13T10:00:00Z",
-      "grader_id": 1, "workflow_state": "graded", "late": false, "missing": false,
+      "submitted_at": "2026-03-09T20:14:00Z",
+      "graded_at": "2026-03-13T10:00:00Z",
+      "grader_id": 1,
+      "workflow_state": "graded",
+      "late": false,
+      "missing": false,
       "submission_type": "online_text_entry",
       "submission_comments": [
-        { "id": 57060, "author_id": 1, "author_name": "Dr. Castillo", "comment": "Show your work — partial credit was lost on problems where only the final answer was given.", "created_at": "2026-02-13T10:00:00Z" }
+        {
+          "id": 57060,
+          "author_id": 1,
+          "author_name": "Dr. Castillo",
+          "comment": "Show your work — partial credit was lost on problems where only the final answer was given.",
+          "created_at": "2026-02-13T10:00:00Z"
+        }
       ]
     },
     {
-      "assignment_id": 5007, "user_id": 601, "score": 51, "grade": "B+",
+      "assignment_id": 5007,
+      "user_id": 601,
+      "score": 51,
+      "grade": "B+",
       "grade_matches_current_submission": true,
-      "submitted_at": "2026-02-10T20:14:00Z", "graded_at": "2026-02-13T10:00:00Z",
-      "grader_id": 1, "workflow_state": "graded", "late": false, "missing": false,
+      "submitted_at": "2026-02-23T20:14:00Z",
+      "graded_at": "2026-02-27T10:00:00Z",
+      "grader_id": 1,
+      "workflow_state": "graded",
+      "late": false,
+      "missing": false,
       "submission_type": "online_text_entry",
       "submission_comments": [
-        { "id": 57070, "author_id": 1, "author_name": "Dr. Bennett", "comment": "Strong thesis; work on smoother transitions between paragraphs.", "created_at": "2026-02-13T10:00:00Z" }
+        {
+          "id": 57070,
+          "author_id": 1,
+          "author_name": "Dr. Bennett",
+          "comment": "Strong thesis; work on smoother transitions between paragraphs.",
+          "created_at": "2026-02-13T10:00:00Z"
+        }
       ]
     },
     {
-      "assignment_id": 5008, "user_id": 601, "score": 44, "grade": "B+",
+      "assignment_id": 5008,
+      "user_id": 601,
+      "score": 44,
+      "grade": "B+",
       "grade_matches_current_submission": true,
-      "submitted_at": "2026-02-10T20:14:00Z", "graded_at": "2026-02-13T10:00:00Z",
-      "grader_id": 1, "workflow_state": "graded", "late": false, "missing": false,
+      "submitted_at": "2026-02-28T20:14:00Z",
+      "graded_at": "2026-03-04T10:00:00Z",
+      "grader_id": 1,
+      "workflow_state": "graded",
+      "late": false,
+      "missing": false,
       "submission_type": "online_text_entry",
-      "submission_comments": []
+      "submission_comments": [
+        {
+          "id": 57080,
+          "author_id": 1,
+          "author_name": "Dr. Bennett",
+          "comment": "Adequate summary — push further to analyze the policy implications.",
+          "created_at": "2026-02-13T10:00:00Z"
+        }
+      ]
+    },
+    {
+      "assignment_id": 5071,
+      "user_id": 601,
+      "score": 27,
+      "grade": "A-",
+      "grade_matches_current_submission": true,
+      "submitted_at": "2026-03-15T20:14:00Z",
+      "graded_at": "2026-03-19T10:00:00Z",
+      "grader_id": 1,
+      "workflow_state": "graded",
+      "late": false,
+      "missing": false,
+      "submission_type": "online_text_entry",
+      "submission_comments": [
+        {
+          "id": 57450,
+          "author_id": 1,
+          "author_name": "Dr. Martinez",
+          "comment": "Good critical lens on your peer’s draft — apply the same scrutiny to your own argument.",
+          "created_at": "2026-03-19T10:00:00Z"
+        }
+      ]
+    },
+    {
+      "assignment_id": 5073,
+      "user_id": 601,
+      "score": 45,
+      "grade": "C+",
+      "grade_matches_current_submission": true,
+      "submitted_at": "2026-03-24T20:14:00Z",
+      "graded_at": "2026-03-28T10:00:00Z",
+      "grader_id": 1,
+      "workflow_state": "graded",
+      "late": false,
+      "missing": false,
+      "submission_type": "online_text_entry",
+      "submission_comments": [
+        {
+          "id": 57460,
+          "author_id": 1,
+          "author_name": "Dr. Bennett",
+          "comment": "Solid understanding of the policy issue — support your claims with more specific evidence.",
+          "created_at": "2026-03-28T10:00:00Z"
+        }
+      ]
     }
   ],
+  "career": {
+    "target_roles": null,
+    "interests": null,
+    "skills_self_reported": null,
+    "certifications": null,
+    "work_experience": null,
+    "ai_anxiety_level": null,
+    "geographic_preference": null,
+    "career_goals": null
+  },
+  "profile_completeness": {
+    "academic": 1.0,
+    "career": 0.0,
+    "overall": 0.5
+  },
   "examTopicTags": {
     "5004": [
-      { "question_id": "q1", "topic": "Debits & Credits" },
-      { "question_id": "q2", "topic": "Debits & Credits" },
-      { "question_id": "q3", "topic": "Balance Sheet Construction" },
-      { "question_id": "q4", "topic": "Income Statement" },
-      { "question_id": "q5", "topic": "Balance Sheet Construction" }
+      {
+        "question_id": "q1",
+        "topic": "Debits & Credits",
+        "score": 14,
+        "max_score": 20
+      },
+      {
+        "question_id": "q2",
+        "topic": "Debits & Credits",
+        "score": 14,
+        "max_score": 20
+      },
+      {
+        "question_id": "q3",
+        "topic": "Balance Sheet Construction",
+        "score": 18,
+        "max_score": 20
+      },
+      {
+        "question_id": "q4",
+        "topic": "Income Statement",
+        "score": 17,
+        "max_score": 20
+      },
+      {
+        "question_id": "q5",
+        "topic": "Balance Sheet Construction",
+        "score": 16,
+        "max_score": 20
+      }
+    ],
+    "5006": [
+      {
+        "question_id": "q1",
+        "topic": "Linear Functions",
+        "score": 22,
+        "max_score": 25
+      },
+      {
+        "question_id": "q2",
+        "topic": "Optimization",
+        "score": 17,
+        "max_score": 25
+      },
+      {
+        "question_id": "q3",
+        "topic": "Exponential & Log Functions",
+        "score": 20,
+        "max_score": 25
+      },
+      {
+        "question_id": "q4",
+        "topic": "Systems of Equations",
+        "score": 17,
+        "max_score": 25
+      }
+    ]
+  },
+  "_schema_notes": {
+    "canvas_derived": [
+      "student",
+      "courses",
+      "enrollments",
+      "assignments",
+      "submissions"
+    ],
+    "campus_iq_layer": [
+      "examTopicTags"
+    ],
+    "student_entered": [
+      "career"
+    ],
+    "ai_written": [
+      "profile_completeness"
     ]
   }
 }
