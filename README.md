@@ -44,6 +44,16 @@ uv run python data/validate_catalog.py
 uv run python data/students/validate_students.py
 ```
 
+## Unified student profile
+
+All academic and career features should build on the same JSON record in
+`data/students/`. The schema contract lives in
+`docs/unified_student_schema.md`.
+
+The student validator checks the shared foundation fields, including academic
+record counts, career resume fields, profile completeness, and compatibility
+mirrors used by future prompts/UI code.
+
 ---
 
 ## Other commands
