@@ -671,19 +671,133 @@
     }
   ],
   "career": {
-    "target_roles": null,
-    "interests": null,
-    "skills_self_reported": null,
-    "certifications": null,
-    "work_experience": null,
-    "ai_anxiety_level": null,
-    "geographic_preference": null,
-    "career_goals": null
+    "target_roles": [
+      "Aerospace Engineering Intern",
+      "Flight Systems Intern",
+      "Mechanical Analysis Intern"
+    ],
+    "interests": [
+      "flight dynamics",
+      "aerodynamics",
+      "space systems",
+      "engineering analysis"
+    ],
+    "career_goals": "specific — build enough aerospace project and analysis experience to compete for a sophomore or junior-year engineering internship",
+    "geographic_preference": "Texas preferred, open to aerospace hubs including Houston, Dallas-Fort Worth, and remote project work",
+    "ai_anxiety_level": "low — views AI as a productivity tool for analysis and documentation",
+    "skills_self_reported": {
+      "technical": [
+        "MATLAB basics",
+        "engineering mechanics",
+        "multivariable calculus",
+        "thermodynamics basics",
+        "technical documentation"
+      ],
+      "soft": [
+        "analytical thinking",
+        "attention to detail",
+        "technical communication",
+        "team reliability"
+      ],
+      "ai_exposure": "moderate — uses AI for concept review and documentation drafts, not as a substitute for calculations"
+    },
+    "certifications": [],
+    "work_experience": [
+      {
+        "employer": "Aerospace Engineering course team",
+        "role": "Analysis Team Member",
+        "duration": "Spring 2026",
+        "location": "College Station, TX",
+        "description": "Collaborated on mechanics, flight, and aerothermodynamics assignments requiring structured calculations and written explanations.",
+        "skills_gained": [
+          "free body diagrams",
+          "technical review",
+          "engineering communication"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "name": "Introduction to Flight Concept Brief",
+        "timeframe": "Spring 2026",
+        "description": "Prepared a technical brief explaining standard atmosphere assumptions, lift and drag concepts, and introductory orbital mechanics.",
+        "tools": [
+          "aerodynamics concepts",
+          "technical writing",
+          "calculation review"
+        ]
+      },
+      {
+        "name": "AERO 221 Vector Calculus Study Toolkit",
+        "timeframe": "Spring 2026",
+        "description": "Compiled worked examples for gradient, divergence, curl, surface integrals, and Stokes theorem applications.",
+        "tools": [
+          "vector calculus",
+          "MATLAB basics",
+          "engineering notation"
+        ]
+      }
+    ],
+    "resume": {
+      "skills": {
+        "technical": [
+          "MATLAB basics",
+          "engineering mechanics",
+          "multivariable calculus",
+          "thermodynamics basics",
+          "technical documentation"
+        ],
+        "soft": [
+          "analytical thinking",
+          "attention to detail",
+          "technical communication",
+          "team reliability"
+        ],
+        "ai_exposure": "moderate — uses AI for concept review and documentation drafts, not as a substitute for calculations"
+      },
+      "work_experience": [
+        {
+          "employer": "Aerospace Engineering course team",
+          "role": "Analysis Team Member",
+          "duration": "Spring 2026",
+          "location": "College Station, TX",
+          "description": "Collaborated on mechanics, flight, and aerothermodynamics assignments requiring structured calculations and written explanations.",
+          "skills_gained": [
+            "free body diagrams",
+            "technical review",
+            "engineering communication"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "name": "Introduction to Flight Concept Brief",
+          "timeframe": "Spring 2026",
+          "description": "Prepared a technical brief explaining standard atmosphere assumptions, lift and drag concepts, and introductory orbital mechanics.",
+          "tools": [
+            "aerodynamics concepts",
+            "technical writing",
+            "calculation review"
+          ]
+        },
+        {
+          "name": "AERO 221 Vector Calculus Study Toolkit",
+          "timeframe": "Spring 2026",
+          "description": "Compiled worked examples for gradient, divergence, curl, surface integrals, and Stokes theorem applications.",
+          "tools": [
+            "vector calculus",
+            "MATLAB basics",
+            "engineering notation"
+          ]
+        }
+      ],
+      "certifications": []
+    }
   },
   "profile_completeness": {
     "academic": 1.0,
-    "career": 0.0,
-    "overall": 0.5
+    "career": 1.0,
+    "overall": 1.0
   },
   "examTopicTags": {
     "5010": [

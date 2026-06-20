@@ -807,19 +807,133 @@
     }
   ],
   "career": {
-    "target_roles": null,
-    "interests": null,
-    "skills_self_reported": null,
-    "certifications": null,
-    "work_experience": null,
-    "ai_anxiety_level": null,
-    "geographic_preference": null,
-    "career_goals": null
+    "target_roles": [
+      "Software Engineering Intern",
+      "Computer Engineering Intern",
+      "Embedded Systems Intern"
+    ],
+    "interests": [
+      "embedded systems",
+      "software development",
+      "robotics",
+      "computer hardware"
+    ],
+    "career_goals": "early exploration — wants to qualify for Computer Engineering through ETAM and build enough project experience for a first technical internship",
+    "geographic_preference": "Texas, with College Station, Austin, Dallas, or Houston preferred",
+    "ai_anxiety_level": "moderate — interested in AI tools, but still building confidence with programming fundamentals",
+    "skills_self_reported": {
+      "technical": [
+        "Python basics",
+        "MATLAB basics",
+        "engineering computation",
+        "technical writing",
+        "Excel basics"
+      ],
+      "soft": [
+        "team collaboration",
+        "problem solving",
+        "persistence",
+        "asking for feedback"
+      ],
+      "ai_exposure": "informal — has used AI tools for study planning and code explanation, but no formal AI coursework yet"
+    },
+    "certifications": [],
+    "work_experience": [
+      {
+        "employer": "Texas A&M Engineering Project Team",
+        "role": "First-Year Team Member",
+        "duration": "Spring 2026",
+        "location": "College Station, TX",
+        "description": "Contributed computation and documentation support for a first-year engineering design assignment.",
+        "skills_gained": [
+          "engineering documentation",
+          "team coordination",
+          "debugging basic code"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "name": "ENGR 102 Computation Portfolio",
+        "timeframe": "Spring 2026",
+        "description": "Collection of Python-style computation exercises and engineering problem-solving notebooks from ENGR 102.",
+        "tools": [
+          "Python basics",
+          "engineering formulas",
+          "technical comments"
+        ]
+      },
+      {
+        "name": "Chemistry Lab Data Tracker",
+        "timeframe": "Spring 2026",
+        "description": "Spreadsheet used to organize lab measurements, calculations, and reflections for general chemistry coursework.",
+        "tools": [
+          "Excel",
+          "data organization",
+          "lab reporting"
+        ]
+      }
+    ],
+    "resume": {
+      "skills": {
+        "technical": [
+          "Python basics",
+          "MATLAB basics",
+          "engineering computation",
+          "technical writing",
+          "Excel basics"
+        ],
+        "soft": [
+          "team collaboration",
+          "problem solving",
+          "persistence",
+          "asking for feedback"
+        ],
+        "ai_exposure": "informal — has used AI tools for study planning and code explanation, but no formal AI coursework yet"
+      },
+      "work_experience": [
+        {
+          "employer": "Texas A&M Engineering Project Team",
+          "role": "First-Year Team Member",
+          "duration": "Spring 2026",
+          "location": "College Station, TX",
+          "description": "Contributed computation and documentation support for a first-year engineering design assignment.",
+          "skills_gained": [
+            "engineering documentation",
+            "team coordination",
+            "debugging basic code"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "name": "ENGR 102 Computation Portfolio",
+          "timeframe": "Spring 2026",
+          "description": "Collection of Python-style computation exercises and engineering problem-solving notebooks from ENGR 102.",
+          "tools": [
+            "Python basics",
+            "engineering formulas",
+            "technical comments"
+          ]
+        },
+        {
+          "name": "Chemistry Lab Data Tracker",
+          "timeframe": "Spring 2026",
+          "description": "Spreadsheet used to organize lab measurements, calculations, and reflections for general chemistry coursework.",
+          "tools": [
+            "Excel",
+            "data organization",
+            "lab reporting"
+          ]
+        }
+      ],
+      "certifications": []
+    }
   },
   "profile_completeness": {
     "academic": 1.0,
-    "career": 0.0,
-    "overall": 0.5
+    "career": 1.0,
+    "overall": 1.0
   },
   "examTopicTags": {
     "5021": [

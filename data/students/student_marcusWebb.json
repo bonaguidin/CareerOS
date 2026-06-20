@@ -427,19 +427,133 @@
     }
   ],
   "career": {
-    "target_roles": null,
-    "interests": null,
-    "skills_self_reported": null,
-    "certifications": null,
-    "work_experience": null,
-    "ai_anxiety_level": null,
-    "geographic_preference": null,
-    "career_goals": null
+    "target_roles": [
+      "Research Assistant",
+      "Student Success Peer Mentor",
+      "People Operations Intern"
+    ],
+    "interests": [
+      "behavioral research",
+      "student support",
+      "diversity and inclusion",
+      "organizational psychology"
+    ],
+    "career_goals": "forming — interested in applying psychology to student success, research, or workplace culture roles",
+    "geographic_preference": "Texas preferred, open to remote or campus-based roles",
+    "ai_anxiety_level": "moderate — sees AI as useful for research summaries, but wants clearer boundaries for academic use",
+    "skills_self_reported": {
+      "technical": [
+        "survey design basics",
+        "statistical reasoning",
+        "literature review",
+        "APA-style writing",
+        "Excel basics"
+      ],
+      "soft": [
+        "empathy",
+        "facilitation",
+        "public speaking",
+        "critical reading"
+      ],
+      "ai_exposure": "moderate — uses AI for outlining and study questions, not yet for structured research workflows"
+    },
+    "certifications": [],
+    "work_experience": [
+      {
+        "employer": "Psychology course research team",
+        "role": "Class Research Contributor",
+        "duration": "Spring 2026",
+        "location": "College Station, TX",
+        "description": "Supported course-based research discussions on culture, bias, and interpretation of behavioral data.",
+        "skills_gained": [
+          "research discussion",
+          "evidence synthesis",
+          "group facilitation"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "name": "Culture and Diversity Literature Brief",
+        "timeframe": "Spring 2026",
+        "description": "Compared research findings on cultural identity, stereotyping, and social behavior for psychology coursework.",
+        "tools": [
+          "APA writing",
+          "source synthesis",
+          "critical analysis"
+        ]
+      },
+      {
+        "name": "STAT 201 Hypothesis Testing Review",
+        "timeframe": "Spring 2026",
+        "description": "Created a study guide connecting null hypotheses, p-values, and Type I/II error examples.",
+        "tools": [
+          "statistics",
+          "study design",
+          "Excel basics"
+        ]
+      }
+    ],
+    "resume": {
+      "skills": {
+        "technical": [
+          "survey design basics",
+          "statistical reasoning",
+          "literature review",
+          "APA-style writing",
+          "Excel basics"
+        ],
+        "soft": [
+          "empathy",
+          "facilitation",
+          "public speaking",
+          "critical reading"
+        ],
+        "ai_exposure": "moderate — uses AI for outlining and study questions, not yet for structured research workflows"
+      },
+      "work_experience": [
+        {
+          "employer": "Psychology course research team",
+          "role": "Class Research Contributor",
+          "duration": "Spring 2026",
+          "location": "College Station, TX",
+          "description": "Supported course-based research discussions on culture, bias, and interpretation of behavioral data.",
+          "skills_gained": [
+            "research discussion",
+            "evidence synthesis",
+            "group facilitation"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "name": "Culture and Diversity Literature Brief",
+          "timeframe": "Spring 2026",
+          "description": "Compared research findings on cultural identity, stereotyping, and social behavior for psychology coursework.",
+          "tools": [
+            "APA writing",
+            "source synthesis",
+            "critical analysis"
+          ]
+        },
+        {
+          "name": "STAT 201 Hypothesis Testing Review",
+          "timeframe": "Spring 2026",
+          "description": "Created a study guide connecting null hypotheses, p-values, and Type I/II error examples.",
+          "tools": [
+            "statistics",
+            "study design",
+            "Excel basics"
+          ]
+        }
+      ],
+      "certifications": []
+    }
   },
   "profile_completeness": {
     "academic": 1.0,
-    "career": 0.0,
-    "overall": 0.5
+    "career": 1.0,
+    "overall": 1.0
   },
   "examTopicTags": {
     "5029": [

@@ -647,19 +647,147 @@
     }
   ],
   "career": {
-    "target_roles": null,
-    "interests": null,
-    "skills_self_reported": null,
-    "certifications": null,
-    "work_experience": null,
-    "ai_anxiety_level": null,
-    "geographic_preference": null,
-    "career_goals": null
+    "target_roles": [
+      "Research Assistant",
+      "Lab Assistant",
+      "Pre-Health Clinical Volunteer"
+    ],
+    "interests": [
+      "cell biology",
+      "organic chemistry",
+      "lab research",
+      "healthcare"
+    ],
+    "career_goals": "exploratory — considering research or pre-health paths and needs more hands-on lab and clinical exposure",
+    "geographic_preference": "Texas preferred, open to Houston, San Antonio, Austin, or College Station",
+    "ai_anxiety_level": "moderate — interested in AI in healthcare, but unsure how it affects biology career paths",
+    "skills_self_reported": {
+      "technical": [
+        "wet lab technique basics",
+        "lab notebook documentation",
+        "biology concept mapping",
+        "organic chemistry mechanisms",
+        "Excel basics"
+      ],
+      "soft": [
+        "careful observation",
+        "persistence",
+        "collaboration",
+        "reflective learning"
+      ],
+      "ai_exposure": "low to moderate — uses AI for study questions and concept review, no applied biomedical AI experience"
+    },
+    "certifications": [
+      {
+        "name": "Basic lab safety training",
+        "issuer": "Course-based training",
+        "status": "completed",
+        "date": "Spring 2026"
+      }
+    ],
+    "work_experience": [
+      {
+        "employer": "Biology and Chemistry lab coursework",
+        "role": "Student Lab Contributor",
+        "duration": "Spring 2026",
+        "location": "College Station, TX",
+        "description": "Completed structured lab activities requiring preparation, observation, data recording, and post-lab analysis.",
+        "skills_gained": [
+          "lab safety",
+          "data recording",
+          "scientific explanation"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "name": "Molecular Cell Biology Mechanism Map",
+        "timeframe": "Spring 2026",
+        "description": "Built a study artifact connecting cell structures, molecular mechanisms, and experimental evidence from BIOL 213.",
+        "tools": [
+          "concept mapping",
+          "biology terminology",
+          "evidence synthesis"
+        ]
+      },
+      {
+        "name": "Organic Chemistry Reaction Tracker",
+        "timeframe": "Spring 2026",
+        "description": "Organized reaction types, mechanisms, and lab observations to connect chemistry outcomes back to hypotheses.",
+        "tools": [
+          "organic chemistry mechanisms",
+          "lab notes",
+          "Excel basics"
+        ]
+      }
+    ],
+    "resume": {
+      "skills": {
+        "technical": [
+          "wet lab technique basics",
+          "lab notebook documentation",
+          "biology concept mapping",
+          "organic chemistry mechanisms",
+          "Excel basics"
+        ],
+        "soft": [
+          "careful observation",
+          "persistence",
+          "collaboration",
+          "reflective learning"
+        ],
+        "ai_exposure": "low to moderate — uses AI for study questions and concept review, no applied biomedical AI experience"
+      },
+      "work_experience": [
+        {
+          "employer": "Biology and Chemistry lab coursework",
+          "role": "Student Lab Contributor",
+          "duration": "Spring 2026",
+          "location": "College Station, TX",
+          "description": "Completed structured lab activities requiring preparation, observation, data recording, and post-lab analysis.",
+          "skills_gained": [
+            "lab safety",
+            "data recording",
+            "scientific explanation"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "name": "Molecular Cell Biology Mechanism Map",
+          "timeframe": "Spring 2026",
+          "description": "Built a study artifact connecting cell structures, molecular mechanisms, and experimental evidence from BIOL 213.",
+          "tools": [
+            "concept mapping",
+            "biology terminology",
+            "evidence synthesis"
+          ]
+        },
+        {
+          "name": "Organic Chemistry Reaction Tracker",
+          "timeframe": "Spring 2026",
+          "description": "Organized reaction types, mechanisms, and lab observations to connect chemistry outcomes back to hypotheses.",
+          "tools": [
+            "organic chemistry mechanisms",
+            "lab notes",
+            "Excel basics"
+          ]
+        }
+      ],
+      "certifications": [
+        {
+          "name": "Basic lab safety training",
+          "issuer": "Course-based training",
+          "status": "completed",
+          "date": "Spring 2026"
+        }
+      ]
+    }
   },
   "profile_completeness": {
     "academic": 1.0,
-    "career": 0.0,
-    "overall": 0.5
+    "career": 1.0,
+    "overall": 1.0
   },
   "examTopicTags": {
     "5032": [

@@ -537,19 +537,133 @@
     }
   ],
   "career": {
-    "target_roles": null,
-    "interests": null,
-    "skills_self_reported": null,
-    "certifications": null,
-    "work_experience": null,
-    "ai_anxiety_level": null,
-    "geographic_preference": null,
-    "career_goals": null
+    "target_roles": [
+      "Business Analyst Intern",
+      "Operations Intern",
+      "Finance Intern"
+    ],
+    "interests": [
+      "operations",
+      "finance",
+      "business analytics",
+      "DFW job market"
+    ],
+    "career_goals": "exploratory — knows he wants a business-related internship, still deciding between finance, operations, and analytics",
+    "geographic_preference": "DFW metro preferred",
+    "ai_anxiety_level": "moderate — curious about business uses of AI but unsure how to present those skills",
+    "skills_self_reported": {
+      "technical": [
+        "Excel",
+        "PowerPoint",
+        "financial statement basics",
+        "business math",
+        "introductory accounting"
+      ],
+      "soft": [
+        "team collaboration",
+        "written communication",
+        "presentation",
+        "problem solving"
+      ],
+      "ai_exposure": "informal — uses AI tools for brainstorming and study support, no formal AI training"
+    },
+    "certifications": [],
+    "work_experience": [
+      {
+        "employer": "Mays Business School class project team",
+        "role": "Business Case Team Member",
+        "duration": "Spring 2026",
+        "location": "College Station, TX",
+        "description": "Helped prepare a freshman business case presentation with basic market and financial analysis.",
+        "skills_gained": [
+          "PowerPoint storytelling",
+          "team presentation",
+          "basic market research"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "name": "Freshman Business Initiative Market Brief",
+        "timeframe": "Spring 2026",
+        "description": "Summarized customer segments, competitor positioning, and go-to-market considerations for a class business concept.",
+        "tools": [
+          "PowerPoint",
+          "market research",
+          "presentation writing"
+        ]
+      },
+      {
+        "name": "Accounting Practice Workbook",
+        "timeframe": "Spring 2026",
+        "description": "Built a spreadsheet to practice debit/credit classification and basic financial statement relationships.",
+        "tools": [
+          "Excel",
+          "accounting equations",
+          "financial statements"
+        ]
+      }
+    ],
+    "resume": {
+      "skills": {
+        "technical": [
+          "Excel",
+          "PowerPoint",
+          "financial statement basics",
+          "business math",
+          "introductory accounting"
+        ],
+        "soft": [
+          "team collaboration",
+          "written communication",
+          "presentation",
+          "problem solving"
+        ],
+        "ai_exposure": "informal — uses AI tools for brainstorming and study support, no formal AI training"
+      },
+      "work_experience": [
+        {
+          "employer": "Mays Business School class project team",
+          "role": "Business Case Team Member",
+          "duration": "Spring 2026",
+          "location": "College Station, TX",
+          "description": "Helped prepare a freshman business case presentation with basic market and financial analysis.",
+          "skills_gained": [
+            "PowerPoint storytelling",
+            "team presentation",
+            "basic market research"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "name": "Freshman Business Initiative Market Brief",
+          "timeframe": "Spring 2026",
+          "description": "Summarized customer segments, competitor positioning, and go-to-market considerations for a class business concept.",
+          "tools": [
+            "PowerPoint",
+            "market research",
+            "presentation writing"
+          ]
+        },
+        {
+          "name": "Accounting Practice Workbook",
+          "timeframe": "Spring 2026",
+          "description": "Built a spreadsheet to practice debit/credit classification and basic financial statement relationships.",
+          "tools": [
+            "Excel",
+            "accounting equations",
+            "financial statements"
+          ]
+        }
+      ],
+      "certifications": []
+    }
   },
   "profile_completeness": {
     "academic": 1.0,
-    "career": 0.0,
-    "overall": 0.5
+    "career": 1.0,
+    "overall": 1.0
   },
   "examTopicTags": {
     "5004": [
