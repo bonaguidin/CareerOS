@@ -24,7 +24,6 @@ REQUIRED_KEYS = {
 REQUIRED_STUDENT_KEYS = {
     "id",
     "name",
-    "major",
     "classification",
     "institution",
     "gpa_current",
@@ -40,10 +39,8 @@ REQUIRED_CAREER_KEYS = {
     "certifications",
     "work_experience",
     "projects",
-    "resume",
 }
 
-REQUIRED_RESUME_KEYS = {"skills", "work_experience", "projects", "certifications"}
 REQUIRED_SKILL_KEYS = {"technical", "soft", "ai_exposure"}
 REQUIRED_COMPLETENESS_KEYS = {"academic", "career", "overall"}
 
@@ -100,9 +97,15 @@ def validate_unified_profile(data, issues):
             issues.append(f"student: missing keys {sorted(missing_student)}")
         if not isinstance(student.get("id"), int):
             issues.append("student.id: expected integer")
-        for key in ["name", "major", "classification", "institution"]:
+        for key in ["name", "classification", "institution"]:
             if not is_non_empty_string(student.get(key)):
                 issues.append(f"student.{key}: expected non-empty string")
+        # Accept either legacy `major` or the split `major_current` + `major_intended`
+        has_major = is_non_empty_string(student.get("major"))
+        has_split = (is_non_empty_string(student.get("major_current")) and
+                     is_non_empty_string(student.get("major_intended")))
+        if not has_major and not has_split:
+            issues.append("student: expected non-empty major or major_current + major_intended")
         if not isinstance(student.get("gpa_current"), (int, float)):
             issues.append("student.gpa_current: expected number")
 
@@ -121,52 +124,34 @@ def validate_unified_profile(data, issues):
         if not is_non_empty_string(career.get(key)):
             issues.append(f"career.{key}: expected non-empty string")
 
-    resume = career.get("resume")
-    if not isinstance(resume, dict):
-        issues.append("career.resume: expected object")
-        return
-
-    missing_resume = REQUIRED_RESUME_KEYS - set(resume.keys())
-    if missing_resume:
-        issues.append(f"career.resume: missing keys {sorted(missing_resume)}")
-
-    skills = resume.get("skills")
+    skills = career.get("skills_self_reported")
     if not isinstance(skills, dict):
-        issues.append("career.resume.skills: expected object")
+        issues.append("career.skills_self_reported: expected object")
     else:
         missing_skills = REQUIRED_SKILL_KEYS - set(skills.keys())
         if missing_skills:
-            issues.append(f"career.resume.skills: missing keys {sorted(missing_skills)}")
-        validate_string_list(skills.get("technical"), "career.resume.skills.technical", issues)
-        validate_string_list(skills.get("soft"), "career.resume.skills.soft", issues)
+            issues.append(f"career.skills_self_reported: missing keys {sorted(missing_skills)}")
+        validate_string_list(skills.get("technical"), "career.skills_self_reported.technical", issues)
+        validate_string_list(skills.get("soft"), "career.skills_self_reported.soft", issues)
         if not is_non_empty_string(skills.get("ai_exposure")):
-            issues.append("career.resume.skills.ai_exposure: expected non-empty string")
-
-    if career.get("skills_self_reported") != resume.get("skills"):
-        issues.append("career.skills_self_reported must mirror career.resume.skills")
-    if career.get("work_experience") != resume.get("work_experience"):
-        issues.append("career.work_experience must mirror career.resume.work_experience")
-    if career.get("projects") != resume.get("projects"):
-        issues.append("career.projects must mirror career.resume.projects")
-    if career.get("certifications") != resume.get("certifications"):
-        issues.append("career.certifications must mirror career.resume.certifications")
+            issues.append("career.skills_self_reported.ai_exposure: expected non-empty string")
 
     validate_resume_items(
-        resume.get("work_experience"),
+        career.get("work_experience"),
         {"employer", "role", "duration", "location", "description", "skills_gained"},
-        "career.resume.work_experience",
+        "career.work_experience",
         issues,
     )
     validate_resume_items(
-        resume.get("projects"),
+        career.get("projects"),
         {"name", "timeframe", "description", "tools"},
-        "career.resume.projects",
+        "career.projects",
         issues,
     )
     validate_resume_items(
-        resume.get("certifications"),
+        career.get("certifications"),
         {"name", "issuer", "status"},
-        "career.resume.certifications",
+        "career.certifications",
         issues,
         allow_empty=True,
     )

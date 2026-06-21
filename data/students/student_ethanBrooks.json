@@ -16,10 +16,10 @@
     "major_intended": "Computer Engineering",
     "classification": "Freshman",
     "institution": "Texas A&M University",
-    "gpa_current": 2.57
-    "expected_graduation": "2029-05",
+    "gpa_current": 2.64,
+    "expected_graduation": "2029-05"
   },
-  "onboarding_stage": 3
+  "onboarding_stage": 3,
   "courses": [
     {
       "id": 3010,
@@ -508,7 +508,7 @@
           "author_id": 1,
           "author_name": "Dr. Patel",
           "comment": "Code works — add comments explaining your logic.",
-          "created_at": "2026-02-13T10:00:00Z"
+          "created_at": "2026-02-12T10:00:00Z"
         }
       ]
     },
@@ -531,7 +531,7 @@
           "author_id": 1,
           "author_name": "Dr. Patel",
           "comment": "Solid project; document your testing process next time.",
-          "created_at": "2026-02-13T10:00:00Z"
+          "created_at": "2026-04-25T10:00:00Z"
         }
       ]
     },
@@ -577,7 +577,7 @@
           "author_id": 1,
           "author_name": "Dr. Castillo",
           "comment": "Same pattern as the problem set — you're losing partial credit by skipping steps.",
-          "created_at": "2026-02-13T10:00:00Z"
+          "created_at": "2026-03-16T10:00:00Z"
         }
       ]
     },
@@ -876,73 +876,39 @@
           "lab reporting"
         ]
       }
-    ],
-    "resume": {
-      "skills": {
-        "technical": [
-          "Python basics",
-          "MATLAB basics",
-          "engineering computation",
-          "technical writing",
-          "Excel basics"
-        ],
-        "soft": [
-          "team collaboration",
-          "problem solving",
-          "persistence",
-          "asking for feedback"
-        ],
-        "ai_exposure": "informal — has used AI tools for study planning and code explanation, but no formal AI coursework yet"
-      },
-      "work_experience": [
-        {
-          "employer": "Texas A&M Engineering Project Team",
-          "role": "First-Year Team Member",
-          "duration": "Spring 2026",
-          "location": "College Station, TX",
-          "description": "Contributed computation and documentation support for a first-year engineering design assignment.",
-          "skills_gained": [
-            "engineering documentation",
-            "team coordination",
-            "debugging basic code"
-          ]
-        }
-      ],
-      "projects": [
-        {
-          "name": "ENGR 102 Computation Portfolio",
-          "timeframe": "Spring 2026",
-          "description": "Collection of Python-style computation exercises and engineering problem-solving notebooks from ENGR 102.",
-          "tools": [
-            "Python basics",
-            "engineering formulas",
-            "technical comments"
-          ]
-        },
-        {
-          "name": "Chemistry Lab Data Tracker",
-          "timeframe": "Spring 2026",
-          "description": "Spreadsheet used to organize lab measurements, calculations, and reflections for general chemistry coursework.",
-          "tools": [
-            "Excel",
-            "data organization",
-            "lab reporting"
-          ]
-        }
-      ],
-      "certifications": []
-    }
+    ]
   },
   "profile_completeness": {
     "academic": 1.0,
     "career": 1.0,
-    "overall": 1.0
+    "overall": 1.0,
     "by_feature": {
-       "FIT":   { "ready": true, "required": { "target_roles": true, "interests": true, "major_intended": true } },
-       "GAP":   { "ready": true, "required": { "target_roles": true, "skills_self_reported": true, "work_experience": true, "certifications": true, "expected_graduation": true } },
-       "SHIFT": { "ready": true, "required": { "target_roles": true, "skills_self_reported": true } }
+      "FIT": {
+        "ready": true,
+        "required": {
+          "target_roles": true,
+          "interests": true,
+          "major_intended": true
+        }
+      },
+      "GAP": {
+        "ready": true,
+        "required": {
+          "target_roles": true,
+          "skills_self_reported": true,
+          "work_experience": true,
+          "certifications": true,
+          "expected_graduation": true
+        }
+      },
+      "SHIFT": {
+        "ready": true,
+        "required": {
+          "target_roles": true,
+          "skills_self_reported": true
+        }
+      }
     }
-  },
   },
   "examTopicTags": {
     "5021": [

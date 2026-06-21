@@ -10,11 +10,14 @@
   "student": {
     "id": 602,
     "name": "Priya Nair",
-    "major": "Aerospace Engineering",
+    "major_current": "Aerospace Engineering",
+    "major_intended": "N/A",
     "classification": "Sophomore",
     "institution": "Texas A&M University",
-    "gpa_current": 3.67
+    "gpa_current": 3.67,
+    "expected_graduation": "2028-05"
   },
+  "onboarding_stage": 3,
   "courses": [
     {
       "id": 3006,
@@ -491,7 +494,7 @@
           "author_id": 1,
           "author_name": "Dr. Mehta",
           "comment": "Excellent eigenvalue derivation.",
-          "created_at": "2026-02-13T10:00:00Z"
+          "created_at": "2026-04-21T10:00:00Z"
         }
       ]
     },
@@ -544,7 +547,7 @@
           "author_id": 1,
           "author_name": "Dr. Bennett",
           "comment": "Good analysis — cite your source more precisely.",
-          "created_at": "2026-02-13T10:00:00Z"
+          "created_at": "2026-03-02T10:00:00Z"
         }
       ]
     },
@@ -737,67 +740,39 @@
           "engineering notation"
         ]
       }
-    ],
-    "resume": {
-      "skills": {
-        "technical": [
-          "MATLAB basics",
-          "engineering mechanics",
-          "multivariable calculus",
-          "thermodynamics basics",
-          "technical documentation"
-        ],
-        "soft": [
-          "analytical thinking",
-          "attention to detail",
-          "technical communication",
-          "team reliability"
-        ],
-        "ai_exposure": "moderate — uses AI for concept review and documentation drafts, not as a substitute for calculations"
-      },
-      "work_experience": [
-        {
-          "employer": "Aerospace Engineering course team",
-          "role": "Analysis Team Member",
-          "duration": "Spring 2026",
-          "location": "College Station, TX",
-          "description": "Collaborated on mechanics, flight, and aerothermodynamics assignments requiring structured calculations and written explanations.",
-          "skills_gained": [
-            "free body diagrams",
-            "technical review",
-            "engineering communication"
-          ]
-        }
-      ],
-      "projects": [
-        {
-          "name": "Introduction to Flight Concept Brief",
-          "timeframe": "Spring 2026",
-          "description": "Prepared a technical brief explaining standard atmosphere assumptions, lift and drag concepts, and introductory orbital mechanics.",
-          "tools": [
-            "aerodynamics concepts",
-            "technical writing",
-            "calculation review"
-          ]
-        },
-        {
-          "name": "AERO 221 Vector Calculus Study Toolkit",
-          "timeframe": "Spring 2026",
-          "description": "Compiled worked examples for gradient, divergence, curl, surface integrals, and Stokes theorem applications.",
-          "tools": [
-            "vector calculus",
-            "MATLAB basics",
-            "engineering notation"
-          ]
-        }
-      ],
-      "certifications": []
-    }
+    ]
   },
   "profile_completeness": {
     "academic": 1.0,
     "career": 1.0,
-    "overall": 1.0
+    "overall": 1.0,
+    "by_feature": {
+      "FIT": {
+        "ready": true,
+        "required": {
+          "target_roles": true,
+          "interests": true,
+          "major_intended": true
+        }
+      },
+      "GAP": {
+        "ready": true,
+        "required": {
+          "target_roles": true,
+          "skills_self_reported": true,
+          "work_experience": true,
+          "certifications": true,
+          "expected_graduation": true
+        }
+      },
+      "SHIFT": {
+        "ready": true,
+        "required": {
+          "target_roles": true,
+          "skills_self_reported": true
+        }
+      }
+    }
   },
   "examTopicTags": {
     "5010": [

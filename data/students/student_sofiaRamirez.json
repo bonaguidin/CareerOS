@@ -11,11 +11,14 @@
   "student": {
     "id": 605,
     "name": "Sofia Ramirez",
-    "major": "Biology",
+    "major_current": "Biology",
+    "major_intended": "N/A",
     "classification": "Sophomore",
     "institution": "Texas A&M University",
-    "gpa_current": 2.69
+    "gpa_current": 2.69,
+    "expected_graduation": "2028-05"
   },
+  "onboarding_stage": 3,
   "courses": [
     {
       "id": 3019,
@@ -411,7 +414,7 @@
           "author_id": 1,
           "author_name": "Dr. Jensen",
           "comment": "Solid recall of mechanisms — you lose points when you stop short of explaining functional significance.",
-          "created_at": "2026-02-13T10:00:00Z"
+          "created_at": "2026-03-12T10:00:00Z"
         }
       ]
     },
@@ -457,7 +460,7 @@
           "author_id": 1,
           "author_name": "Dr. Okwuosa",
           "comment": "Good yield, but your discussion doesn't tie the result back to the proposed mechanism.",
-          "created_at": "2026-02-13T10:00:00Z"
+          "created_at": "2026-04-04T10:00:00Z"
         }
       ]
     },
@@ -480,7 +483,7 @@
           "author_id": 1,
           "author_name": "Dr. Singh",
           "comment": "Solid data collection — same gap as your Bio lab: connect results back to the hypothesis.",
-          "created_at": "2026-02-13T10:00:00Z"
+          "created_at": "2026-03-03T10:00:00Z"
         }
       ]
     },
@@ -503,7 +506,7 @@
           "author_id": 1,
           "author_name": "Dr. Bennett",
           "comment": "Clear summary; push further with historical context and connect it to a broader argument.",
-          "created_at": "2026-02-13T10:00:00Z"
+          "created_at": "2026-03-07T10:00:00Z"
         }
       ]
     },
@@ -720,74 +723,39 @@
           "Excel basics"
         ]
       }
-    ],
-    "resume": {
-      "skills": {
-        "technical": [
-          "wet lab technique basics",
-          "lab notebook documentation",
-          "biology concept mapping",
-          "organic chemistry mechanisms",
-          "Excel basics"
-        ],
-        "soft": [
-          "careful observation",
-          "persistence",
-          "collaboration",
-          "reflective learning"
-        ],
-        "ai_exposure": "low to moderate — uses AI for study questions and concept review, no applied biomedical AI experience"
-      },
-      "work_experience": [
-        {
-          "employer": "Biology and Chemistry lab coursework",
-          "role": "Student Lab Contributor",
-          "duration": "Spring 2026",
-          "location": "College Station, TX",
-          "description": "Completed structured lab activities requiring preparation, observation, data recording, and post-lab analysis.",
-          "skills_gained": [
-            "lab safety",
-            "data recording",
-            "scientific explanation"
-          ]
-        }
-      ],
-      "projects": [
-        {
-          "name": "Molecular Cell Biology Mechanism Map",
-          "timeframe": "Spring 2026",
-          "description": "Built a study artifact connecting cell structures, molecular mechanisms, and experimental evidence from BIOL 213.",
-          "tools": [
-            "concept mapping",
-            "biology terminology",
-            "evidence synthesis"
-          ]
-        },
-        {
-          "name": "Organic Chemistry Reaction Tracker",
-          "timeframe": "Spring 2026",
-          "description": "Organized reaction types, mechanisms, and lab observations to connect chemistry outcomes back to hypotheses.",
-          "tools": [
-            "organic chemistry mechanisms",
-            "lab notes",
-            "Excel basics"
-          ]
-        }
-      ],
-      "certifications": [
-        {
-          "name": "Basic lab safety training",
-          "issuer": "Course-based training",
-          "status": "completed",
-          "date": "Spring 2026"
-        }
-      ]
-    }
+    ]
   },
   "profile_completeness": {
     "academic": 1.0,
     "career": 1.0,
-    "overall": 1.0
+    "overall": 1.0,
+    "by_feature": {
+      "FIT": {
+        "ready": true,
+        "required": {
+          "target_roles": true,
+          "interests": true,
+          "major_intended": true
+        }
+      },
+      "GAP": {
+        "ready": true,
+        "required": {
+          "target_roles": true,
+          "skills_self_reported": true,
+          "work_experience": true,
+          "certifications": true,
+          "expected_graduation": true
+        }
+      },
+      "SHIFT": {
+        "ready": true,
+        "required": {
+          "target_roles": true,
+          "skills_self_reported": true
+        }
+      }
+    }
   },
   "examTopicTags": {
     "5032": [

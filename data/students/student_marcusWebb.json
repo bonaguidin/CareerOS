@@ -11,11 +11,14 @@
   "student": {
     "id": 604,
     "name": "Marcus Webb",
-    "major": "Psychology",
+    "major_current": "Psychology",
+    "major_intended": "N/A",
     "classification": "Sophomore",
     "institution": "Texas A&M University",
-    "gpa_current": 3.0
+    "gpa_current": 3.0,
+    "expected_graduation": "2028-05"
   },
+  "onboarding_stage": 3,
   "courses": [
     {
       "id": 3015,
@@ -283,7 +286,7 @@
           "author_id": 1,
           "author_name": "Dr. Alvarez",
           "comment": "Strong sources; thesis statement could be sharper in the introduction.",
-          "created_at": "2026-02-13T10:00:00Z"
+          "created_at": "2026-04-18T10:00:00Z"
         }
       ]
     },
@@ -306,7 +309,7 @@
           "author_id": 1,
           "author_name": "Dr. Park",
           "comment": "Good case selection, but tie your analysis back to the course frameworks.",
-          "created_at": "2026-02-13T10:00:00Z"
+          "created_at": "2026-02-28T10:00:00Z"
         }
       ]
     },
@@ -329,7 +332,7 @@
           "author_id": 1,
           "author_name": "Dr. Park",
           "comment": "Thesis statement is unclear again here — see my comment on the case study assignment.",
-          "created_at": "2026-02-13T10:00:00Z"
+          "created_at": "2026-05-04T10:00:00Z"
         }
       ]
     },
@@ -352,7 +355,7 @@
           "author_id": 1,
           "author_name": "Dr. Nguyen",
           "comment": "Several distribution problems show conceptual mix-ups — see me in office hours.",
-          "created_at": "2026-02-13T10:00:00Z"
+          "created_at": "2026-02-22T10:00:00Z"
         }
       ]
     },
@@ -375,7 +378,7 @@
           "author_id": 1,
           "author_name": "Dr. Nguyen",
           "comment": "Same hypothesis-testing mix-up as the homework — let's go over this together.",
-          "created_at": "2026-02-13T10:00:00Z"
+          "created_at": "2026-03-16T10:00:00Z"
         }
       ]
     },
@@ -398,7 +401,7 @@
           "author_id": 1,
           "author_name": "Dr. Bennett",
           "comment": "Good engagement with the material; state your argument more directly upfront.",
-          "created_at": "2026-02-13T10:00:00Z"
+          "created_at": "2026-03-05T10:00:00Z"
         }
       ]
     },
@@ -493,67 +496,39 @@
           "Excel basics"
         ]
       }
-    ],
-    "resume": {
-      "skills": {
-        "technical": [
-          "survey design basics",
-          "statistical reasoning",
-          "literature review",
-          "APA-style writing",
-          "Excel basics"
-        ],
-        "soft": [
-          "empathy",
-          "facilitation",
-          "public speaking",
-          "critical reading"
-        ],
-        "ai_exposure": "moderate — uses AI for outlining and study questions, not yet for structured research workflows"
-      },
-      "work_experience": [
-        {
-          "employer": "Psychology course research team",
-          "role": "Class Research Contributor",
-          "duration": "Spring 2026",
-          "location": "College Station, TX",
-          "description": "Supported course-based research discussions on culture, bias, and interpretation of behavioral data.",
-          "skills_gained": [
-            "research discussion",
-            "evidence synthesis",
-            "group facilitation"
-          ]
-        }
-      ],
-      "projects": [
-        {
-          "name": "Culture and Diversity Literature Brief",
-          "timeframe": "Spring 2026",
-          "description": "Compared research findings on cultural identity, stereotyping, and social behavior for psychology coursework.",
-          "tools": [
-            "APA writing",
-            "source synthesis",
-            "critical analysis"
-          ]
-        },
-        {
-          "name": "STAT 201 Hypothesis Testing Review",
-          "timeframe": "Spring 2026",
-          "description": "Created a study guide connecting null hypotheses, p-values, and Type I/II error examples.",
-          "tools": [
-            "statistics",
-            "study design",
-            "Excel basics"
-          ]
-        }
-      ],
-      "certifications": []
-    }
+    ]
   },
   "profile_completeness": {
     "academic": 1.0,
     "career": 1.0,
-    "overall": 1.0
+    "overall": 1.0,
+    "by_feature": {
+      "FIT": {
+        "ready": true,
+        "required": {
+          "target_roles": true,
+          "interests": true,
+          "major_intended": true
+        }
+      },
+      "GAP": {
+        "ready": true,
+        "required": {
+          "target_roles": true,
+          "skills_self_reported": true,
+          "work_experience": true,
+          "certifications": true,
+          "expected_graduation": true
+        }
+      },
+      "SHIFT": {
+        "ready": true,
+        "required": {
+          "target_roles": true,
+          "skills_self_reported": true
+        }
+      }
+    }
   },
   "examTopicTags": {
     "5029": [

@@ -12,11 +12,14 @@
   "student": {
     "id": 601,
     "name": "Jordan Reyes",
-    "major": "Business Administration (pre-major)",
+    "major_current": "Business Administration (pre-major)",
+    "major_intended": "N/A",
     "classification": "Freshman",
     "institution": "Texas A&M University",
-    "gpa_current": 3.0
+    "gpa_current": 3.0,
+    "expected_graduation": "2029-05"
   },
+  "onboarding_stage": 3,
   "courses": [
     {
       "id": 3001,
@@ -324,7 +327,7 @@
           "author_id": 1,
           "author_name": "Dr. Whitfield",
           "comment": "Good self-awareness, but be more specific about how you'll apply this.",
-          "created_at": "2026-02-13T10:00:00Z"
+          "created_at": "2026-02-09T10:00:00Z"
         }
       ]
     },
@@ -347,7 +350,7 @@
           "author_id": 1,
           "author_name": "Dr. Whitfield",
           "comment": "Strong delivery; slides had too much text — practice summarizing key points.",
-          "created_at": "2026-02-13T10:00:00Z"
+          "created_at": "2026-04-13T10:00:00Z"
         }
       ]
     },
@@ -370,7 +373,7 @@
           "author_id": 1,
           "author_name": "Prof. Liu",
           "comment": "Several entries missing the contra account — review T-accounts before the exam.",
-          "created_at": "2026-02-13T10:00:00Z"
+          "created_at": "2026-02-23T10:00:00Z"
         }
       ]
     },
@@ -393,7 +396,7 @@
           "author_id": 1,
           "author_name": "Prof. Liu",
           "comment": "Same issue as the problem set: double check which account is debited vs credited.",
-          "created_at": "2026-02-13T10:00:00Z"
+          "created_at": "2026-03-15T10:00:00Z"
         }
       ]
     },
@@ -416,7 +419,7 @@
           "author_id": 1,
           "author_name": "Dr. Castillo",
           "comment": "Good setup, arithmetic errors in the last two problems.",
-          "created_at": "2026-02-13T10:00:00Z"
+          "created_at": "2026-02-21T10:00:00Z"
         }
       ]
     },
@@ -439,7 +442,7 @@
           "author_id": 1,
           "author_name": "Dr. Castillo",
           "comment": "Show your work — partial credit was lost on problems where only the final answer was given.",
-          "created_at": "2026-02-13T10:00:00Z"
+          "created_at": "2026-03-13T10:00:00Z"
         }
       ]
     },
@@ -462,7 +465,7 @@
           "author_id": 1,
           "author_name": "Dr. Bennett",
           "comment": "Strong thesis; work on smoother transitions between paragraphs.",
-          "created_at": "2026-02-13T10:00:00Z"
+          "created_at": "2026-02-27T10:00:00Z"
         }
       ]
     },
@@ -485,7 +488,7 @@
           "author_id": 1,
           "author_name": "Dr. Bennett",
           "comment": "Adequate summary — push further to analyze the policy implications.",
-          "created_at": "2026-02-13T10:00:00Z"
+          "created_at": "2026-03-04T10:00:00Z"
         }
       ]
     },
@@ -603,67 +606,39 @@
           "financial statements"
         ]
       }
-    ],
-    "resume": {
-      "skills": {
-        "technical": [
-          "Excel",
-          "PowerPoint",
-          "financial statement basics",
-          "business math",
-          "introductory accounting"
-        ],
-        "soft": [
-          "team collaboration",
-          "written communication",
-          "presentation",
-          "problem solving"
-        ],
-        "ai_exposure": "informal — uses AI tools for brainstorming and study support, no formal AI training"
-      },
-      "work_experience": [
-        {
-          "employer": "Mays Business School class project team",
-          "role": "Business Case Team Member",
-          "duration": "Spring 2026",
-          "location": "College Station, TX",
-          "description": "Helped prepare a freshman business case presentation with basic market and financial analysis.",
-          "skills_gained": [
-            "PowerPoint storytelling",
-            "team presentation",
-            "basic market research"
-          ]
-        }
-      ],
-      "projects": [
-        {
-          "name": "Freshman Business Initiative Market Brief",
-          "timeframe": "Spring 2026",
-          "description": "Summarized customer segments, competitor positioning, and go-to-market considerations for a class business concept.",
-          "tools": [
-            "PowerPoint",
-            "market research",
-            "presentation writing"
-          ]
-        },
-        {
-          "name": "Accounting Practice Workbook",
-          "timeframe": "Spring 2026",
-          "description": "Built a spreadsheet to practice debit/credit classification and basic financial statement relationships.",
-          "tools": [
-            "Excel",
-            "accounting equations",
-            "financial statements"
-          ]
-        }
-      ],
-      "certifications": []
-    }
+    ]
   },
   "profile_completeness": {
     "academic": 1.0,
     "career": 1.0,
-    "overall": 1.0
+    "overall": 1.0,
+    "by_feature": {
+      "FIT": {
+        "ready": true,
+        "required": {
+          "target_roles": true,
+          "interests": true,
+          "major_intended": true
+        }
+      },
+      "GAP": {
+        "ready": true,
+        "required": {
+          "target_roles": true,
+          "skills_self_reported": true,
+          "work_experience": true,
+          "certifications": true,
+          "expected_graduation": true
+        }
+      },
+      "SHIFT": {
+        "ready": true,
+        "required": {
+          "target_roles": true,
+          "skills_self_reported": true
+        }
+      }
+    }
   },
   "examTopicTags": {
     "5004": [
