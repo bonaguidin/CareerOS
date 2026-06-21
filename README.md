@@ -62,3 +62,25 @@ mirrors used by future prompts/UI code.
 |----------------------------------------------|---------------------------------------|
 | `uv run python data/scrape_catalog.py`       | Re-scrape the TAMU course catalog     |
 | `uv run python data/build_catalog.py`        | Rebuild catalog JSON from scrape output |
+
+## AI Architecture
+
+Campus IQ uses OpenRouter as the AI gateway.
+
+### Agent Presets
+
+| Agent | Purpose | Model |
+|---------|---------|---------|
+| career-os-orchestrator | Workflow orchestration | DeepSeek R1 |
+| career-os-fit | Career fit analysis | Qwen3 235B |
+| career-os-gap | Skill gap analysis | Qwen3 235B |
+| career-os-shift | Trend analysis | DeepSeek R1 |
+| career-os-academic | Academic analysis | Qwen3 235B |
+| career-os-report | Report synthesis | Gemini Flash |
+| career-os-parser | JSON normalization | Qwen3 32B |
+
+### Environment Variables
+
+OPENROUTER_API_KEY (Created and Confirmed - Remove this note later) 
+SUPABASE_URL (NEEDS CONFIRMATION)
+SUPABASE_KEY (NEEDS CONFIRMATION)
