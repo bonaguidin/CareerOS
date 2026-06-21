@@ -12,11 +12,14 @@
   "student": {
     "id": 603,
     "name": "Ethan Brooks",
-    "major": "General Engineering (intends Computer Engineering)",
+    "major_current": "General Engineering",
+    "major_intended": "Computer Engineering",
     "classification": "Freshman",
     "institution": "Texas A&M University",
     "gpa_current": 2.57
+    "expected_graduation": "2029-05",
   },
+  "onboarding_stage": 3
   "courses": [
     {
       "id": 3010,
@@ -934,6 +937,12 @@
     "academic": 1.0,
     "career": 1.0,
     "overall": 1.0
+    "by_feature": {
+       "FIT":   { "ready": true, "required": { "target_roles": true, "interests": true, "major_intended": true } },
+       "GAP":   { "ready": true, "required": { "target_roles": true, "skills_self_reported": true, "work_experience": true, "certifications": true, "expected_graduation": true } },
+       "SHIFT": { "ready": true, "required": { "target_roles": true, "skills_self_reported": true } }
+    }
+  },
   },
   "examTopicTags": {
     "5021": [
