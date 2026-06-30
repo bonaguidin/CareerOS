@@ -86,54 +86,15 @@ with `examTopicTags`.
   "skills_self_reported": {},
   "certifications": [],
   "work_experience": [],
-  "projects": [],
-  "resume": {}
+  "projects": []
 }
 ```
 
 The top-level `skills_self_reported`, `certifications`, `work_experience`, and
-`projects` fields mirror `career.resume` so older prompts and future UI code can
-read simple paths while the nested resume block remains the canonical grouping.
-
-## Resume Block
-
-`career.resume` is the canonical resume grouping:
-
-```json
-{
-  "skills": {
-    "technical": [],
-    "soft": [],
-    "ai_exposure": ""
-  },
-  "work_experience": [
-    {
-      "employer": "",
-      "role": "",
-      "duration": "",
-      "location": "",
-      "description": "",
-      "skills_gained": []
-    }
-  ],
-  "projects": [
-    {
-      "name": "",
-      "timeframe": "",
-      "description": "",
-      "tools": []
-    }
-  ],
-  "certifications": [
-    {
-      "name": "",
-      "issuer": "",
-      "status": "",
-      "date": ""
-    }
-  ]
-}
-```
+`projects` fields are the current canonical resume-style fields. Earlier drafts
+included a nested `career.resume` object, but it is not present in the current
+student JSON files and should not be treated as required unless the schema is
+changed again.
 
 `certifications` may be empty. Work experience and projects should be present
 for mock/demo profiles so downstream features can test realistic cases.
@@ -146,7 +107,21 @@ for mock/demo profiles so downstream features can test realistic cases.
 {
   "academic": 1.0,
   "career": 1.0,
-  "overall": 1.0
+  "overall": 1.0,
+  "by_feature": {
+    "FIT": {
+      "ready": true,
+      "required": {}
+    },
+    "GAP": {
+      "ready": true,
+      "required": {}
+    },
+    "SHIFT": {
+      "ready": true,
+      "required": {}
+    }
+  }
 }
 ```
 
@@ -168,9 +143,9 @@ uv run python data/validate_catalog.py
 - required top-level keys
 - expected counts for the five mock profiles
 - required student identity fields
-- required career/resume fields
-- mirror consistency between `career.resume` and compatibility fields
+- required career fields
 - profile completeness values between `0.0` and `1.0`
+- `profile_completeness.by_feature` gates for FIT, GAP, and SHIFT
 
 ## Build Rule
 
