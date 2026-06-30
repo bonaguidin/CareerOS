@@ -8,7 +8,8 @@ Dallas AI Group 6 | 2026 Summer Cohort.
 ## Prerequisites
 
 - [uv](https://docs.astral.sh/uv/getting-started/installation/) — Python package manager
-- An [Anthropic API key](https://console.anthropic.com/)
+- An OpenRouter API key for the primary Campus IQ AI path
+- Optional: an Anthropic API key for the legacy direct demo script
 
 ---
 
@@ -65,22 +66,38 @@ mirrors used by future prompts/UI code.
 
 ## AI Architecture
 
-Campus IQ uses OpenRouter as the AI gateway.
+Campus IQ uses OpenRouter as the primary app AI gateway. The direct Anthropic
+demo in `CampusIQ_career/demo/campus_iq_test.py` is legacy/dev-only for now.
 
-### Agent Presets
+### Role-Based Model Routing
 
-| Agent | Purpose | Model |
+Model routing is centralized in `CampusIQ_career/ai/model_config.py` and can be
+overridden with `CAMPUSIQ_MODEL_*` environment variables.
+
+| Role | Purpose | Default model family |
 |---------|---------|---------|
-| career-os-orchestrator | Workflow orchestration | DeepSeek R1 |
-| career-os-fit | Career fit analysis | Qwen3 235B |
-| career-os-gap | Skill gap analysis | Qwen3 235B |
-| career-os-shift | Trend analysis | DeepSeek R1 |
-| career-os-academic | Academic analysis | Qwen3 235B |
-| career-os-report | Report synthesis | Gemini Flash |
-| career-os-parser | JSON normalization | Qwen3 32B |
+| orchestrator | Workflow orchestration | Gemini 2.5 Pro |
+| career | FIT / GAP / SHIFT career analysis | DeepSeek R1 |
+| academic | Academic analysis features | Qwen3 235B |
+| parsing | JSON normalization and cleanup | Qwen3 32B |
+| chat | Student chat responses | Gemini 2.5 Flash |
+| report | Report synthesis | Gemini 2.5 Pro |
 
 ### Environment Variables
 
-OPENROUTER_API_KEY (Created and Confirmed - Remove this note later) 
-SUPABASE_URL (NEEDS CONFIRMATION)
-SUPABASE_KEY (NEEDS CONFIRMATION)
+Required for the primary app AI path:
+
+```bash
+OPENROUTER_API_KEY=your-openrouter-key-here
+```
+
+Optional role overrides:
+
+```bash
+CAMPUSIQ_MODEL_ORCHESTRATOR=
+CAMPUSIQ_MODEL_CAREER=
+CAMPUSIQ_MODEL_ACADEMIC=
+CAMPUSIQ_MODEL_PARSING=
+CAMPUSIQ_MODEL_CHAT=
+CAMPUSIQ_MODEL_REPORT=
+```
