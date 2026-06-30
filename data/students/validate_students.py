@@ -43,6 +43,7 @@ REQUIRED_CAREER_KEYS = {
 
 REQUIRED_SKILL_KEYS = {"technical", "soft", "ai_exposure"}
 REQUIRED_COMPLETENESS_KEYS = {"academic", "career", "overall"}
+REQUIRED_FEATURE_KEYS = {"FIT", "GAP", "SHIFT"}
 
 EXPECTED = {
     "student_jordanReyes.json":  {"courses": 5, "enrollments": 5, "assignments": 12, "submissions": 10},
@@ -167,6 +168,32 @@ def validate_unified_profile(data, issues):
             value = completeness.get(key)
             if not isinstance(value, (int, float)) or value < 0 or value > 1:
                 issues.append(f"profile_completeness.{key}: expected number from 0 to 1")
+        by_feature = completeness.get("by_feature")
+        if not isinstance(by_feature, dict):
+            issues.append("profile_completeness.by_feature: expected object")
+        else:
+            missing_features = REQUIRED_FEATURE_KEYS - set(by_feature.keys())
+            if missing_features:
+                issues.append(f"profile_completeness.by_feature: missing keys {sorted(missing_features)}")
+            for feature in REQUIRED_FEATURE_KEYS:
+                gate = by_feature.get(feature)
+                if not isinstance(gate, dict):
+                    issues.append(f"profile_completeness.by_feature.{feature}: expected object")
+                    continue
+                if not isinstance(gate.get("ready"), bool):
+                    issues.append(f"profile_completeness.by_feature.{feature}.ready: expected boolean")
+                required = gate.get("required")
+                if not isinstance(required, dict):
+                    issues.append(f"profile_completeness.by_feature.{feature}.required: expected object")
+                else:
+                    bad_required = [
+                        key for key, value in required.items()
+                        if not is_non_empty_string(key) or not isinstance(value, bool)
+                    ]
+                    if bad_required:
+                        issues.append(
+                            f"profile_completeness.by_feature.{feature}.required: expected string keys and boolean values"
+                        )
 
 print(f"{'File':<30} {'Keys':>5}  {'Courses':>7}  {'Enroll':>6}  {'Assign':>6}  {'Subs':>5}  Status")
 print("-" * 80)
