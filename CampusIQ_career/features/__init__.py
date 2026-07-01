@@ -3,6 +3,7 @@
 from .base import FeatureResult, FeatureRunner, FeatureStatus
 from .fit import FitRunner
 from .gap import GapRunner
+from .orchestrator import run_career_analysis, run_feature
 from .shift import ShiftRunner
 
 
@@ -30,5 +31,7 @@ __all__ = [
     "FitRunner",
     "GapRunner",
     "ShiftRunner",
+    "run_career_analysis",
     "run_career_feature",
+    "run_feature",
 ]
