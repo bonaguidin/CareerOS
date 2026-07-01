@@ -8,6 +8,7 @@ Dallas AI Group 6 | 2026 Summer Cohort.
 ## Prerequisites
 
 - [uv](https://docs.astral.sh/uv/getting-started/installation/) — Python package manager
+- Node.js 20+ for the React/Vite frontend
 - An OpenRouter API key for the primary Campus IQ AI path
 - Optional: an Anthropic API key for the legacy direct demo script
 
@@ -34,7 +35,7 @@ cd CampusIQ_career/demo && uv run python campus_iq_test.py
 
 To swap which student profile runs, edit `STUDENT_FILE` at the top of
 `CampusIQ_career/demo/campus_iq_test.py`. The feature (FIT / GAP / SHIFT)
-is read automatically from the `primary_feature` field in the student JSON.
+is currently selected by the hardcoded `FEATURE` value in that same file.
 
 ---
 
@@ -52,8 +53,8 @@ All academic and career features should build on the same JSON record in
 `data/reference/unified_student_schema.md`.
 
 The student validator checks the shared foundation fields, including academic
-record counts, career resume fields, profile completeness, and compatibility
-mirrors used by future prompts/UI code.
+record counts, career fields, and profile completeness gates used by the
+dashboard and future prompt/UI code.
 
 ---
 
@@ -101,3 +102,9 @@ CAMPUSIQ_MODEL_PARSING=
 CAMPUSIQ_MODEL_CHAT=
 CAMPUSIQ_MODEL_REPORT=
 ```
+
+`ANTHROPIC_API_KEY` is required only by the legacy direct-Anthropic demo
+(`CampusIQ_career/demo/campus_iq_test.py`).
+
+Supabase is documented in the workflow architecture, but no Supabase client,
+schema, or runtime path is implemented in the current code.

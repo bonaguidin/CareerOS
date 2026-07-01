@@ -1,0 +1,901 @@
+{
+  "_notes": [
+    "Mock Canvas LMS data — Priya Nair. Sophomore, Aerospace Engineering (DECLARED major). Texas A&M University.",
+    "At TAMU, engineering students complete a common first-year curriculum before applying to a specific discipline. As a sophomore, Priya has been admitted to AERO and is now taking real AERO-prefixed courses.",
+    "courses[3]: HIST 105 satisfies UCC: American History.",
+    "Priya is a strong, consistent student — light/clean comments, good contrast case so the analyzer doesn't manufacture a correction plan where one isn't warranted.",
+    "examTopicTags: Campus IQ's own topic layer — NOT part of real Canvas data.",
+    "AERO 201 (Introduction to Flight) and AERO 212 (Introduction to Aerothermodynamics) added — both are required sophomore fall courses for Aerospace Engineering per TAMU catalog. Assignments to follow."
+  ],
+  "student": {
+    "id": 602,
+    "name": "Priya Nair",
+    "major_current": "Aerospace Engineering",
+    "major_intended": "N/A",
+    "classification": "Sophomore",
+    "institution": "Texas A&M University",
+    "gpa_current": 3.67,
+    "expected_graduation": "2028-05"
+  },
+  "onboarding_stage": 3,
+  "courses": [
+    {
+      "id": 3006,
+      "name": "Aerospace Engineering Mechanics",
+      "course_code": "AERO 211",
+      "workflow_state": "available"
+    },
+    {
+      "id": 3007,
+      "name": "Analytical Methods for Aerospace Engineering",
+      "course_code": "AERO 221",
+      "workflow_state": "available"
+    },
+    {
+      "id": 3008,
+      "name": "Engineering Mathematics III",
+      "course_code": "MATH 251",
+      "workflow_state": "available"
+    },
+    {
+      "id": 3009,
+      "name": "History of the United States",
+      "course_code": "HIST 105",
+      "workflow_state": "available"
+    },
+    {
+      "id": 3026,
+      "name": "Introduction to Flight",
+      "course_code": "AERO 201",
+      "workflow_state": "available"
+    },
+    {
+      "id": 3027,
+      "name": "Introduction to Aerothermodynamics",
+      "course_code": "AERO 212",
+      "workflow_state": "available"
+    }
+  ],
+  "enrollments": [
+    {
+      "id": 9105,
+      "course_id": 3006,
+      "course_section_id": 1,
+      "user_id": 602,
+      "type": "StudentEnrollment",
+      "role": "StudentEnrollment",
+      "role_id": 3,
+      "enrollment_state": "active",
+      "created_at": "2026-01-12T08:00:00Z",
+      "updated_at": "2026-06-01T08:00:00Z",
+      "grades": {
+        "html_url": "https://canvas.tamu.edu/courses/3006/grades/602",
+        "current_grade": "A-",
+        "current_score": 91.0,
+        "final_grade": null,
+        "final_score": null
+      }
+    },
+    {
+      "id": 9106,
+      "course_id": 3007,
+      "course_section_id": 1,
+      "user_id": 602,
+      "type": "StudentEnrollment",
+      "role": "StudentEnrollment",
+      "role_id": 3,
+      "enrollment_state": "active",
+      "created_at": "2026-01-12T08:00:00Z",
+      "updated_at": "2026-06-01T08:00:00Z",
+      "grades": {
+        "html_url": "https://canvas.tamu.edu/courses/3007/grades/602",
+        "current_grade": "A",
+        "current_score": 95.0,
+        "final_grade": null,
+        "final_score": null
+      }
+    },
+    {
+      "id": 9107,
+      "course_id": 3008,
+      "course_section_id": 1,
+      "user_id": 602,
+      "type": "StudentEnrollment",
+      "role": "StudentEnrollment",
+      "role_id": 3,
+      "enrollment_state": "active",
+      "created_at": "2026-01-12T08:00:00Z",
+      "updated_at": "2026-06-01T08:00:00Z",
+      "grades": {
+        "html_url": "https://canvas.tamu.edu/courses/3008/grades/602",
+        "current_grade": "B+",
+        "current_score": 88.0,
+        "final_grade": null,
+        "final_score": null
+      }
+    },
+    {
+      "id": 9108,
+      "course_id": 3009,
+      "course_section_id": 1,
+      "user_id": 602,
+      "type": "StudentEnrollment",
+      "role": "StudentEnrollment",
+      "role_id": 3,
+      "enrollment_state": "active",
+      "created_at": "2026-01-12T08:00:00Z",
+      "updated_at": "2026-06-01T08:00:00Z",
+      "grades": {
+        "html_url": "https://canvas.tamu.edu/courses/3009/grades/602",
+        "current_grade": "B+",
+        "current_score": 87.0,
+        "final_grade": null,
+        "final_score": null
+      }
+    },
+    {
+      "id": 9125,
+      "course_id": 3026,
+      "course_section_id": 1,
+      "user_id": 602,
+      "type": "StudentEnrollment",
+      "role": "StudentEnrollment",
+      "role_id": 3,
+      "enrollment_state": "active",
+      "created_at": "2026-01-12T08:00:00Z",
+      "updated_at": "2026-06-01T08:00:00Z",
+      "grades": {
+        "html_url": "https://canvas.tamu.edu/courses/3026/grades/602",
+        "current_grade": "A",
+        "current_score": 94.3,
+        "final_grade": null,
+        "final_score": null
+      }
+    },
+    {
+      "id": 9126,
+      "course_id": 3027,
+      "course_section_id": 1,
+      "user_id": 602,
+      "type": "StudentEnrollment",
+      "role": "StudentEnrollment",
+      "role_id": 3,
+      "enrollment_state": "active",
+      "created_at": "2026-01-12T08:00:00Z",
+      "updated_at": "2026-06-01T08:00:00Z",
+      "grades": {
+        "html_url": "https://canvas.tamu.edu/courses/3027/grades/602",
+        "current_grade": "A-",
+        "current_score": 91.5,
+        "final_grade": null,
+        "final_score": null
+      }
+    }
+  ],
+  "assignments": [
+    {
+      "id": 5009,
+      "name": "Free Body Diagram Problem Set",
+      "course_id": 3006,
+      "due_at": "2026-02-14T23:59:00Z",
+      "points_possible": 60,
+      "submission_types": [
+        "online_upload"
+      ],
+      "grading_type": "points",
+      "published": true,
+      "workflow_state": "published"
+    },
+    {
+      "id": 5010,
+      "name": "Exam 1: Statics & Rigid Body Motion",
+      "course_id": 3006,
+      "due_at": "2026-03-11T23:59:00Z",
+      "points_possible": 100,
+      "submission_types": [
+        "online_quiz"
+      ],
+      "grading_type": "points",
+      "published": true,
+      "workflow_state": "published"
+    },
+    {
+      "id": 5011,
+      "name": "Matrix Methods Homework",
+      "course_id": 3007,
+      "due_at": "2026-02-21T23:59:00Z",
+      "points_possible": 50,
+      "submission_types": [
+        "online_upload"
+      ],
+      "grading_type": "points",
+      "published": true,
+      "workflow_state": "published"
+    },
+    {
+      "id": 5012,
+      "name": "Eigenvalue Analysis Project",
+      "course_id": 3007,
+      "due_at": "2026-04-18T23:59:00Z",
+      "points_possible": 100,
+      "submission_types": [
+        "online_upload"
+      ],
+      "grading_type": "points",
+      "published": true,
+      "workflow_state": "published"
+    },
+    {
+      "id": 5013,
+      "name": "Multivariable Calculus Problem Set",
+      "course_id": 3008,
+      "due_at": "2026-02-19T23:59:00Z",
+      "points_possible": 50,
+      "submission_types": [
+        "online_upload"
+      ],
+      "grading_type": "points",
+      "published": true,
+      "workflow_state": "published"
+    },
+    {
+      "id": 5014,
+      "name": "Exam 2: Vector Calculus",
+      "course_id": 3008,
+      "due_at": "2026-03-14T23:59:00Z",
+      "points_possible": 100,
+      "submission_types": [
+        "online_quiz"
+      ],
+      "grading_type": "points",
+      "published": true,
+      "workflow_state": "published"
+    },
+    {
+      "id": 5015,
+      "name": "Primary Source Analysis",
+      "course_id": 3009,
+      "due_at": "2026-02-27T23:59:00Z",
+      "points_possible": 50,
+      "submission_types": [
+        "online_text_entry"
+      ],
+      "grading_type": "points",
+      "published": true,
+      "workflow_state": "published"
+    },
+    {
+      "id": 5056,
+      "name": "Problem Set 1: Standard Atmosphere",
+      "course_id": 3026,
+      "due_at": "2026-02-02T23:59:00Z",
+      "points_possible": 50,
+      "submission_types": [
+        "online_upload"
+      ],
+      "grading_type": "points",
+      "published": true,
+      "workflow_state": "published"
+    },
+    {
+      "id": 5057,
+      "name": "Problem Set 2: Basic Aerodynamics",
+      "course_id": 3026,
+      "due_at": "2026-02-16T23:59:00Z",
+      "points_possible": 50,
+      "submission_types": [
+        "online_upload"
+      ],
+      "grading_type": "points",
+      "published": true,
+      "workflow_state": "published"
+    },
+    {
+      "id": 5058,
+      "name": "Midterm Exam: Atmosphere & Aerodynamics",
+      "course_id": 3026,
+      "due_at": "2026-03-02T23:59:00Z",
+      "points_possible": 100,
+      "submission_types": [
+        "online_quiz"
+      ],
+      "grading_type": "points",
+      "published": true,
+      "workflow_state": "published"
+    },
+    {
+      "id": 5059,
+      "name": "Problem Set 3: Orbital Mechanics",
+      "course_id": 3026,
+      "due_at": "2026-03-23T23:59:00Z",
+      "points_possible": 50,
+      "submission_types": [
+        "online_upload"
+      ],
+      "grading_type": "points",
+      "published": true,
+      "workflow_state": "published"
+    },
+    {
+      "id": 5060,
+      "name": "Vehicle Performance Analysis Project",
+      "course_id": 3026,
+      "due_at": "2026-04-13T23:59:00Z",
+      "points_possible": 100,
+      "submission_types": [
+        "online_upload"
+      ],
+      "grading_type": "points",
+      "published": true,
+      "workflow_state": "published"
+    },
+    {
+      "id": 5061,
+      "name": "Homework 1: Thermodynamic Properties",
+      "course_id": 3027,
+      "due_at": "2026-01-30T23:59:00Z",
+      "points_possible": 50,
+      "submission_types": [
+        "online_upload"
+      ],
+      "grading_type": "points",
+      "published": true,
+      "workflow_state": "published"
+    },
+    {
+      "id": 5062,
+      "name": "Lab Report: Calorimetry & Heat Transfer",
+      "course_id": 3027,
+      "due_at": "2026-02-20T23:59:00Z",
+      "points_possible": 60,
+      "submission_types": [
+        "online_upload"
+      ],
+      "grading_type": "points",
+      "published": true,
+      "workflow_state": "published"
+    },
+    {
+      "id": 5063,
+      "name": "Midterm Exam: Laws of Thermodynamics",
+      "course_id": 3027,
+      "due_at": "2026-03-06T23:59:00Z",
+      "points_possible": 100,
+      "submission_types": [
+        "online_quiz"
+      ],
+      "grading_type": "points",
+      "published": true,
+      "workflow_state": "published"
+    },
+    {
+      "id": 5064,
+      "name": "Homework 2: Ideal Cycles & Brayton Cycle",
+      "course_id": 3027,
+      "due_at": "2026-03-27T23:59:00Z",
+      "points_possible": 50,
+      "submission_types": [
+        "online_upload"
+      ],
+      "grading_type": "points",
+      "published": true,
+      "workflow_state": "published"
+    },
+    {
+      "id": 5065,
+      "name": "Lab Report: Gas Turbine Cycle Analysis",
+      "course_id": 3027,
+      "due_at": "2026-04-17T23:59:00Z",
+      "points_possible": 60,
+      "submission_types": [
+        "online_upload"
+      ],
+      "grading_type": "points",
+      "published": true,
+      "workflow_state": "published"
+    },
+    {
+      "id": 5077,
+      "name": "Document-Based Question Essay",
+      "course_id": 3009,
+      "due_at": "2026-03-18T23:59:00Z",
+      "points_possible": 75,
+      "submission_types": [
+        "online_text_entry"
+      ],
+      "grading_type": "points",
+      "published": true,
+      "workflow_state": "published"
+    },
+    {
+      "id": 5078,
+      "name": "Research Paper: Technology & Society",
+      "course_id": 3009,
+      "due_at": "2026-04-22T23:59:00Z",
+      "points_possible": 100,
+      "submission_types": [
+        "online_upload"
+      ],
+      "grading_type": "points",
+      "published": true,
+      "workflow_state": "published"
+    }
+  ],
+  "submissions": [
+    {
+      "assignment_id": 5009,
+      "user_id": 602,
+      "score": 56,
+      "grade": "A-",
+      "grade_matches_current_submission": true,
+      "submitted_at": "2026-02-10T20:14:00Z",
+      "graded_at": "2026-02-13T10:00:00Z",
+      "grader_id": 1,
+      "workflow_state": "graded",
+      "late": false,
+      "missing": false,
+      "submission_type": "online_text_entry",
+      "submission_comments": [
+        {
+          "id": 57090,
+          "author_id": 1,
+          "author_name": "Dr. Okafor",
+          "comment": "Clean diagrams — label your coordinate axes next time.",
+          "created_at": "2026-02-13T10:00:00Z"
+        }
+      ]
+    },
+    {
+      "assignment_id": 5010,
+      "user_id": 602,
+      "score": 93,
+      "grade": "A",
+      "grade_matches_current_submission": true,
+      "submitted_at": "2026-03-10T20:14:00Z",
+      "graded_at": "2026-03-14T10:00:00Z",
+      "grader_id": 1,
+      "workflow_state": "graded",
+      "late": false,
+      "missing": false,
+      "submission_type": "online_text_entry",
+      "submission_comments": []
+    },
+    {
+      "assignment_id": 5011,
+      "user_id": 602,
+      "score": 48,
+      "grade": "A",
+      "grade_matches_current_submission": true,
+      "submitted_at": "2026-02-20T20:14:00Z",
+      "graded_at": "2026-02-24T10:00:00Z",
+      "grader_id": 1,
+      "workflow_state": "graded",
+      "late": false,
+      "missing": false,
+      "submission_type": "online_text_entry",
+      "submission_comments": []
+    },
+    {
+      "assignment_id": 5012,
+      "user_id": 602,
+      "score": 95,
+      "grade": "A",
+      "grade_matches_current_submission": true,
+      "submitted_at": "2026-04-17T20:14:00Z",
+      "graded_at": "2026-04-21T10:00:00Z",
+      "grader_id": 1,
+      "workflow_state": "graded",
+      "late": false,
+      "missing": false,
+      "submission_type": "online_text_entry",
+      "submission_comments": [
+        {
+          "id": 57120,
+          "author_id": 1,
+          "author_name": "Dr. Mehta",
+          "comment": "Excellent eigenvalue derivation.",
+          "created_at": "2026-04-21T10:00:00Z"
+        }
+      ]
+    },
+    {
+      "assignment_id": 5013,
+      "user_id": 602,
+      "score": 47,
+      "grade": "A-",
+      "grade_matches_current_submission": true,
+      "submitted_at": "2026-02-18T20:14:00Z",
+      "graded_at": "2026-02-22T10:00:00Z",
+      "grader_id": 1,
+      "workflow_state": "graded",
+      "late": false,
+      "missing": false,
+      "submission_type": "online_text_entry",
+      "submission_comments": []
+    },
+    {
+      "assignment_id": 5014,
+      "user_id": 602,
+      "score": 91,
+      "grade": "A",
+      "grade_matches_current_submission": true,
+      "submitted_at": "2026-03-13T20:14:00Z",
+      "graded_at": "2026-03-17T10:00:00Z",
+      "grader_id": 1,
+      "workflow_state": "graded",
+      "late": false,
+      "missing": false,
+      "submission_type": "online_text_entry",
+      "submission_comments": []
+    },
+    {
+      "assignment_id": 5015,
+      "user_id": 602,
+      "score": 45,
+      "grade": "A-",
+      "grade_matches_current_submission": true,
+      "submitted_at": "2026-02-26T20:14:00Z",
+      "graded_at": "2026-03-02T10:00:00Z",
+      "grader_id": 1,
+      "workflow_state": "graded",
+      "late": false,
+      "missing": false,
+      "submission_type": "online_text_entry",
+      "submission_comments": [
+        {
+          "id": 57150,
+          "author_id": 1,
+          "author_name": "Dr. Bennett",
+          "comment": "Good analysis — cite your source more precisely.",
+          "created_at": "2026-03-02T10:00:00Z"
+        }
+      ]
+    },
+    {
+      "assignment_id": 5056,
+      "user_id": 602,
+      "score": 48,
+      "grade": "A",
+      "grade_matches_current_submission": true,
+      "submitted_at": "2026-02-02T23:59:00Z",
+      "graded_at": "2026-02-06T10:00:00Z",
+      "grader_id": 1,
+      "workflow_state": "graded",
+      "late": false,
+      "missing": false,
+      "submission_type": "online_text_entry",
+      "submission_comments": []
+    },
+    {
+      "assignment_id": 5057,
+      "user_id": 602,
+      "score": 47,
+      "grade": "A",
+      "grade_matches_current_submission": true,
+      "submitted_at": "2026-02-16T23:59:00Z",
+      "graded_at": "2026-02-20T10:00:00Z",
+      "grader_id": 1,
+      "workflow_state": "graded",
+      "late": false,
+      "missing": false,
+      "submission_type": "online_text_entry",
+      "submission_comments": []
+    },
+    {
+      "assignment_id": 5058,
+      "user_id": 602,
+      "score": 93,
+      "grade": "A",
+      "grade_matches_current_submission": true,
+      "submitted_at": "2026-03-02T23:59:00Z",
+      "graded_at": "2026-03-06T10:00:00Z",
+      "grader_id": 1,
+      "workflow_state": "graded",
+      "late": false,
+      "missing": false,
+      "submission_type": "online_text_entry",
+      "submission_comments": []
+    },
+    {
+      "assignment_id": 5061,
+      "user_id": 602,
+      "score": 47,
+      "grade": "A",
+      "grade_matches_current_submission": true,
+      "submitted_at": "2026-01-30T23:59:00Z",
+      "graded_at": "2026-02-03T10:00:00Z",
+      "grader_id": 1,
+      "workflow_state": "graded",
+      "late": false,
+      "missing": false,
+      "submission_type": "online_text_entry",
+      "submission_comments": []
+    },
+    {
+      "assignment_id": 5062,
+      "user_id": 602,
+      "score": 54,
+      "grade": "A-",
+      "grade_matches_current_submission": true,
+      "submitted_at": "2026-02-20T23:59:00Z",
+      "graded_at": "2026-02-24T10:00:00Z",
+      "grader_id": 1,
+      "workflow_state": "graded",
+      "late": false,
+      "missing": false,
+      "submission_type": "online_text_entry",
+      "submission_comments": []
+    },
+    {
+      "assignment_id": 5063,
+      "user_id": 602,
+      "score": 88,
+      "grade": "B+",
+      "grade_matches_current_submission": true,
+      "submitted_at": "2026-03-06T23:59:00Z",
+      "graded_at": "2026-03-10T10:00:00Z",
+      "grader_id": 1,
+      "workflow_state": "graded",
+      "late": false,
+      "missing": false,
+      "submission_type": "online_text_entry",
+      "submission_comments": [
+        {
+          "id": 57410,
+          "author_id": 1,
+          "author_name": "Dr. Richardson",
+          "comment": "Good thermodynamic reasoning — watch sign conventions on second law problems.",
+          "created_at": "2026-03-10T10:00:00Z"
+        }
+      ]
+    },
+    {
+      "assignment_id": 5077,
+      "user_id": 602,
+      "score": 68,
+      "grade": "A-",
+      "grade_matches_current_submission": true,
+      "submitted_at": "2026-03-17T20:14:00Z",
+      "graded_at": "2026-03-21T10:00:00Z",
+      "grader_id": 1,
+      "workflow_state": "graded",
+      "late": false,
+      "missing": false,
+      "submission_type": "online_text_entry",
+      "submission_comments": [
+        {
+          "id": 57480,
+          "author_id": 1,
+          "author_name": "Dr. Bennett",
+          "comment": "Well-argued and well-sourced — tighten the conclusion to match the strength of your intro.",
+          "created_at": "2026-03-21T10:00:00Z"
+        }
+      ]
+    }
+  ],
+  "career": {
+    "target_roles": [
+      "Aerospace Engineering Intern",
+      "Flight Systems Intern",
+      "Mechanical Analysis Intern"
+    ],
+    "interests": [
+      "flight dynamics",
+      "aerodynamics",
+      "space systems",
+      "engineering analysis"
+    ],
+    "career_goals": "specific — build enough aerospace project and analysis experience to compete for a sophomore or junior-year engineering internship",
+    "geographic_preference": "Texas preferred, open to aerospace hubs including Houston, Dallas-Fort Worth, and remote project work",
+    "ai_anxiety_level": "low — views AI as a productivity tool for analysis and documentation",
+    "skills_self_reported": {
+      "technical": [
+        "MATLAB basics",
+        "engineering mechanics",
+        "multivariable calculus",
+        "thermodynamics basics",
+        "technical documentation"
+      ],
+      "soft": [
+        "analytical thinking",
+        "attention to detail",
+        "technical communication",
+        "team reliability"
+      ],
+      "ai_exposure": "moderate — uses AI for concept review and documentation drafts, not as a substitute for calculations"
+    },
+    "certifications": [],
+    "work_experience": [
+      {
+        "employer": "Aerospace Engineering course team",
+        "role": "Analysis Team Member",
+        "duration": "Spring 2026",
+        "location": "College Station, TX",
+        "description": "Collaborated on mechanics, flight, and aerothermodynamics assignments requiring structured calculations and written explanations.",
+        "skills_gained": [
+          "free body diagrams",
+          "technical review",
+          "engineering communication"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "name": "Introduction to Flight Concept Brief",
+        "timeframe": "Spring 2026",
+        "description": "Prepared a technical brief explaining standard atmosphere assumptions, lift and drag concepts, and introductory orbital mechanics.",
+        "tools": [
+          "aerodynamics concepts",
+          "technical writing",
+          "calculation review"
+        ]
+      },
+      {
+        "name": "AERO 221 Vector Calculus Study Toolkit",
+        "timeframe": "Spring 2026",
+        "description": "Compiled worked examples for gradient, divergence, curl, surface integrals, and Stokes theorem applications.",
+        "tools": [
+          "vector calculus",
+          "MATLAB basics",
+          "engineering notation"
+        ]
+      }
+    ]
+  },
+  "profile_completeness": {
+    "academic": 1.0,
+    "career": 1.0,
+    "overall": 1.0,
+    "by_feature": {
+      "FIT": {
+        "ready": true,
+        "required": {
+          "target_roles": true,
+          "interests": true,
+          "major_intended": true
+        }
+      },
+      "GAP": {
+        "ready": true,
+        "required": {
+          "target_roles": true,
+          "skills_self_reported": true,
+          "work_experience": true,
+          "certifications": true,
+          "expected_graduation": true
+        }
+      },
+      "SHIFT": {
+        "ready": true,
+        "required": {
+          "target_roles": true,
+          "skills_self_reported": true
+        }
+      }
+    }
+  },
+  "examTopicTags": {
+    "5010": [
+      {
+        "question_id": "q1",
+        "topic": "Static Equilibrium",
+        "score": 24,
+        "max_score": 25
+      },
+      {
+        "question_id": "q2",
+        "topic": "Free Body Diagrams",
+        "score": 24,
+        "max_score": 25
+      },
+      {
+        "question_id": "q3",
+        "topic": "Rigid Body Motion",
+        "score": 23,
+        "max_score": 25
+      },
+      {
+        "question_id": "q4",
+        "topic": "Friction",
+        "score": 22,
+        "max_score": 25
+      }
+    ],
+    "5014": [
+      {
+        "question_id": "q1",
+        "topic": "Gradient & Directional Derivatives",
+        "score": 24,
+        "max_score": 25
+      },
+      {
+        "question_id": "q2",
+        "topic": "Divergence & Curl",
+        "score": 23,
+        "max_score": 25
+      },
+      {
+        "question_id": "q3",
+        "topic": "Surface Integrals",
+        "score": 22,
+        "max_score": 25
+      },
+      {
+        "question_id": "q4",
+        "topic": "Stokes' Theorem",
+        "score": 22,
+        "max_score": 25
+      }
+    ],
+    "5058": [
+      {
+        "question_id": "q1",
+        "topic": "Standard Atmosphere",
+        "score": 24,
+        "max_score": 25
+      },
+      {
+        "question_id": "q2",
+        "topic": "Aerodynamic Lift & Drag",
+        "score": 23,
+        "max_score": 25
+      },
+      {
+        "question_id": "q3",
+        "topic": "Airfoil Theory",
+        "score": 23,
+        "max_score": 25
+      },
+      {
+        "question_id": "q4",
+        "topic": "Orbital Mechanics Basics",
+        "score": 23,
+        "max_score": 25
+      }
+    ],
+    "5063": [
+      {
+        "question_id": "q1",
+        "topic": "Thermodynamic Properties",
+        "score": 23,
+        "max_score": 25
+      },
+      {
+        "question_id": "q2",
+        "topic": "First Law of Thermodynamics",
+        "score": 22,
+        "max_score": 25
+      },
+      {
+        "question_id": "q3",
+        "topic": "Second Law & Entropy",
+        "score": 21,
+        "max_score": 25
+      },
+      {
+        "question_id": "q4",
+        "topic": "Ideal Cycles",
+        "score": 22,
+        "max_score": 25
+      }
+    ]
+  },
+  "_schema_notes": {
+    "canvas_derived": [
+      "student",
+      "courses",
+      "enrollments",
+      "assignments",
+      "submissions"
+    ],
+    "campus_iq_layer": [
+      "examTopicTags"
+    ],
+    "student_entered": [
+      "career"
+    ],
+    "ai_written": [
+      "profile_completeness"
+    ]
+  }
+}
