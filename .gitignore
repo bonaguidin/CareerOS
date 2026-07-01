@@ -3,6 +3,7 @@
 .venv/
 .python-version
 .DS_Store
+.claude/
 
 # Python
 __pycache__/
@@ -12,6 +13,9 @@ __pycache__/
 
 # Build artifacts
 dist/
+frontend/dist/
+frontend/node_modules/
+frontend/.vite/
 *.egg-info/
 
 # Frontend

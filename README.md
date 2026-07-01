@@ -9,8 +9,8 @@ Dallas AI Group 6 | 2026 Summer Cohort.
 
 - [uv](https://docs.astral.sh/uv/getting-started/installation/) — Python package manager
 - Node.js 20+ for the React/Vite frontend
-- An [Anthropic API key](https://console.anthropic.com/) for the legacy demo
-- An OpenRouter API key for the OpenRouter agent helper
+- An OpenRouter API key for the primary Campus IQ AI path
+- Optional: an Anthropic API key for the legacy direct demo script
 
 ---
 
@@ -67,30 +67,44 @@ dashboard and future prompt/UI code.
 
 ## AI Architecture
 
-Campus IQ is moving toward OpenRouter as the AI gateway. The current repo has
-two explicit paths:
+Campus IQ uses OpenRouter as the primary app AI gateway. The direct Anthropic
+demo in `CampusIQ_career/demo/campus_iq_test.py` is legacy/dev-only for now.
 
-- `CampusIQ_career/ai_services.py`: OpenRouter preset helper.
-- `CampusIQ_career/demo/campus_iq_test.py`: legacy direct-Anthropic demo.
+### Role-Based Model Routing
 
-These should be unified before production use.
+Model routing is centralized in `CampusIQ_career/ai/model_config.py` and can be
+overridden with `CAMPUSIQ_MODEL_*` environment variables.
 
-### Agent Presets
-
-| Agent | Purpose | Model |
+| Role | Purpose | Default model family |
 |---------|---------|---------|
-| career-os-orchestrator | Workflow orchestration | DeepSeek R1 |
-| career-os-fit | Career fit analysis | Qwen3 235B |
-| career-os-gap | Skill gap analysis | Qwen3 235B |
-| career-os-shift | Trend analysis | DeepSeek R1 |
-| career-os-academic | Academic analysis | Qwen3 235B |
-| career-os-report | Report synthesis | Gemini Flash |
-| career-os-parser | JSON normalization | Qwen3 32B |
+| orchestrator | Workflow orchestration | Gemini 2.5 Pro |
+| career | FIT / GAP / SHIFT career analysis | DeepSeek R1 |
+| academic | Academic analysis features | Qwen3 235B |
+| parsing | JSON normalization and cleanup | Qwen3 32B |
+| chat | Student chat responses | Gemini 2.5 Flash |
+| report | Report synthesis | Gemini 2.5 Pro |
 
 ### Environment Variables
 
-- `ANTHROPIC_API_KEY`: required by the legacy direct-Anthropic demo.
-- `OPENROUTER_API_KEY`: required by `CampusIQ_career/ai_services.py`.
+Required for the primary app AI path:
+
+```bash
+OPENROUTER_API_KEY=your-openrouter-key-here
+```
+
+Optional role overrides:
+
+```bash
+CAMPUSIQ_MODEL_ORCHESTRATOR=
+CAMPUSIQ_MODEL_CAREER=
+CAMPUSIQ_MODEL_ACADEMIC=
+CAMPUSIQ_MODEL_PARSING=
+CAMPUSIQ_MODEL_CHAT=
+CAMPUSIQ_MODEL_REPORT=
+```
+
+`ANTHROPIC_API_KEY` is required only by the legacy direct-Anthropic demo
+(`CampusIQ_career/demo/campus_iq_test.py`).
 
 Supabase is documented in the workflow architecture, but no Supabase client,
 schema, or runtime path is implemented in the current code.
