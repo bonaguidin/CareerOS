@@ -1,0 +1,579 @@
+{
+  "_notes": [
+    "Mock Canvas LMS data — Marcus Webb. Sophomore, Psychology. Texas A&M University.",
+    "Department of Psychological & Brain Sciences uses course prefix PBSI (not PSYC). Marcus is already past the PBSI 107 intro gateway course.",
+    "courses[3]: POLS 206 satisfies UCC: Government/Political Science.",
+    "Recurring pattern: unclear thesis statements (writing-heavy classes) + a stats concept mix-up that repeats from homework to exam.",
+    "examTopicTags: Campus IQ's own topic layer — NOT part of real Canvas data.",
+    "courses[0]: PBSI 211 course code is approximate — real course exists at TAMU but exact catalog code unverified. Update before using real student data.",
+    "courses[1]: PBSI 209 correct catalog name is 'Psychology of Culture and Diversity' — fixed. Course code is still approximate; verify exact number against TAMU PBSI department before using real data."
+  ],
+  "student": {
+    "id": 604,
+    "name": "Marcus Webb",
+    "major_current": "Psychology",
+    "major_intended": "N/A",
+    "classification": "Sophomore",
+    "institution": "Texas A&M University",
+    "gpa_current": 3.0,
+    "expected_graduation": "2028-05"
+  },
+  "onboarding_stage": 3,
+  "courses": [
+    {
+      "id": 3015,
+      "name": "Stereotyping, Prejudice, and Discrimination",
+      "course_code": "PBSI 211",
+      "workflow_state": "available"
+    },
+    {
+      "id": 3016,
+      "name": "Psychology of Culture and Diversity",
+      "course_code": "PBSI 209",
+      "workflow_state": "available"
+    },
+    {
+      "id": 3017,
+      "name": "Elementary Statistical Methods",
+      "course_code": "STAT 201",
+      "workflow_state": "available"
+    },
+    {
+      "id": 3018,
+      "name": "American National Government",
+      "course_code": "POLS 206",
+      "workflow_state": "available"
+    }
+  ],
+  "enrollments": [
+    {
+      "id": 9114,
+      "course_id": 3015,
+      "course_section_id": 1,
+      "user_id": 604,
+      "type": "StudentEnrollment",
+      "role": "StudentEnrollment",
+      "role_id": 3,
+      "enrollment_state": "active",
+      "created_at": "2026-01-12T08:00:00Z",
+      "updated_at": "2026-06-01T08:00:00Z",
+      "grades": {
+        "html_url": "https://canvas.tamu.edu/courses/3015/grades/604",
+        "current_grade": "A",
+        "current_score": 95.0,
+        "final_grade": null,
+        "final_score": null
+      }
+    },
+    {
+      "id": 9115,
+      "course_id": 3016,
+      "course_section_id": 1,
+      "user_id": 604,
+      "type": "StudentEnrollment",
+      "role": "StudentEnrollment",
+      "role_id": 3,
+      "enrollment_state": "active",
+      "created_at": "2026-01-12T08:00:00Z",
+      "updated_at": "2026-06-01T08:00:00Z",
+      "grades": {
+        "html_url": "https://canvas.tamu.edu/courses/3016/grades/604",
+        "current_grade": "B+",
+        "current_score": 87.5,
+        "final_grade": null,
+        "final_score": null
+      }
+    },
+    {
+      "id": 9116,
+      "course_id": 3017,
+      "course_section_id": 1,
+      "user_id": 604,
+      "type": "StudentEnrollment",
+      "role": "StudentEnrollment",
+      "role_id": 3,
+      "enrollment_state": "active",
+      "created_at": "2026-01-12T08:00:00Z",
+      "updated_at": "2026-06-01T08:00:00Z",
+      "grades": {
+        "html_url": "https://canvas.tamu.edu/courses/3017/grades/604",
+        "current_grade": "C",
+        "current_score": 74.0,
+        "final_grade": null,
+        "final_score": null
+      }
+    },
+    {
+      "id": 9117,
+      "course_id": 3018,
+      "course_section_id": 1,
+      "user_id": 604,
+      "type": "StudentEnrollment",
+      "role": "StudentEnrollment",
+      "role_id": 3,
+      "enrollment_state": "active",
+      "created_at": "2026-01-12T08:00:00Z",
+      "updated_at": "2026-06-01T08:00:00Z",
+      "grades": {
+        "html_url": "https://canvas.tamu.edu/courses/3018/grades/604",
+        "current_grade": "B",
+        "current_score": 85.0,
+        "final_grade": null,
+        "final_score": null
+      }
+    }
+  ],
+  "assignments": [
+    {
+      "id": 5024,
+      "name": "Reading Reflection: Intergroup Dynamics",
+      "course_id": 3015,
+      "due_at": "2026-02-12T23:59:00Z",
+      "points_possible": 40,
+      "submission_types": [
+        "online_text_entry"
+      ],
+      "grading_type": "points",
+      "published": true,
+      "workflow_state": "published"
+    },
+    {
+      "id": 5025,
+      "name": "Research Paper: Bias in Media",
+      "course_id": 3015,
+      "due_at": "2026-04-15T23:59:00Z",
+      "points_possible": 100,
+      "submission_types": [
+        "online_text_entry",
+        "online_upload"
+      ],
+      "grading_type": "points",
+      "published": true,
+      "workflow_state": "published"
+    },
+    {
+      "id": 5026,
+      "name": "Cultural Case Study Analysis",
+      "course_id": 3016,
+      "due_at": "2026-02-25T23:59:00Z",
+      "points_possible": 60,
+      "submission_types": [
+        "online_text_entry"
+      ],
+      "grading_type": "points",
+      "published": true,
+      "workflow_state": "published"
+    },
+    {
+      "id": 5027,
+      "name": "Final Synthesis Essay",
+      "course_id": 3016,
+      "due_at": "2026-05-01T23:59:00Z",
+      "points_possible": 100,
+      "submission_types": [
+        "online_text_entry"
+      ],
+      "grading_type": "points",
+      "published": true,
+      "workflow_state": "published"
+    },
+    {
+      "id": 5028,
+      "name": "Probability Distributions Homework",
+      "course_id": 3017,
+      "due_at": "2026-02-19T23:59:00Z",
+      "points_possible": 50,
+      "submission_types": [
+        "online_upload"
+      ],
+      "grading_type": "points",
+      "published": true,
+      "workflow_state": "published"
+    },
+    {
+      "id": 5029,
+      "name": "Exam 1: Hypothesis Testing",
+      "course_id": 3017,
+      "due_at": "2026-03-13T23:59:00Z",
+      "points_possible": 100,
+      "submission_types": [
+        "online_quiz"
+      ],
+      "grading_type": "points",
+      "published": true,
+      "workflow_state": "published"
+    },
+    {
+      "id": 5030,
+      "name": "Federalism Case Study",
+      "course_id": 3018,
+      "due_at": "2026-03-02T23:59:00Z",
+      "points_possible": 50,
+      "submission_types": [
+        "online_text_entry"
+      ],
+      "grading_type": "points",
+      "published": true,
+      "workflow_state": "published"
+    },
+    {
+      "id": 5075,
+      "name": "Policy Analysis Essay",
+      "course_id": 3018,
+      "due_at": "2026-03-25T23:59:00Z",
+      "points_possible": 60,
+      "submission_types": [
+        "online_text_entry"
+      ],
+      "grading_type": "points",
+      "published": true,
+      "workflow_state": "published"
+    },
+    {
+      "id": 5076,
+      "name": "Legislative Process Exam",
+      "course_id": 3018,
+      "due_at": "2026-04-14T23:59:00Z",
+      "points_possible": 100,
+      "submission_types": [
+        "online_quiz"
+      ],
+      "grading_type": "points",
+      "published": true,
+      "workflow_state": "published"
+    }
+  ],
+  "submissions": [
+    {
+      "assignment_id": 5024,
+      "user_id": 604,
+      "score": 36,
+      "grade": "A-",
+      "grade_matches_current_submission": true,
+      "submitted_at": "2026-02-10T20:14:00Z",
+      "graded_at": "2026-02-13T10:00:00Z",
+      "grader_id": 1,
+      "workflow_state": "graded",
+      "late": false,
+      "missing": false,
+      "submission_type": "online_text_entry",
+      "submission_comments": [
+        {
+          "id": 57240,
+          "author_id": 1,
+          "author_name": "Dr. Alvarez",
+          "comment": "Thoughtful reflection — connect it more explicitly to the assigned reading.",
+          "created_at": "2026-02-13T10:00:00Z"
+        }
+      ]
+    },
+    {
+      "assignment_id": 5025,
+      "user_id": 604,
+      "score": 88,
+      "grade": "B+",
+      "grade_matches_current_submission": true,
+      "submitted_at": "2026-04-14T20:14:00Z",
+      "graded_at": "2026-04-18T10:00:00Z",
+      "grader_id": 1,
+      "workflow_state": "graded",
+      "late": false,
+      "missing": false,
+      "submission_type": "online_text_entry",
+      "submission_comments": [
+        {
+          "id": 57250,
+          "author_id": 1,
+          "author_name": "Dr. Alvarez",
+          "comment": "Strong sources; thesis statement could be sharper in the introduction.",
+          "created_at": "2026-04-18T10:00:00Z"
+        }
+      ]
+    },
+    {
+      "assignment_id": 5026,
+      "user_id": 604,
+      "score": 50,
+      "grade": "B-",
+      "grade_matches_current_submission": true,
+      "submitted_at": "2026-02-24T20:14:00Z",
+      "graded_at": "2026-02-28T10:00:00Z",
+      "grader_id": 1,
+      "workflow_state": "graded",
+      "late": false,
+      "missing": false,
+      "submission_type": "online_text_entry",
+      "submission_comments": [
+        {
+          "id": 57260,
+          "author_id": 1,
+          "author_name": "Dr. Park",
+          "comment": "Good case selection, but tie your analysis back to the course frameworks.",
+          "created_at": "2026-02-28T10:00:00Z"
+        }
+      ]
+    },
+    {
+      "assignment_id": 5027,
+      "user_id": 604,
+      "score": 79,
+      "grade": "C+",
+      "grade_matches_current_submission": true,
+      "submitted_at": "2026-04-30T20:14:00Z",
+      "graded_at": "2026-05-04T10:00:00Z",
+      "grader_id": 1,
+      "workflow_state": "graded",
+      "late": false,
+      "missing": false,
+      "submission_type": "online_text_entry",
+      "submission_comments": [
+        {
+          "id": 57270,
+          "author_id": 1,
+          "author_name": "Dr. Park",
+          "comment": "Thesis statement is unclear again here — see my comment on the case study assignment.",
+          "created_at": "2026-05-04T10:00:00Z"
+        }
+      ]
+    },
+    {
+      "assignment_id": 5028,
+      "user_id": 604,
+      "score": 35,
+      "grade": "C",
+      "grade_matches_current_submission": true,
+      "submitted_at": "2026-02-18T20:14:00Z",
+      "graded_at": "2026-02-22T10:00:00Z",
+      "grader_id": 1,
+      "workflow_state": "graded",
+      "late": false,
+      "missing": false,
+      "submission_type": "online_text_entry",
+      "submission_comments": [
+        {
+          "id": 57280,
+          "author_id": 1,
+          "author_name": "Dr. Nguyen",
+          "comment": "Several distribution problems show conceptual mix-ups — see me in office hours.",
+          "created_at": "2026-02-22T10:00:00Z"
+        }
+      ]
+    },
+    {
+      "assignment_id": 5029,
+      "user_id": 604,
+      "score": 70,
+      "grade": "C-",
+      "grade_matches_current_submission": true,
+      "submitted_at": "2026-03-12T20:14:00Z",
+      "graded_at": "2026-03-16T10:00:00Z",
+      "grader_id": 1,
+      "workflow_state": "graded",
+      "late": false,
+      "missing": false,
+      "submission_type": "online_text_entry",
+      "submission_comments": [
+        {
+          "id": 57290,
+          "author_id": 1,
+          "author_name": "Dr. Nguyen",
+          "comment": "Same hypothesis-testing mix-up as the homework — let's go over this together.",
+          "created_at": "2026-03-16T10:00:00Z"
+        }
+      ]
+    },
+    {
+      "assignment_id": 5030,
+      "user_id": 604,
+      "score": 43,
+      "grade": "B+",
+      "grade_matches_current_submission": true,
+      "submitted_at": "2026-03-01T20:14:00Z",
+      "graded_at": "2026-03-05T10:00:00Z",
+      "grader_id": 1,
+      "workflow_state": "graded",
+      "late": false,
+      "missing": false,
+      "submission_type": "online_text_entry",
+      "submission_comments": [
+        {
+          "id": 57300,
+          "author_id": 1,
+          "author_name": "Dr. Bennett",
+          "comment": "Good engagement with the material; state your argument more directly upfront.",
+          "created_at": "2026-03-05T10:00:00Z"
+        }
+      ]
+    },
+    {
+      "assignment_id": 5075,
+      "user_id": 604,
+      "score": 47,
+      "grade": "B-",
+      "grade_matches_current_submission": true,
+      "submitted_at": "2026-03-24T20:14:00Z",
+      "graded_at": "2026-03-28T10:00:00Z",
+      "grader_id": 1,
+      "workflow_state": "graded",
+      "late": false,
+      "missing": false,
+      "submission_type": "online_text_entry",
+      "submission_comments": [
+        {
+          "id": 57470,
+          "author_id": 1,
+          "author_name": "Dr. Bennett",
+          "comment": "Argument is present but needs sharper framing from the opening paragraph.",
+          "created_at": "2026-03-28T10:00:00Z"
+        }
+      ]
+    }
+  ],
+  "career": {
+    "target_roles": [
+      "Research Assistant",
+      "Student Success Peer Mentor",
+      "People Operations Intern"
+    ],
+    "interests": [
+      "behavioral research",
+      "student support",
+      "diversity and inclusion",
+      "organizational psychology"
+    ],
+    "career_goals": "forming — interested in applying psychology to student success, research, or workplace culture roles",
+    "geographic_preference": "Texas preferred, open to remote or campus-based roles",
+    "ai_anxiety_level": "moderate — sees AI as useful for research summaries, but wants clearer boundaries for academic use",
+    "skills_self_reported": {
+      "technical": [
+        "survey design basics",
+        "statistical reasoning",
+        "literature review",
+        "APA-style writing",
+        "Excel basics"
+      ],
+      "soft": [
+        "empathy",
+        "facilitation",
+        "public speaking",
+        "critical reading"
+      ],
+      "ai_exposure": "moderate — uses AI for outlining and study questions, not yet for structured research workflows"
+    },
+    "certifications": [],
+    "work_experience": [
+      {
+        "employer": "Psychology course research team",
+        "role": "Class Research Contributor",
+        "duration": "Spring 2026",
+        "location": "College Station, TX",
+        "description": "Supported course-based research discussions on culture, bias, and interpretation of behavioral data.",
+        "skills_gained": [
+          "research discussion",
+          "evidence synthesis",
+          "group facilitation"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "name": "Culture and Diversity Literature Brief",
+        "timeframe": "Spring 2026",
+        "description": "Compared research findings on cultural identity, stereotyping, and social behavior for psychology coursework.",
+        "tools": [
+          "APA writing",
+          "source synthesis",
+          "critical analysis"
+        ]
+      },
+      {
+        "name": "STAT 201 Hypothesis Testing Review",
+        "timeframe": "Spring 2026",
+        "description": "Created a study guide connecting null hypotheses, p-values, and Type I/II error examples.",
+        "tools": [
+          "statistics",
+          "study design",
+          "Excel basics"
+        ]
+      }
+    ]
+  },
+  "profile_completeness": {
+    "academic": 1.0,
+    "career": 1.0,
+    "overall": 1.0,
+    "by_feature": {
+      "FIT": {
+        "ready": true,
+        "required": {
+          "target_roles": true,
+          "interests": true,
+          "major_intended": true
+        }
+      },
+      "GAP": {
+        "ready": true,
+        "required": {
+          "target_roles": true,
+          "skills_self_reported": true,
+          "work_experience": true,
+          "certifications": true,
+          "expected_graduation": true
+        }
+      },
+      "SHIFT": {
+        "ready": true,
+        "required": {
+          "target_roles": true,
+          "skills_self_reported": true
+        }
+      }
+    }
+  },
+  "examTopicTags": {
+    "5029": [
+      {
+        "question_id": "q1",
+        "topic": "Null & Alternative Hypotheses",
+        "score": 22,
+        "max_score": 25
+      },
+      {
+        "question_id": "q2",
+        "topic": "p-values",
+        "score": 15,
+        "max_score": 25
+      },
+      {
+        "question_id": "q3",
+        "topic": "Type I & Type II Error",
+        "score": 18,
+        "max_score": 25
+      },
+      {
+        "question_id": "q4",
+        "topic": "p-values",
+        "score": 15,
+        "max_score": 25
+      }
+    ]
+  },
+  "_schema_notes": {
+    "canvas_derived": [
+      "student",
+      "courses",
+      "enrollments",
+      "assignments",
+      "submissions"
+    ],
+    "campus_iq_layer": [
+      "examTopicTags"
+    ],
+    "student_entered": [
+      "career"
+    ],
+    "ai_written": [
+      "profile_completeness"
+    ]
+  }
+}

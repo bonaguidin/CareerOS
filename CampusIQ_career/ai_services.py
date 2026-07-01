@@ -3,6 +3,9 @@ import requests
 
 OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
 
+# OpenRouter path for Campus IQ agent presets.
+# TODO: Route the legacy demo through this module once the final AI gateway is
+# selected so Campus IQ has one production execution path.
 PRESETS = {
     "orchestrator": "@preset/career-os-orchestrator",
     "fit": "@preset/career-os-fit",
@@ -14,6 +17,8 @@ PRESETS = {
 }
 
 def call_agent(agent_name, messages):
+    if not OPENROUTER_API_KEY:
+        raise RuntimeError("OPENROUTER_API_KEY is required for OpenRouter agent calls.")
 
     preset = PRESETS[agent_name]
 
